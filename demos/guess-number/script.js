@@ -11,40 +11,45 @@ let round = 0;
 let finished = false;
 
 function generateSecret() {
-  return Array.from({ length: 4 }, () => Math.floor(Math.random() * 10)).join('');
-}
-
-function countDigits(s) {
-  const map = new Map();
-  for (const ch of s) {
-    map.set(ch, (map.get(ch) || 0) + 1);
+  const digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  for (let i = digits.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [digits[i], digits[j]] = [digits[j], digits[i]];
   }
-  return map;
+  return digits.slice(0, 4).join('');
 }
 
 function scoreGuess(guess, target) {
-  let exact = 0;
+  let bulls = 0; // 数字+位置都对
+  let cows = 0;  // 数字对位置错
+
   for (let i = 0; i < 4; i += 1) {
-    if (guess[i] === target[i]) exact += 1;
+    if (guess[i] === target[i]) {
+      bulls += 1;
+    } else if (target.includes(guess[i])) {
+      cows += 1;
+    }
   }
 
-  const gMap = countDigits(guess);
-  const tMap = countDigits(target);
-  let totalMatchedDigits = 0;
-
-  for (const [digit, gCount] of gMap.entries()) {
-    const tCount = tMap.get(digit) || 0;
-    totalMatchedDigits += Math.min(gCount, tCount);
-  }
-
-  const misplaced = totalMatchedDigits - exact;
-  return { exact, misplaced };
+  return { bulls, cows };
 }
 
-function addHistoryItem(text, isWin = false) {
+function addHistoryItem({ round, guess, bulls, cows, isWin = false }) {
   const li = document.createElement('li');
-  li.textContent = text;
   if (isWin) li.classList.add('win');
+
+  li.innerHTML = `
+    <div class="line-top">
+      <span class="guess">#${round} · ${guess}</span>
+      <span class="badge">${isWin ? '🎉 命中' : '进行中'}</span>
+    </div>
+    <div class="line-hint" aria-label="结果提示">
+      <span class="dot hit"></span><span class="num">${bulls}</span>
+      <span class="sep">|</span>
+      <span class="dot near"></span><span class="num">${cows}</span>
+    </div>
+  `;
+
   historyEl.prepend(li);
 }
 
@@ -60,7 +65,7 @@ function startGame() {
   historyEl.innerHTML = '';
   roundEl.textContent = '0';
   statusEl.textContent = '进行中';
-  setHint('规则：每次会告诉你“位置和数字都对”的个数，以及“数字对但位置错”的个数。');
+  setHint('规则：4位且不重复。🟢=数字+位置都对，🔵=数字对但位置错。');
   guessInput.value = '';
   guessInput.disabled = false;
   guessInput.focus();
@@ -72,25 +77,29 @@ guessForm.addEventListener('submit', (event) => {
 
   const guess = guessInput.value.trim();
   if (!/^\d{4}$/.test(guess)) {
-    setHint('请输入恰好 4 位数字（0-9）。', true);
+    setHint('请输入恰好 4 位数字。', true);
+    return;
+  }
+
+  if (new Set(guess).size !== 4) {
+    setHint('经典模式：4 位数字不能重复。', true);
     return;
   }
 
   round += 1;
   roundEl.textContent = String(round);
 
-  const { exact, misplaced } = scoreGuess(guess, secret);
-  const line = `第 ${round} 轮：你猜 ${guess} → 位置+数字全对 ${exact} 个，数字对但位置错 ${misplaced} 个`;
+  const { bulls, cows } = scoreGuess(guess, secret);
 
-  if (exact === 4) {
+  if (bulls === 4) {
     finished = true;
     statusEl.textContent = '已通关 🎉';
-    addHistoryItem(`${line}（完全猜中！共 ${round} 轮）`, true);
-    setHint(`恭喜！你用了 ${round} 轮完全猜中。答案是 ${secret}。`);
+    addHistoryItem({ round, guess, bulls, cows, isWin: true });
+    setHint(`恭喜！${round} 轮猜中，答案 ${secret}。`);
     guessInput.disabled = true;
   } else {
-    addHistoryItem(line);
-    setHint('继续加油！');
+    addHistoryItem({ round, guess, bulls, cows });
+    setHint('继续猜！');
   }
 
   guessInput.value = '';

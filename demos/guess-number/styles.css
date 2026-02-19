@@ -8,11 +8,11 @@
   --secondary: #334155;
   --border: #1f2937;
   --danger: #ef4444;
+  --hit: #22c55e;
+  --near: #3b82f6;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -22,21 +22,9 @@ body {
   min-height: 100dvh;
 }
 
-.app {
-  width: min(760px, 100%);
-  margin: 0 auto;
-  padding: 18px 14px 28px;
-}
-
-h1 {
-  margin: 8px 0 4px;
-  font-size: clamp(1.5rem, 5vw, 2rem);
-}
-
-.subtitle {
-  margin: 0 0 14px;
-  color: var(--muted);
-}
+.app { width: min(760px, 100%); margin: 0 auto; padding: 18px 14px 28px; }
+h1 { margin: 8px 0 4px; font-size: clamp(1.5rem, 5vw, 2rem); }
+.subtitle { margin: 0 0 14px; color: var(--muted); }
 
 .panel {
   background: color-mix(in srgb, var(--card) 92%, black 8%);
@@ -46,131 +34,59 @@ h1 {
   margin-bottom: 12px;
 }
 
-.stats {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.guess-form {
-  display: grid;
-  gap: 8px;
-}
-
-label {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
+.stats { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.guess-form { display: grid; gap: 8px; }
+label { color: var(--muted); font-size: 0.95rem; }
 
 input {
-  width: 100%;
-  padding: 12px;
-  font-size: 1.1rem;
-  border: 1px solid #334155;
-  border-radius: 10px;
-  background: #0b1220;
-  color: var(--text);
+  width: 100%; padding: 12px; font-size: 1.1rem;
+  border: 1px solid #334155; border-radius: 10px;
+  background: #0b1220; color: var(--text);
 }
-
-input:focus {
-  outline: 2px solid #1d4ed8;
-  border-color: #1d4ed8;
-}
+input:focus { outline: 2px solid #1d4ed8; border-color: #1d4ed8; }
 
 button {
-  width: 100%;
-  border: none;
-  border-radius: 10px;
-  padding: 12px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: white;
-  background: var(--primary);
+  width: 100%; border: none; border-radius: 10px;
+  padding: 12px; font-size: 1rem; font-weight: 600;
+  color: white; background: var(--primary);
 }
+button:active { transform: translateY(1px); }
+button:hover { background: var(--primary-dark); }
+.actions { margin-top: 10px; }
+.secondary { background: var(--secondary); }
+.secondary:hover { background: #475569; }
 
-button:active {
-  transform: translateY(1px);
-}
-
-button:hover {
-  background: var(--primary-dark);
-}
-
-.actions {
-  margin-top: 10px;
-}
-
-.secondary {
-  background: var(--secondary);
-}
-
-.secondary:hover {
-  background: #475569;
-}
-
-.hint {
-  margin: 10px 0 0;
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-.history-panel h2 {
-  margin: 0 0 10px;
-  font-size: 1.08rem;
-}
-
-.history {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 8px;
-}
+.hint { margin: 10px 0 0; color: var(--muted); font-size: 0.92rem; }
+.history-panel h2 { margin: 0 0 10px; font-size: 1.08rem; }
+.history { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 
 .history li {
-  border: 1px solid #243044;
-  border-radius: 10px;
-  padding: 10px;
-  background: #0b1324;
-  line-height: 1.4;
+  border: 1px solid #243044; border-radius: 10px;
+  padding: 10px; background: #0b1324;
 }
+.history li.win { border-color: #14532d; background: #052e16; }
 
-.history li.win {
-  border-color: #14532d;
-  background: #052e16;
-}
-
+.line-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.guess { font-weight: 600; letter-spacing: 0.5px; }
 .badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  margin-left: 8px;
-  background: #1e293b;
-  color: #cbd5e1;
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 0.8rem; background: #1e293b; color: #cbd5e1;
 }
 
-.error {
-  color: var(--danger);
+.line-hint { margin-top: 8px; display: flex; align-items: center; gap: 6px; color: #cbd5e1; }
+.dot {
+  width: 10px; height: 10px; border-radius: 50%; display: inline-block;
 }
+.dot.hit { background: var(--hit); }
+.dot.near { background: var(--near); }
+.num { min-width: 14px; font-weight: 700; }
+.sep { opacity: 0.45; margin: 0 3px; }
+
+.error { color: var(--danger); }
 
 @media (min-width: 640px) {
-  .guess-form {
-    grid-template-columns: 1fr auto;
-    align-items: end;
-  }
-
-  .guess-form label {
-    grid-column: 1 / -1;
-  }
-
-  .guess-form button {
-    width: 140px;
-  }
-
-  .actions {
-    width: 180px;
-  }
+  .guess-form { grid-template-columns: 1fr auto; align-items: end; }
+  .guess-form label { grid-column: 1 / -1; }
+  .guess-form button { width: 140px; }
+  .actions { width: 180px; }
 }
