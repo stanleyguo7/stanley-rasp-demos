@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Number Bomb</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>💣 数字炸弹</h1>
+      <p class="sub">设置人数后轮流猜，猜中炸弹即失败。</p>
+
+      <section class="panel" id="setupPanel">
+        <h2>游戏设置</h2>
+        <form id="setupForm" class="grid2">
+          <label>
+            参与人数
+            <input id="playerCount" type="number" min="2" max="12" value="3" required />
+          </label>
+          <label>
+            数字范围上限
+            <input id="maxNumber" type="number" min="20" max="999" value="100" required />
+          </label>
+          <button type="submit">开始游戏</button>
+        </form>
+      </section>
+
+      <section class="panel" id="gamePanel" hidden>
+        <div class="stats">
+          <div>当前玩家：<strong id="currentPlayer">P1</strong></div>
+          <div>轮次：<strong id="round">1</strong></div>
+        </div>
+
+        <div class="range">可猜范围：<strong id="rangeText">1 - 100</strong></div>
+
+        <form id="guessForm" class="guessRow" autocomplete="off">
+          <input id="guessInput" type="number" inputmode="numeric" placeholder="输入数字" required />
+          <button type="submit">猜</button>
+        </form>
+
+        <p id="hint" class="hint">开始吧！不要踩中炸弹。</p>
+        <button id="restartBtn" class="secondary" type="button">重新开局</button>
+      </section>
+
+      <section class="panel">
+        <h2>记录</h2>
+        <ul id="history" class="history"></ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

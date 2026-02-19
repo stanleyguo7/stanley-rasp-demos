@@ -19,3 +19,7 @@ cd hello-demo
 # 在这里写你的代码
 ```
 
+
+## 主页入口
+
+- 根目录 `index.html` 为欢迎主页，可跳转到所有 demos。
