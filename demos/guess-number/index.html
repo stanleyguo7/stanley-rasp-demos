@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Guess Number - 4位猜数字</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>🎯 Guess Number</h1>
+      <p class="subtitle">猜一个随机 4 位数字（可重复）</p>
+
+      <section class="panel">
+        <div class="stats">
+          <span>当前轮次：<strong id="round">0</strong></span>
+          <span>状态：<strong id="status">进行中</strong></span>
+        </div>
+
+        <form id="guessForm" class="guess-form" autocomplete="off">
+          <label for="guessInput">输入 4 位数字</label>
+          <input
+            id="guessInput"
+            type="text"
+            inputmode="numeric"
+            pattern="\d{4}"
+            maxlength="4"
+            placeholder="例如 1234"
+            required
+          />
+          <button type="submit">提交猜测</button>
+        </form>
+
+        <div class="actions">
+          <button id="newGameBtn" type="button" class="secondary">重新开始</button>
+        </div>
+
+        <p id="hint" class="hint">规则：每次会告诉你“位置和数字都对”的个数，以及“数字对但位置错”的个数。</p>
+      </section>
+
+      <section class="panel history-panel">
+        <h2>猜测记录</h2>
+        <ul id="history" class="history"></ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
