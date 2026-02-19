@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>记忆翻牌</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>🧠 记忆翻牌</h1>
+      <p class="sub">翻开两张相同卡牌即可消除，尽量用更少步数通关。</p>
+
+      <section class="panel controls">
+        <label>
+          难度
+          <select id="difficulty">
+            <option value="easy">简单（4x3）</option>
+            <option value="normal" selected>标准（4x4）</option>
+            <option value="hard">困难（6x4）</option>
+          </select>
+        </label>
+        <button id="newGameBtn">新开一局</button>
+      </section>
+
+      <section class="panel stats">
+        <div>步数：<strong id="moves">0</strong></div>
+        <div>用时：<strong id="time">00:00</strong></div>
+        <div>匹配：<strong id="matched">0</strong>/<strong id="totalPairs">0</strong></div>
+      </section>
+
+      <section id="board" class="board" aria-label="记忆翻牌棋盘"></section>
+      <p id="status" class="status">点击卡牌开始游戏。</p>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
