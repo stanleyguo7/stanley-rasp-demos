@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>脑筋急转弯</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>🧠 脑筋急转弯</h1>
+      <p class="sub">每轮随机出一道题，大家先猜，再点按钮看答案。</p>
+
+      <section class="panel">
+        <div class="top">
+          <span>第 <strong id="round">1</strong> 轮</span>
+          <span>题库：<strong id="total">0</strong> 题</span>
+        </div>
+        <h2 id="question" class="question">点击“下一题”开始</h2>
+        <p id="answer" class="answer hidden">答案会显示在这里</p>
+
+        <div class="actions">
+          <button id="nextBtn">下一题</button>
+          <button id="showBtn" class="secondary">看答案</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h3>历史记录</h3>
+        <ul id="history" class="history"></ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
