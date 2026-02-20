@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IGB Geography Practice</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="top">
+        <h1>🌍 IGB 决赛练习</h1>
+        <p id="meta">加载中...</p>
+      </header>
+
+      <section class="panel filters">
+        <label>年份
+          <select id="yearFilter"><option value="all">全部</option></select>
+        </label>
+        <label>轮次
+          <select id="roundFilter"><option value="all">全部</option></select>
+        </label>
+        <label>题量
+          <select id="countFilter">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="9999">不限</option>
+          </select>
+        </label>
+        <button id="startBtn">开始练习</button>
+      </section>
+
+      <section id="quiz" class="panel hidden">
+        <div class="quiz-top">
+          <span id="progress">1 / 20</span>
+          <span id="score">得分：0</span>
+        </div>
+        <h2 id="question"></h2>
+        <div id="options" class="options"></div>
+        <div class="actions">
+          <button id="showBtn">显示答案</button>
+          <button id="rightBtn">我答对了</button>
+          <button id="wrongBtn">我答错了</button>
+          <button id="nextBtn">下一题</button>
+        </div>
+        <div id="answer" class="answer hidden"></div>
+      </section>
+
+      <section id="result" class="panel hidden"></section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
