@@ -10,9 +10,8 @@ const optionsEl = document.getElementById('options');
 const progressEl = document.getElementById('progress');
 const scoreEl = document.getElementById('score');
 const answerEl = document.getElementById('answer');
+const submitBtn = document.getElementById('submitBtn');
 const showBtn = document.getElementById('showBtn');
-const rightBtn = document.getElementById('rightBtn');
-const wrongBtn = document.getElementById('wrongBtn');
 const nextBtn = document.getElementById('nextBtn');
 
 let bank = [];
@@ -20,6 +19,7 @@ let current = [];
 let idx = 0;
 let score = 0;
 let selected = null;
+let answered = false;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -41,6 +41,7 @@ function fillSelect(select, values) {
 
 function renderQuestion() {
   selected = null;
+  answered = false;
   const q = current[idx];
   progressEl.textContent = `${idx + 1} / ${current.length}`;
   scoreEl.textContent = `得分：${score}`;
@@ -116,24 +117,39 @@ startBtn.addEventListener('click', () => {
   renderQuestion();
 });
 
+function renderExplanation(q, selectedLabel, revealOnly = false) {
+  const correct = q.answer || '未知';
+  const correctOpt = q.options.find(x => x.label === correct);
+  const selectedOpt = q.options.find(x => x.label === selectedLabel);
+  const correctText = correctOpt ? (correctOpt.textZh || correctOpt.text) : '';
+  const selectedText = selectedOpt ? (selectedOpt.textZh || selectedOpt.text) : '';
+
+  const verdict = revealOnly
+    ? '已查看答案'
+    : (selectedLabel === correct ? '回答正确 ✅' : '回答错误 ❌');
+
+  answerEl.innerHTML = `
+    <div><strong>${verdict}</strong></div>
+    <div>正确答案：${correct}${correctText ? ` - ${correctText}` : ''}</div>
+    ${selectedLabel ? `<div>你的答案：${selectedLabel}${selectedText ? ` - ${selectedText}` : ''}</div>` : ''}
+    <div>解析：本题考查地理知识点识别，关键线索对应选项 <strong>${correct}</strong>。</div>
+  `;
+  answerEl.classList.remove('hidden');
+}
+
+submitBtn.addEventListener('click', () => {
+  const q = current[idx];
+  if (answered) return alert('本题已作答，请点击下一题');
+  if (!selected) return alert('请先选择一个选项');
+  answered = true;
+  if (selected === q.answer) score += 1;
+  scoreEl.textContent = `得分：${score}`;
+  renderExplanation(q, selected, false);
+});
+
 showBtn.addEventListener('click', () => {
   const q = current[idx];
-  const correct = q.answer || '未知';
-  const t = q.options.find(x => x.label === correct);
-  answerEl.textContent = `正确答案：${correct}${t ? ` - ${t.textZh || t.text}` : ''}`;
-  answerEl.classList.remove('hidden');
-});
-
-rightBtn.addEventListener('click', () => {
-  const q = current[idx];
-  if (!selected) return alert('请先选择一个选项');
-  if (selected === q.answer) score += 1;
-  answerEl.textContent = selected === q.answer ? '回答正确 ✅' : `回答错误 ❌，正确答案：${q.answer}`;
-  answerEl.classList.remove('hidden');
-});
-
-wrongBtn.addEventListener('click', () => {
-  next();
+  renderExplanation(q, selected, true);
 });
 
 nextBtn.addEventListener('click', () => next());
