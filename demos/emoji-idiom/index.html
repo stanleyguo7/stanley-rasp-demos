@@ -11,30 +11,18 @@
       <h1>😀 Emoji 猜成语</h1>
       <p id="meta">加载题库中...</p>
 
-      <section class="panel setup" id="setup">
-        <label>本轮题量
-          <select id="count">
-            <option>10</option>
-            <option selected>20</option>
-            <option>30</option>
-            <option>50</option>
-          </select>
-        </label>
-        <button id="startBtn">开始</button>
-      </section>
-
-      <section class="panel hidden" id="quiz">
+      <section class="panel" id="quiz">
         <div class="top">
-          <span id="progress">1/20</span>
-          <span id="score">答对：0</span>
+          <span id="score">累计答对：0</span>
         </div>
         <div class="emoji" id="emoji">😀😀😀😀</div>
-        <div id="options" class="options"></div>
-        <button id="nextBtn" class="next hidden">下一题</button>
+        <div class="answer-box">
+          <input id="answerInput" type="text" placeholder="请输入你猜的成语" />
+          <button id="submitBtn">提交答案</button>
+        </div>
+        <button id="nextBtn" class="next">换一题</button>
         <div id="result" class="result hidden"></div>
       </section>
-
-      <section id="final" class="panel hidden"></section>
     </main>
 
     <script src="./script.js"></script>
