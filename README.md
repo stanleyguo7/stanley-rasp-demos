@@ -16,6 +16,7 @@ Stanley 的树莓派小程序集合仓库，主要用于快速孵化和沉淀可
 - `demos/brain-teasers/`：脑筋急转弯题库
 - `demos/memory-flip/`：记忆翻牌
 - `demos/igb-practice/`：International Geography Bee 真题练习（中英双语选择题）
+- `demos/emoji-idiom/`：看 Emoji 猜成语（海量题库）
 
 > 根目录 `index.html` 为统一入口页。
 

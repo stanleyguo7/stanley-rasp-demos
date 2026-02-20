@@ -1,0 +1,11 @@
+:root{--bg:#0f172a;--card:#111827;--text:#e5e7eb;--muted:#94a3b8;--pri:#22c55e}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,#0b1022,var(--bg));color:var(--text)}
+.app{max-width:720px;margin:0 auto;padding:14px}.panel{background:var(--card);border:1px solid #1f2937;border-radius:14px;padding:12px;margin-bottom:12px}
+h1{margin:6px 0}#meta{color:var(--muted)}
+.setup{display:flex;gap:10px;align-items:flex-end}label{display:flex;flex-direction:column;gap:6px;color:var(--muted)}
+select,button{padding:10px;border-radius:10px;border:1px solid #334155;background:#0b1220;color:var(--text)}button{background:var(--pri);color:#052e16;border:none;font-weight:700}
+.top{display:flex;justify-content:space-between;color:var(--muted)}
+.emoji{font-size:2rem;text-align:center;padding:16px;border-radius:10px;background:#0b1220;margin:10px 0;word-break:break-all}
+.options{display:grid;gap:8px}.option{text-align:left;background:#0b1220;color:var(--text);border:1px solid #334155}
+.option.correct{background:#166534;color:#dcfce7}.option.wrong{background:#991b1b;color:#fee2e2}
+.next{margin-top:8px;width:100%}.result{margin-top:8px;padding:10px;background:#0b1220;border-radius:10px;border:1px solid #334155}.hidden{display:none !important}
