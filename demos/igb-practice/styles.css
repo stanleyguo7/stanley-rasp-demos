@@ -38,7 +38,7 @@ button { background: var(--pri); color: #052e16; font-weight: 700; border: none;
 .quiz-top { display: flex; justify-content: space-between; color: var(--muted); margin-bottom: 10px; }
 #question { font-size: 1.08rem; line-height: 1.45; margin-top: 0; }
 .options { display: grid; gap: 8px; margin: 10px 0; }
-.option { background: #0b1220; border: 1px solid #243042; border-radius: 10px; padding: 9px; }
+.option { background: #0b1220; border: 1px solid #243042; border-radius: 10px; padding: 9px; color: var(--text); text-align: left; cursor: pointer; }
 .actions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
 #wrongBtn { background: var(--danger); color: #fff; }
 #nextBtn { background: #3b82f6; color: #fff; }

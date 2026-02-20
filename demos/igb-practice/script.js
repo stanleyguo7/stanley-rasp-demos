@@ -19,7 +19,7 @@ let bank = [];
 let current = [];
 let idx = 0;
 let score = 0;
-let wrongList = [];
+let selected = null;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -40,19 +40,27 @@ function fillSelect(select, values) {
 }
 
 function renderQuestion() {
+  selected = null;
   const q = current[idx];
   progressEl.textContent = `${idx + 1} / ${current.length}`;
   scoreEl.textContent = `得分：${score}`;
-  questionEl.textContent = q.question;
+  questionEl.textContent = `【中文】${q.questionZh || q.question}\n\n【原文】${q.question}`;
+
   optionsEl.innerHTML = '';
-  (q.options || []).forEach(o => {
-    const div = document.createElement('div');
-    div.className = 'option';
-    div.textContent = `${o.label}. ${o.text}`;
-    optionsEl.appendChild(div);
+  q.options.forEach(o => {
+    const btn = document.createElement('button');
+    btn.className = 'option';
+    btn.textContent = `${o.label}. ${o.textZh || o.text}  (${o.text})`;
+    btn.onclick = () => {
+      selected = o.label;
+      [...optionsEl.children].forEach(c => c.style.outline = 'none');
+      btn.style.outline = '2px solid #22c55e';
+    };
+    optionsEl.appendChild(btn);
   });
+
   answerEl.classList.add('hidden');
-  answerEl.textContent = q.answer ? `答案：${q.answer}` : `来源：${q.sourceFile}（该题暂无结构化答案）`;
+  answerEl.textContent = '';
 }
 
 function finish() {
@@ -64,7 +72,6 @@ function finish() {
     <p>总题数：${current.length}</p>
     <p>得分：${score}</p>
     <p>正确率：${rate}%</p>
-    <p>错题：${wrongList.length}</p>
     <button id="restartBtn">再来一轮</button>
   `;
   document.getElementById('restartBtn').onclick = () => startBtn.click();
@@ -77,10 +84,10 @@ function next() {
 }
 
 async function init() {
-  const res = await fetch('./assets/questions.json');
+  const res = await fetch('./assets/questions_zh_mcq.json');
   const data = await res.json();
   bank = data.questions || [];
-  metaEl.textContent = `题库：${data.meta?.questionCount || bank.length} 题，来源文件 ${data.meta?.fileCount || '-'} 个`;
+  metaEl.textContent = `真题选择题（中英双语）：${data.meta?.count || bank.length} 题`;
 
   const years = [...new Set(bank.map(x => x.year).filter(Boolean))];
   const rounds = [...new Set(bank.map(x => x.round).filter(Boolean))];
@@ -103,16 +110,32 @@ startBtn.addEventListener('click', () => {
   current = cnt >= 9999 ? pool : pool.slice(0, cnt);
   idx = 0;
   score = 0;
-  wrongList = [];
 
   resultEl.classList.add('hidden');
   quizEl.classList.remove('hidden');
   renderQuestion();
 });
 
-showBtn.addEventListener('click', () => answerEl.classList.remove('hidden'));
-rightBtn.addEventListener('click', () => { score += 1; next(); });
-wrongBtn.addEventListener('click', () => { wrongList.push(current[idx]); next(); });
+showBtn.addEventListener('click', () => {
+  const q = current[idx];
+  const correct = q.answer || '未知';
+  const t = q.options.find(x => x.label === correct);
+  answerEl.textContent = `正确答案：${correct}${t ? ` - ${t.textZh || t.text}` : ''}`;
+  answerEl.classList.remove('hidden');
+});
+
+rightBtn.addEventListener('click', () => {
+  const q = current[idx];
+  if (!selected) return alert('请先选择一个选项');
+  if (selected === q.answer) score += 1;
+  answerEl.textContent = selected === q.answer ? '回答正确 ✅' : `回答错误 ❌，正确答案：${q.answer}`;
+  answerEl.classList.remove('hidden');
+});
+
+wrongBtn.addEventListener('click', () => {
+  next();
+});
+
 nextBtn.addEventListener('click', () => next());
 
 init().catch(err => {
