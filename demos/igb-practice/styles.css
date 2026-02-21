@@ -40,8 +40,8 @@ button { background: var(--pri); color: #052e16; font-weight: 700; border: none;
 .options { display: grid; gap: 8px; margin: 10px 0; }
 .option { background: #0b1220; border: 1px solid #243042; border-radius: 10px; padding: 9px; color: var(--text); text-align: left; cursor: pointer; }
 .actions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-#wrongBtn { background: var(--danger); color: #fff; }
-#nextBtn { background: #3b82f6; color: #fff; }
+#nextBtn, #backBtn { background: #3b82f6; color: #fff; }
+button:disabled { opacity: .45; cursor: not-allowed; }
 .answer {
   margin-top: 10px;
   padding: 10px;

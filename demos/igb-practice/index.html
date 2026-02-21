@@ -8,12 +8,12 @@
   </head>
   <body>
     <main class="app">
-      <header class="top">
+      <header id="top" class="top">
         <h1>🌍 IGB 决赛练习</h1>
         <p id="meta">加载中...</p>
       </header>
 
-      <section class="panel filters">
+      <section id="setup" class="panel filters">
         <label>年份
           <select id="yearFilter"><option value="all">全部</option></select>
         </label>
@@ -40,7 +40,6 @@
         <div id="options" class="options"></div>
         <div class="actions">
           <button id="submitBtn">提交答案</button>
-          <button id="showBtn">查看答案</button>
           <button id="nextBtn">下一题</button>
         </div>
         <div id="answer" class="answer hidden"></div>

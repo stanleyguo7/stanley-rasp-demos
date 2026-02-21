@@ -1,4 +1,6 @@
 const metaEl = document.getElementById('meta');
+const topEl = document.getElementById('top');
+const setupEl = document.getElementById('setup');
 const yearFilter = document.getElementById('yearFilter');
 const roundFilter = document.getElementById('roundFilter');
 const countFilter = document.getElementById('countFilter');
@@ -11,7 +13,6 @@ const progressEl = document.getElementById('progress');
 const scoreEl = document.getElementById('score');
 const answerEl = document.getElementById('answer');
 const submitBtn = document.getElementById('submitBtn');
-const showBtn = document.getElementById('showBtn');
 const nextBtn = document.getElementById('nextBtn');
 
 let bank = [];
@@ -39,9 +40,25 @@ function fillSelect(select, values) {
   });
 }
 
+function showSetup() {
+  topEl.classList.remove('hidden');
+  setupEl.classList.remove('hidden');
+  quizEl.classList.add('hidden');
+  resultEl.classList.add('hidden');
+}
+
+function showQuiz() {
+  topEl.classList.add('hidden');
+  setupEl.classList.add('hidden');
+  resultEl.classList.add('hidden');
+  quizEl.classList.remove('hidden');
+}
+
 function renderQuestion() {
   selected = null;
   answered = false;
+  nextBtn.disabled = true;
+  submitBtn.disabled = false;
   const q = current[idx];
   progressEl.textContent = `${idx + 1} / ${current.length}`;
   scoreEl.textContent = `得分：${score}`;
@@ -66,6 +83,7 @@ function renderQuestion() {
 
 function finish() {
   quizEl.classList.add('hidden');
+  topEl.classList.remove('hidden');
   resultEl.classList.remove('hidden');
   const rate = current.length ? Math.round((score / current.length) * 100) : 0;
   resultEl.innerHTML = `
@@ -73,9 +91,13 @@ function finish() {
     <p>总题数：${current.length}</p>
     <p>得分：${score}</p>
     <p>正确率：${rate}%</p>
-    <button id="restartBtn">再来一轮</button>
+    <div class="actions">
+      <button id="restartBtn">再来一轮</button>
+      <button id="backBtn">返回设置页</button>
+    </div>
   `;
   document.getElementById('restartBtn').onclick = () => startBtn.click();
+  document.getElementById('backBtn').onclick = () => showSetup();
 }
 
 function next() {
@@ -112,21 +134,18 @@ startBtn.addEventListener('click', () => {
   idx = 0;
   score = 0;
 
-  resultEl.classList.add('hidden');
-  quizEl.classList.remove('hidden');
+  showQuiz();
   renderQuestion();
 });
 
-function renderExplanation(q, selectedLabel, revealOnly = false) {
+function renderExplanation(q, selectedLabel) {
   const correct = q.answer || '未知';
   const correctOpt = q.options.find(x => x.label === correct);
   const selectedOpt = q.options.find(x => x.label === selectedLabel);
   const correctText = correctOpt ? (correctOpt.textZh || correctOpt.text) : '';
   const selectedText = selectedOpt ? (selectedOpt.textZh || selectedOpt.text) : '';
 
-  const verdict = revealOnly
-    ? '已查看答案'
-    : (selectedLabel === correct ? '回答正确 ✅' : '回答错误 ❌');
+  const verdict = selectedLabel === correct ? '回答正确 ✅' : '回答错误 ❌';
 
   answerEl.innerHTML = `
     <div><strong>${verdict}</strong></div>
@@ -142,17 +161,19 @@ submitBtn.addEventListener('click', () => {
   if (answered) return alert('本题已作答，请点击下一题');
   if (!selected) return alert('请先选择一个选项');
   answered = true;
+  submitBtn.disabled = true;
+  nextBtn.disabled = false;
   if (selected === q.answer) score += 1;
   scoreEl.textContent = `得分：${score}`;
-  renderExplanation(q, selected, false);
+  renderExplanation(q, selected);
 });
 
-showBtn.addEventListener('click', () => {
-  const q = current[idx];
-  renderExplanation(q, selected, true);
+nextBtn.addEventListener('click', () => {
+  if (!answered) return alert('请先提交答案');
+  next();
 });
 
-nextBtn.addEventListener('click', () => next());
+showSetup();
 
 init().catch(err => {
   console.error(err);
