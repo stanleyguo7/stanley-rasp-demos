@@ -1,0 +1,327 @@
+{
+  "readyCount": 10,
+  "skipped": 0,
+  "questions": [
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-1",
+      "question": "In 1905, a band of Igorrote headhunters performed mock tribal ceremonies in this place’s Luna Park. The annual July 4th Nathan’s Hot Dog Eating Contest occurs just off the boardwalk at this location, the site of the New York Aquarium, the Wonder Wheel, and the Cyclone roller coaster. For the point, identify this beach neighborhood of Brooklyn, New York.",
+      "questionZh": "1905 年，一群伊戈罗特猎头者在这个地方的月神公园表演了模拟部落仪式。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        },
+        {
+          "label": "B",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "C",
+          "text": "Federative Republic of Brazil",
+          "textZh": "巴西联邦共和国"
+        },
+        {
+          "label": "D",
+          "text": "Coney Island",
+          "textZh": "康尼岛"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-2",
+      "question": "The Galata Tower is a 14th-century Genoese structure overlooking the historic district of this city. A church designed by Isidore of Miletus in this city was transformed into a mosque in the 15th century but lost its ceremonial functions to the Blue Mosque. The Golden Horn, an inlet of the Sea of Marmara, is the historic harbor of this city. This city straddles the Bosporus, which separates Europe from Asia. For the point, name this most populous city in Turkey.",
+      "questionZh": "加拉达塔是一座 14 世纪的热那亚建筑，俯瞰着这座城市的历史街区。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Istanbul",
+          "textZh": "伊斯坦布尔"
+        },
+        {
+          "label": "B",
+          "text": "volcanoes",
+          "textZh": "火山"
+        },
+        {
+          "label": "C",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "D",
+          "text": "Federative Republic of Brazil",
+          "textZh": "巴西联邦共和国"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-3",
+      "question": "This country’s central region includes the Yushan Mountains and Sun Moon Lake. Kaohsiung is the largest city and port in the south of this country. A skyscraper in this country was inspired by the shape of bamboo and is named for its 101 stories. This island formerly known as Formosa is led by the Kuomintang. For the point, name this country with capital Taipei.",
+      "questionZh": "这个国家的中部地区包括玉山山脉和日月潭。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Istanbul",
+          "textZh": "伊斯坦布尔"
+        },
+        {
+          "label": "B",
+          "text": "volcanoes",
+          "textZh": "火山"
+        },
+        {
+          "label": "C",
+          "text": "South Korea",
+          "textZh": "韩国"
+        },
+        {
+          "label": "D",
+          "text": "Taiwan",
+          "textZh": "台湾"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-4",
+      "question": "Ulan-Ude is the capital of this region’s Buryat Republic. The Tunguska Event was a large explosion east of the Yenisey River in this region, where the Angara River drains Lake Baikal. This region’s city of Novosibirsk is on the Ob River, while its port of Vladivostok is on the Sea of Japan. The Ural Mountains serve as the western border of, for the point, what large region of Russia?",
+      "questionZh": "乌兰乌德是该地区布里亚特共和国的首都。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Siberia",
+          "textZh": "西伯利亚"
+        },
+        {
+          "label": "B",
+          "text": "Federative Republic of Brazil",
+          "textZh": "巴西联邦共和国"
+        },
+        {
+          "label": "C",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        },
+        {
+          "label": "D",
+          "text": "South Korea",
+          "textZh": "韩国"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-5",
+      "question": "Curitiba is the capital of a Brazilian province that shares its name with this river. The cities of Santa Fe and Rosario are on this river, which receives the Iguazu and Pilcomayo as tributaries. The Yacyreta and Itaipu Dams on this river produce all of Paraguay’s electricity. For the point, name this second-longest South American river, which merges with the Uruguay to form the Rio de la Plata.",
+      "questionZh": "库里蒂巴是巴西一个省的首府，与这条河同名。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Istanbul",
+          "textZh": "伊斯坦布尔"
+        },
+        {
+          "label": "B",
+          "text": "Parana River",
+          "textZh": "巴拉那河"
+        },
+        {
+          "label": "C",
+          "text": "Taiwan",
+          "textZh": "台湾"
+        },
+        {
+          "label": "D",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-6",
+      "question": "This country’s Gotjawal Forest is located south of South Jeolla Province on Jeju Island. The Taebaek Mountains, which lie in the east of this country, are the site of its largest port, Busan. In 1950, UN forces made an amphibious landing at Incheon in this country, whose northern border is formed by the DMZ at the 38th parallel. For the point, name this country with its capital at Seoul.",
+      "questionZh": "该国的葛扎瓦尔森林位于济州岛全罗南道以南。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        },
+        {
+          "label": "B",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "C",
+          "text": "Coney Island",
+          "textZh": "康尼岛"
+        },
+        {
+          "label": "D",
+          "text": "South Korea",
+          "textZh": "韩国"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-7",
+      "question": "The island of Surtsey is one of this type of geological feature, “cinder” examples of which are formed by tephra. The destroyed town of Herculaneum lies near one of these features in Italy. A national park named for these features on Hawaii’s Big Island is home to Mauna Loa. 452 of these lie along the “Ring of Fire” around the Pacific Ocean. For the point, name this type of geological feature whose eruptions can spew ash and lava.",
+      "questionZh": "瑟特西岛就是此类地质特征之一，“煤渣”的例子是由火山灰形成的。",
+      "options": [
+        {
+          "label": "A",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "B",
+          "text": "Coney Island",
+          "textZh": "康尼岛"
+        },
+        {
+          "label": "C",
+          "text": "volcanoes",
+          "textZh": "火山"
+        },
+        {
+          "label": "D",
+          "text": "Istanbul",
+          "textZh": "伊斯坦布尔"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-8",
+      "question": "This country owns the Kerguelen Islands, as well as the islands of Wallis and Futuna in the south Pacific. In 2018, the Kanak people voted against New Caledonia’s independence from this country. This country owns a South American territory that contains the primary launch site of the European Space Agency, Devil’s Island, and the city of Cayenne. For the point, name this country whose overseas departments include Guadaloupe and Martinique.",
+      "questionZh": "该国拥有凯尔盖朗群岛以及南太平洋的瓦利斯群岛和富图纳群岛。 ",
+      "options": [
+        {
+          "label": "A",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "B",
+          "text": "Siberia",
+          "textZh": "西伯利亚"
+        },
+        {
+          "label": "C",
+          "text": "Federative Republic of Brazil",
+          "textZh": "巴西联邦共和国"
+        },
+        {
+          "label": "D",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-9",
+      "question": "Slaves in this country developed capoeira, a martial art that combines acrobatics, dance, and music. This country’s bossa nova style of music is exemplified by the song “The Girl From Ipanema.” The Alvorada Palace and Planalto Palace were both designed by Oscar Niemeyer for this country’s capital. For the point, name this country where the statue of Christ the Redeemer overlooks Rio de Janeiro.",
+      "questionZh": "这个国家的奴隶发展出了卡波耶拉，一种结合了杂技、舞蹈和音乐的武术。",
+      "options": [
+        {
+          "label": "A",
+          "text": "France",
+          "textZh": "法国"
+        },
+        {
+          "label": "B",
+          "text": "Taiwan",
+          "textZh": "台湾"
+        },
+        {
+          "label": "C",
+          "text": "Federative Republic of Brazil",
+          "textZh": "巴西联邦共和国"
+        },
+        {
+          "label": "D",
+          "text": "Siberia",
+          "textZh": "西伯利亚"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-10",
+      "question": "L’Orient exploded during a battle in this sea at Aboukir [AH-boo-ker] Bay. Henry the Navigator captured this sea’s port of Ceuta [THAY-oo-tah], which lies near the Barbary Coast. The Knights Hospitaller operated from Rhodes before moving to Malta, another island in this sea. For the point, name this sea from which Richard the Lionhearted occupied Cyprus and Sicily.",
+      "questionZh": "《东方号》在阿布基尔 [AH-boo-ker] 湾海域的一场战斗中爆炸。",
+      "options": [
+        {
+          "label": "A",
+          "text": "South Korea",
+          "textZh": "韩国"
+        },
+        {
+          "label": "B",
+          "text": "Siberia",
+          "textZh": "西伯利亚"
+        },
+        {
+          "label": "C",
+          "text": "Taiwan",
+          "textZh": "台湾"
+        },
+        {
+          "label": "D",
+          "text": "Mediterranean Sea",
+          "textZh": "地中海"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2018-2019",
+      "round": "Round 1",
+      "flags": []
+    }
+  ],
+  "generatedAt": 1771711712
+}
