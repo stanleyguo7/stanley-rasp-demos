@@ -5507,6 +5507,356 @@
         "auto_from_qa",
         "needs_review"
       ]
+    },
+    {
+      "id": "qa3-mcq-clean-1",
+      "question": "The mundu is a popular garment worn in this state that is home to a drive-in beach called Muzhappilangad. The large amount of gold in this state’s Padmanabhaswamy Temple makes it the wealthiest temple in the world. With 1,084 women per 1,000 men, this state has the highest sex ratio in India. Lakshadweep is a union territory found off the coast of this state. The Malabar region is found in this state that is southwest of Karnataka and west of Tamil Nadu. Malayalam is widely spoken in, for the point, what state of southern India that contains Cochin?",
+      "questionZh": "在这个邦，mundu 是一种常见服饰；该邦还有名为 Muzhappilangad 的汽车海滩。该邦帕德玛纳巴史瓦米神庙因储藏大量黄金而被称为世界上最富有的寺庙。该邦每1000名男性对应1084名女性，是印度性别比最高的邦。拉克沙群岛位于该邦外海。马拉巴尔地区也在该邦内，地处卡纳塔克邦西南、泰米尔纳德邦以西。马拉雅拉姆语在此广泛使用。问：这个包含科钦的印度南部邦是哪个？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "B",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "C",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "D",
+          "text": "Great Blue Hole",
+          "textZh": "大蓝洞"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-2",
+      "question": "The Nassara Strip is a commercialized area in this city whose main movie theater is the Cinema le Normandie. This city contains a national museum where the skull of the “Toumai” hominid is housed. The Daza is the largest ethnic group in this capital city whose wealthy European quarter is based around the Avenue Charles de Gaulle. The Logone Occidental Region is just south of this city originally founded as Fort Lamy. With a name translating to “place of rest” in French, this city can be found on the Chari River that flows into its country’s namesake lake. For the point, name this capital city of Chad.",
+      "questionZh": "纳萨拉地带是这座城市的商业区，其主要影院为 Cinema le Normandie。该城有国家博物馆，收藏着“图迈”古人类头骨。达扎族是这座首都最大的族群，其富裕欧洲人社区围绕戴高乐大道分布。洛贡西区位于该城以南；该城最初名为拉密堡。其法语名称意为“休憩之地”，坐落在注入同名湖泊的沙里河畔。问：这是乍得的哪座首都？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "B",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "C",
+          "text": "Great Blue Hole",
+          "textZh": "大蓝洞"
+        },
+        {
+          "label": "D",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-3",
+      "question": "Though not in Sweden, three stations on this transit system feature GoLibrary book vending machines. In 1993, this transit system launched Translink, which was a forerunner to the Clipper Card system now integrated into its turnstiles. Warm Springs and Richmond are among the termini of this system. On one day in 2009, a then record of over 432,000 people rode this transit system after the temporary closure of the Bay Bridge. Fremont and West Oakland are among the stops along, for the point, what transit system in Northern California?",
+      "questionZh": "虽然不在瑞典，这一交通系统有三个车站设有 GoLibrary 图书自动售卖机。1993年，该系统推出 Translink，后来成为如今闸机整合的 Clipper 卡系统前身。Warm Springs 和 Richmond 是该系统两个终点。2009年某天，因海湾大桥临时关闭，该系统单日客流曾创43.2万以上纪录。Fremont 与 West Oakland 都是其站点。问：这是北加州的哪一套交通系统？",
+      "options": [
+        {
+          "label": "A",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "B",
+          "text": "Great Blue Hole",
+          "textZh": "大蓝洞"
+        },
+        {
+          "label": "C",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "D",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-4",
+      "question": "Along with the Half Moon Caye, this feature is one of the two natural monuments within its country’s only UNESCO World Heritage Site. Ned Middleton came up with the name of this feature that was popularized by his book Ten Years Underwater. Located near the middle of Lighthouse Reef, this feature reaches 407 feet in depth. Stalactites were found to be growing in caves found in this feature that Jacques Cousteau labeled one of the finest SCUBA diving locations on Earth. For the point, name this major tourist attraction in Belize.",
+      "questionZh": "与半月礁一起，这一地貌是其国家唯一联合国世界遗产中的两个自然纪念物之一。Ned Middleton 提出这一地貌名称，并因其《Ten Years Underwater》而广为人知。它位于灯塔礁中央，深达407英尺。该地貌洞穴中发现钟乳石生长，雅克·库斯托称其为地球上最佳水肺潜点之一。问：这是伯利兹的哪一著名景点？",
+      "options": [
+        {
+          "label": "A",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "B",
+          "text": "Great Blue Hole",
+          "textZh": "大蓝洞"
+        },
+        {
+          "label": "C",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "D",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-5",
+      "question": "Near this country’s West Bay Lagoon, tens of billions of dollars have been spent developing its planned Lusail City. The Dukhan field is a major source of oil for this country, which, though not Japan, is home to an Inland Sea where pearl diving is popular. I.M. Pei designed the dhow-shaped Museum of Islamic Art in this country, whose residents have the highest per capita income on Earth. The media network Al-Jazeera is based in this country that, in 2022, will become the first country in the Middle East to host the FIFA World Cup. For the point, name this small country with capital at Doha.",
+      "questionZh": "在该国西湾潟湖附近，已投入数百亿美元开发其计划中的卢赛尔新城。杜汉油田是该国重要石油来源。该国（并非日本）也有适合珍珠潜水的“内海”。贝聿铭设计了该国阿拉伯帆船造型的伊斯兰艺术博物馆。该国居民人均收入位居世界前列。媒体网络半岛电视台总部设在该国；该国将在2022年成为中东首个举办世界杯的国家。问：这个首都为多哈的小国是哪个？",
+      "options": [
+        {
+          "label": "A",
+          "text": "State of Qatar",
+          "textZh": "卡塔尔国"
+        },
+        {
+          "label": "B",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "C",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "D",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-6",
+      "question": "A legend claimed that after Jesus ascended a mountain near this body of water he looked out and said “beyond [it] there [is] nothing.” A folk song dedicated to this body of water refers to it as a “glorious sea” and makes a reference to the winds that arise in the Barguzin range near it. The nerpa is a species of seal that is endemic to this body of water. Submersibles from the Mir program conducted geological studies of this body of water, which forms the western border of Buryatia in Siberia. For the point, name this deepest lake on Earth, which is found in Russia.",
+      "questionZh": "有传说称，耶稣登上一座靠近该水体的山并远眺后说“在它之外再无他物”。一首献给该水体的民歌称其为“光辉之海”，并提到巴尔古津山脉吹来的风。涅尔帕海豹是该水体特有物种。米尔深潜器项目曾在这里进行地质研究。该水体位于西伯利亚，构成布里亚特共和国西部边界。问：这是俄罗斯境内、地球最深的湖泊叫什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "B",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "C",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "D",
+          "text": "Lake Baikal",
+          "textZh": "贝加尔湖"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-7",
+      "question": "A field named for showing this characteristic contains a popular windsurfing destination in its country known as Lake Cerknika. The Skocjan Caves form a UNESCO world heritage site that demonstrates the contact form of this phenomenon. This phenomenon also names a region extending to the Gulf of Trieste in the northern Adriatic. A plateau that is named for its exhibition of this phenomenon extends through Slovenia. This phenomenon can develop when rocks like dolomite or limestone dissolve. Sinkholes are a common feature of, for the point, what German- named type of topography?",
+      "questionZh": "一个展示这种地貌特征的地区里，有该国著名风帆运动地采尔克尼察湖。什科茨扬溶洞是联合国世界遗产，体现了这种地貌的接触类型。这一术语也用于指向亚得里亚海北部的里雅斯特湾一带地区。以该现象命名的高原延伸穿过斯洛文尼亚。当地貌中白云岩或石灰岩溶解时，常会形成这种现象。问：天坑常见于哪种由德语命名的地形类型？",
+      "options": [
+        {
+          "label": "A",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "B",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "C",
+          "text": "Karst topography",
+          "textZh": "喀斯特地貌"
+        },
+        {
+          "label": "D",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-8",
+      "question": "Large float parades are held on this country’s holiday of Mashramani. This country’s Cuyuni- Mazaruni region is home to the large Omai gold mine while the mining of the aluminum ore bauxite drives the economy of this country’s city of Linden. This country’s flag depicts a red triangle inside a yellow triangle against a green background with the two triangles having black and white fimbriations respectively. The Essequibo River flows through this nation that is the only English-speaking country in South America. Suriname is to the east of, for the point, what country with capital at Georgetown.",
+      "questionZh": "这个国家在 Mashramani 节日会举行大型花车游行。该国库尤尼-马扎鲁尼地区有大型奥迈金矿，其林登市经济受铝土矿开采驱动。该国国旗为绿色底，上有黄色三角与红色内三角，并分别配以白黑边饰。埃塞奎博河流经该国；它是南美洲唯一以英语为官方语言的国家。问：位于苏里南以西、首都为乔治敦的是哪个国家？",
+      "options": [
+        {
+          "label": "A",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "B",
+          "text": "Co-operative Republic of Guyana",
+          "textZh": "圭亚那合作共和国"
+        },
+        {
+          "label": "C",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "D",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-9",
+      "question": "This national park is the central subject of Donald Finkel’s poetry collection titled Answer Back. Spanning over 50,000 acres, the majority of this national park is found in Edmonson County. The Great Onyx is a feature within this national park that has been linked to the Flint Ridge system. The Green River flows through this national park that is within fifty miles of Bowling Green. Despite its name, this park has never shown evidence of containing the remains of the “wooly” species of its namesake mammal. For the point, name this Kentucky national park containing the longest cave system on Earth.",
+      "questionZh": "这个国家公园是唐纳德·芬克尔诗集《Answer Back》的核心主题。公园面积超过5万英亩，多数位于埃德蒙森县。其“大缟玛瑙洞”与燧石岭洞穴系统相连。格林河流经该公园，距离鲍灵格林不足50英里。尽管名字如此，该公园从未发现其同名“长毛物种”哺乳动物遗骸。问：这个位于肯塔基、拥有地球最长洞穴系统的国家公园叫什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mammoth Cave National Park",
+          "textZh": "猛犸洞国家公园"
+        },
+        {
+          "label": "B",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "C",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "D",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa3-mcq-clean-10",
+      "question": "Maria Finucci spelled out the word “HELP” in a UNESCO-backed art installation that is meant to create awareness about this region. Project Kaisei is a Japanese program focusing on this region which Charles J. Moore supposedly discovered this region on his way back from a yacht race. This region can be found in a gyre bound by the latitude lines of 0 and 50 degrees north. This region composes up to 8% of the ocean in which it is found and roughly 10% of fish species in this region are found to have plastic in them. For the point, name this large oceanic garbage patch.",
+      "questionZh": "玛丽亚·菲努奇曾在一项联合国教科文组织支持的艺术装置中拼出“HELP”，以提高对该区域的关注。日本的 Project Kaisei 聚焦该区域；据称查尔斯·J·摩尔在一次帆船赛返航途中发现了它。该区域位于一个环流中，大致处在北纬0至50度之间。它占其所在海洋面积最高可达8%，并且该区域约10%的鱼类体内发现塑料。问：这片大型海洋垃圾带叫什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kerala",
+          "textZh": "喀拉拉邦"
+        },
+        {
+          "label": "B",
+          "text": "N’Djamena",
+          "textZh": "恩贾梅纳"
+        },
+        {
+          "label": "C",
+          "text": "BART",
+          "textZh": "湾区捷运（BART）"
+        },
+        {
+          "label": "D",
+          "text": "Great Pacific Garbage Patch",
+          "textZh": "太平洋垃圾带"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "Round-5-1.txt",
+      "year": "2016-2017",
+      "round": "Round 5",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
     }
   ]
 }
