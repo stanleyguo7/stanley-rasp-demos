@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>词语记忆挑战</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>词语记忆挑战</h1>
+      <p class="sub">每轮随机 10 个词，共 100 组。先记忆，再隐藏，最后回忆核对。</p>
+
+      <section class="panel">
+        <div class="status">
+          <span id="roundText">第 1 / 100 组</span>
+          <span id="hintText">请先记住下面 10 个词</span>
+        </div>
+
+        <ul id="wordList" class="word-list"></ul>
+
+        <div class="actions">
+          <button id="hideBtn" type="button">隐藏词语</button>
+          <button id="showBtn" type="button" class="ghost">查看答案</button>
+          <button id="nextBtn" type="button" class="primary">下一轮</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
