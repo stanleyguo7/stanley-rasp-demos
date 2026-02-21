@@ -1,0 +1,11 @@
+{
+  "ts": 1771708093,
+  "total": 190,
+  "valid": 190,
+  "remaining_to_1000": 810,
+  "qc": {
+    "duplicates": 0,
+    "options_lt4": 0,
+    "bad_answer_label": 0
+  }
+}
