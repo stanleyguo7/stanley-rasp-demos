@@ -41,8 +41,16 @@ h1 { margin: 8px 0 4px; }
 .animal-card .label { color: var(--muted); font-size: 0.9rem; }
 .animal-card .name { font-size: 1.9rem; font-weight: 800; }
 .animal-card .emoji { font-size: 2.4rem; }
+.animal-image {
+  width: min(220px, 80%);
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
 .animal-card.hidden .name,
-.animal-card.hidden .emoji { filter: blur(10px); user-select: none; }
+.animal-card.hidden .emoji,
+.animal-card.hidden .animal-image { filter: blur(10px); user-select: none; }
 
 .hint { margin: 10px 0 0; color: #cbd5e1; }
 
