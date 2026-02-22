@@ -180,7 +180,7 @@
         {
           "label": "C",
           "text": "Jeju Island",
-          "textZh": ""
+          "textZh": "济州岛"
         },
         {
           "label": "D",
@@ -239,7 +239,7 @@
         {
           "label": "B",
           "text": "Zambezi River",
-          "textZh": ""
+          "textZh": "赞比西河"
         },
         {
           "label": "C",
@@ -323,5 +323,5 @@
       "flags": []
     }
   ],
-  "generatedAt": 1771765111
+  "generatedAt": 1771766008
 }
