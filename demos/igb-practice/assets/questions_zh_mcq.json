@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T13:18:11Z",
+    "updatedAt": "2026-02-22T15:20:02Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 290
+    "questionCount": 300
   },
   "questions": [
     {
@@ -9408,6 +9408,326 @@
       ],
       "answer": "D",
       "questionZh": "该地区是兵团准军事组织的所在地，该组织最初是为了抵御苏联的侵略而成立的。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-1",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "One island governed by this country is separated from the mainland by the Chacao Channel and has its capital at Castro. This country’s indigenous Mapuche people, who historically were concentrated in its south, compose nearly 10% of this country’s population. This country's southernmost region is governed from the city of Punta Arenas. The flag of this nation is very similar to the flag of Texas, except that the blue field is only in the upper left corner. For the point, name this narrow South American country whose capital is Santiago.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "该国管辖的一个岛屿与大陆隔查考海峡相隔，首都为卡斯特罗。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-2",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This country fought a namesake war with Britain in 1865 which led to its cession of the Cooch Behar Duars. This country is home to the Paro Taktsang monastery, and the Thunder Dragon Druk is depicted on this country's national flag. This country also is home to Gangkhar Puensum, the tallest unclimbed mountain in the world. This country, whose national language is Dzongkha, is ruled by the Wangchuck dynasty. For the point, name this small Himalayan monarchy whose capital is Thimphu.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "1865 年，这个国家与英国发生了一场同名战争，导致库赫·贝哈尔·杜阿尔 (Cooch Behar Duars) 的割让。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-3",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "Major cities on this island include Kupang and Baucau. This island, the largest of the Outer Banda Islands, has its highest point at Ramelau. The exclave of Oecusse [[WEH-CYUSE]] lies on the western part of this island. The eastern half of this island was colonized by Portugal following the establishment of the capital city of Dili. For the point, name this Southeast Asian island split between Indonesia and a namesake country.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "B",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "C",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "D",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "该岛上的主要城市包括古邦和包考。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-4",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "One feature with this name is home to the Deux Mamelles, a pair of volcanoes whose name means \"two udders.\" A country with this name is divided into the Barlavento and Sotavento Islands. That country of this name also includes the island of Pogo. The westernmost point on continental Africa has this name. For the point, give this name shared by a peninsula in Senegal and an island country whose capital is Praia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        },
+        {
+          "label": "C",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "以这个名字命名的一个景点是 Deux Mamelles 的所在地，这是一对火山，其名字的意思是“两个乳房”。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The shores of this body of water were formerly the site of the cities of Nguimi [[NGWEE-mee]] and Bol. One proposal to restore this body of water was the Transqua Project, which would have redirected water from the Ubangi River. This Sahel lake has lost over 95% of its historic volume. For the point, name this rapidly drying-up African lake which shares its name with a country governed from N'Djamena [[un-jah-MAY-nah]].",
+      "options": [
+        {
+          "label": "A",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "B",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这片水域的海岸以前是恩吉米 [[NGWEE-mee]] 和波尔市的所在地。 "
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-6",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "According to local legend, these objects were transported to their current location by being \"walked.\" By the mid-1800s, the only examples of these objects to have not been toppled were at Rano Raraku. Many of these objects were originally topped with a pukao, a red hat-like object which may have represented a chieftain's topknot. For the point, name these head-shaped monoliths created by the Rapa Nui people of Easter Island.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "据当地传说，这些物品是通过“步行”被运送到当前位置的。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-7",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The city of Kuching is on this island and serves as the capital of the Sarawak State. This island's northern tip consists of the Sabah State, and the city of Bandar Seri Begawan is the capital of a sultanate located entirely on this island. This island’s highest peak of Mount Kinabalu overlooks the habitat of its native orangutans. For the point, name this third largest island in the world, which is divided between Malaysia, Indonesia, and Brunei.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "C",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "D",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "古晋市位于这个岛上，是砂拉越州的首府。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-8",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "Near the town of Sankt Gore, this river wraps around the Lorelei Rock. This river is the source of the seldom-used last name of the 17th century painter of The Jewish Bride. This river flows through Lake Constance, where it forms an inland delta. This river originates in Lake Tomasee in Switzerland and discharges in the Netherlands. Major cities along this river include Cologne and Dusseldorf. For the point, name this European river which forms the border between France and Germany.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "B",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "C",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这条河位于圣戈尔镇附近，环绕着罗蕾莱岩。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-9",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "In 2001, the Washington Post officially dubbed the title of “the armpit of America” upon this state’s city of Battle Mountain. This state is sometimes known as the Battle Born State for achieving statehood during the U.S. Civil War. An annual festival featuring the burning of a wooden effigy is hosted at a temporary city in this state's Black Rock Desert. This state's largest city is served by McCarran International Airport and is home to many casinos, including the Venetian and Caesars Palace. For the point, name this western U.S. state whose capital is Carson City.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "2001年，《华盛顿邮报》正式将该州的巴特山市称为“美国的腋窝”。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-10",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "In 2019, the first member of this country’s predominant ethnic group to be elected to the US Congress, began representing the Minnesota 5th district. A former British colony claimed by this country runs a de facto independent government from the city of Hargeisa. The breakaway region of Puntland is located along this country's northeast coast. This country is separated from Yemen by the Gulf of Aden. For the point, name this country on the Horn of Africa, whose capital city is Mogadishu.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "B",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "2019 年，该国首位当选美国国会议员的主要族裔成员开始代表明尼苏达州第五选区。"
     }
   ]
 }
