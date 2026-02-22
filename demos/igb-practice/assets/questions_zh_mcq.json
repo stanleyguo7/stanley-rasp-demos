@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T16:01:21Z",
+    "updatedAt": "2026-02-22T16:49:11Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 320
+    "questionCount": 325
   },
   "questions": [
     {
@@ -10368,6 +10368,166 @@
       ],
       "answer": "D",
       "questionZh": "这条河发源于哈扎尔湖，流经蝙蝠侠[[BAHT-mahn]]省的哈萨克夫特镇。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-1",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This body of water is home to the sparsely populated Primeiras and Segundas Archipelago. The city of Moroni sits along this body of water on the island of Grande Comore. The disputed island of Mayotte lies within the northern end of this body of water. For the point, name this body of water which separates Madagascar from the mainland and shares its name with a country whose capital is Maputo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Galapagos Islands",
+          "textZh": "加拉帕戈斯群岛"
+        },
+        {
+          "label": "D",
+          "text": "Mozambique Channel",
+          "textZh": "莫桑比克海峡"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这片水域是人口稀少的普里米拉群岛和第二群岛的所在地。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-2",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "Major mountain ranges on this island include the Hido and Kiso Ranges. This island's largest lakes are Lake Biwa and Lake Hachirogata. This island's southern coast is formed by the Kanmon Straits, which separate this island from Kyushu. This island is separated from Hokkaido in the north by the Tsugaru Strait. For the point, name this largest and most populous Japanese island, the location of the city of Tokyo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        },
+        {
+          "label": "D",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "岛上的主要山脉包括飞户山脉和木曾山脉。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-5",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This region is home to Lake Manasarovar, which is considered sacred to the local Bon religion. This region is separated from the Tarim Basin by the Kunlun Mountains. Due to being the largest and highest plateau on earth, this region is sometimes called the \"Roof of the World.\" For the point, name this East Asian plateau, which shares its name with an autonomous region of China with capital at Lhasa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "C",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "D",
+          "text": "Honshu",
+          "textZh": "本州"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该地区是玛旁雍错湖的所在地，该湖被当地苯教视为圣湖。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-9",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland [[AW-lund]] Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "B",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "C",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该国拥有沃克西河 (Vuoksi River) 的源头，该河是塞马湖的水源。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This body of water's largest island is Kent Island, home to the towns of Stevensville and Chester. This body of water's mouth is located between Cape Henry and Cape Charles. This body of water is fed by the Susquehanna and Potomac Rivers and separates the Delmarva Peninsula from the mainland. For the point, name this large East Coast estuary, famous for its crab fishing, which borders Maryland and Virginia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "C",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这片水域最大的岛屿是肯特岛，是史蒂文斯维尔和切斯特镇的所在地。"
     }
   ]
 }
