@@ -14,13 +14,13 @@
         },
         {
           "label": "B",
-          "text": "Republic of Chile",
-          "textZh": "智利共和国"
+          "text": "Stonehenge",
+          "textZh": "巨石阵"
         },
         {
           "label": "C",
-          "text": "The Alps",
-          "textZh": "阿尔卑斯山"
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
         },
         {
           "label": "D",
@@ -41,13 +41,13 @@
       "options": [
         {
           "label": "A",
-          "text": "The Alps",
-          "textZh": "阿尔卑斯山"
+          "text": "People’s Republic of China",
+          "textZh": "中华人民共和国"
         },
         {
           "label": "B",
-          "text": "Stonehenge",
-          "textZh": "巨石阵"
+          "text": "The Alps",
+          "textZh": "阿尔卑斯山"
         },
         {
           "label": "C",
@@ -56,8 +56,8 @@
         },
         {
           "label": "D",
-          "text": "Dubai",
-          "textZh": "迪拜"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         }
       ],
       "answer": "C",
@@ -78,13 +78,13 @@
         },
         {
           "label": "B",
-          "text": "Dubai",
-          "textZh": "迪拜"
+          "text": "The Alps",
+          "textZh": "阿尔卑斯山"
         },
         {
           "label": "C",
-          "text": "Kashmir",
-          "textZh": "克什米尔"
+          "text": "Republic of Yemen",
+          "textZh": "也门共和国"
         },
         {
           "label": "D",
@@ -105,18 +105,18 @@
       "options": [
         {
           "label": "A",
-          "text": "People’s Republic of China",
-          "textZh": "中华人民共和国"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         },
         {
           "label": "B",
-          "text": "Crete",
-          "textZh": "克里特岛"
+          "text": "New Orleans",
+          "textZh": "新奥尔良"
         },
         {
           "label": "C",
-          "text": "Yukon Territory",
-          "textZh": "育空地区"
+          "text": "Republic of Yemen",
+          "textZh": "也门共和国"
         },
         {
           "label": "D",
@@ -137,8 +137,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Dubai",
-          "textZh": "迪拜"
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
         },
         {
           "label": "B",
@@ -147,13 +147,13 @@
         },
         {
           "label": "C",
-          "text": "The Alps",
-          "textZh": "阿尔卑斯山"
+          "text": "Republic of Yemen",
+          "textZh": "也门共和国"
         },
         {
           "label": "D",
-          "text": "Yukon Territory",
-          "textZh": "育空地区"
+          "text": "Crete",
+          "textZh": "克里特岛"
         }
       ],
       "answer": "B",
@@ -174,8 +174,8 @@
         },
         {
           "label": "B",
-          "text": "Republic of Yemen",
-          "textZh": "也门共和国"
+          "text": "Crete",
+          "textZh": "克里特岛"
         },
         {
           "label": "C",
@@ -184,8 +184,8 @@
         },
         {
           "label": "D",
-          "text": "People’s Republic of China",
-          "textZh": "中华人民共和国"
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
         }
       ],
       "answer": "C",
@@ -201,18 +201,18 @@
       "options": [
         {
           "label": "A",
-          "text": "Yukon Territory",
-          "textZh": "育空地区"
+          "text": "Dubai",
+          "textZh": ""
         },
         {
           "label": "B",
-          "text": "Crete",
-          "textZh": "克里特岛"
+          "text": "Stonehenge",
+          "textZh": "巨石阵"
         },
         {
           "label": "C",
-          "text": "Republic of Chile",
-          "textZh": "智利共和国"
+          "text": "Republic of Yemen",
+          "textZh": "也门共和国"
         },
         {
           "label": "D",
@@ -233,13 +233,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Crete",
-          "textZh": "克里特岛"
+          "text": "Dubai",
+          "textZh": "迪拜"
         },
         {
           "label": "B",
-          "text": "The Alps",
-          "textZh": "阿尔卑斯山"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         },
         {
           "label": "C",
@@ -248,8 +248,8 @@
         },
         {
           "label": "D",
-          "text": "Kashmir",
-          "textZh": "克什米尔"
+          "text": "Stonehenge",
+          "textZh": "巨石阵"
         }
       ],
       "answer": "C",
@@ -265,8 +265,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Kashmir",
-          "textZh": "克什米尔"
+          "text": "Dubai",
+          "textZh": "迪拜"
         },
         {
           "label": "B",
@@ -275,13 +275,13 @@
         },
         {
           "label": "C",
-          "text": "Dubai",
-          "textZh": "迪拜"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         },
         {
           "label": "D",
-          "text": "Republic of Yemen",
-          "textZh": "也门共和国"
+          "text": "The Alps",
+          "textZh": "阿尔卑斯山"
         }
       ],
       "answer": "B",
@@ -297,18 +297,18 @@
       "options": [
         {
           "label": "A",
+          "text": "The Alps",
+          "textZh": "阿尔卑斯山"
+        },
+        {
+          "label": "B",
           "text": "Yukon Territory",
           "textZh": "育空地区"
         },
         {
-          "label": "B",
-          "text": "People’s Republic of China",
-          "textZh": "中华人民共和国"
-        },
-        {
           "label": "C",
-          "text": "The Alps",
-          "textZh": "阿尔卑斯山"
+          "text": "Kashmir",
+          "textZh": "克什米尔"
         },
         {
           "label": "D",
@@ -323,5 +323,5 @@
       "flags": []
     }
   ],
-  "generatedAt": 1771715365
+  "generatedAt": 1771718966
 }
