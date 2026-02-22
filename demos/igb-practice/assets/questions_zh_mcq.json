@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T11:44:38Z",
+    "updatedAt": "2026-02-22T12:54:39Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 270
+    "questionCount": 280
   },
   "questions": [
     {
@@ -8768,6 +8768,326 @@
       ],
       "answer": "A",
       "questionZh": "该国的国家图书馆位于 Casa Bauró。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-1",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This body of water is home to the sparsely populated Primeiras and Segundas Archipelago. The city of Moroni sits along this specific body of water on the island of Grande Comore. The disputed island of Mayotte lies within the northern end of this body of water. For the point, name this body of water which separates Madagascar from the mainland and shares its name with a country whose capital is Maputo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "B",
+          "text": "South China Sea",
+          "textZh": "南海"
+        },
+        {
+          "label": "C",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "D",
+          "text": "Mozambique Channel",
+          "textZh": "莫桑比克海峡"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这片水域是人口稀少的普里米拉群岛和第二群岛的所在地。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-2",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "Major mountain ranges on this island include the Hido and Kiso Ranges. Scenic Lake Biwa on this island lies in its Kansai region. Part of this island's southern coast is formed by the Kanmon Straits, which separate this island from Kyushu, while the Tsugaru Strait separates this island from Hokkaido to its north. For the point, name this largest and most populous Japanese island, the location of the city of Tokyo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "South China Sea",
+          "textZh": "南海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "C",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "D",
+          "text": "Honshu",
+          "textZh": "本州"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "岛上的主要山脉包括飞户山脉和木曾山脉。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-3",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "One feature with this name hosts the Saint Catherine's Monastery and is located across from Mt. Catherine. One peninsula with this name is bounded on the west and east by the Gulf of Aqaba and the Gulf of Suez. That peninsula of this name makes up the southwest border of Gaza and Israel. For the point, give this common name of the mountain on which God gave Moses the Ten Commandments and a peninsula in Eastern Egypt.",
+      "options": [
+        {
+          "label": "A",
+          "text": "South China Sea",
+          "textZh": "南海"
+        },
+        {
+          "label": "B",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        },
+        {
+          "label": "C",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "D",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "圣凯瑟琳修道院位于圣凯瑟琳山对面，以这个名字命名。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-4",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This archipelago includes Baltra Island, which is also known as South Seymour. This archipelago sits atop the Cocos Ridge and the islands of this archipelago lie at the confluence of the Nazca and Cocos plates. This archipelago's islands include San Cristobal, Fernandina, and Isabela. For the point, name this Pacific archipelago controlled by Ecuador, the location of Charles Darwin's observations of some notable finches.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "B",
+          "text": "Galapagos Islands",
+          "textZh": "加拉帕戈斯群岛"
+        },
+        {
+          "label": "C",
+          "text": "Mozambique Channel",
+          "textZh": "莫桑比克海峡"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该群岛包括巴尔特拉岛，也称为南西摩。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This region is home to Lake Manasarovar, which is considered sacred to the local Bon religion. This region is separated from the Tarim Basin by the Kunlun Mountains. A railroad stretching from Xining to this region’s capital is the highest in the world. This region’s status as the world’s highest and largest plateau has led it to be called the \"Roof of the World.\" For the point, name this autonomous region of China with capital at Lhasa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该地区是玛旁雍错湖的所在地，该湖被当地苯教视为圣湖。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-6",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This river originates from the mountain of Thaba Putsoa, and its tributaries include the Vaal [[VAHL]] River. This river, which passes over the Augrabies [[aw-KRAH-beez]] Falls, discharges into the Atlantic Ocean at the Alexander Bay. This river originates in the Drakensberg Mountains in Lesotho [[leh-SOO=too]]. For the point, what is this colorfully- named African river which is at the center of a border dispute between Namibia and South Africa?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mozambique Channel",
+          "textZh": "莫桑比克海峡"
+        },
+        {
+          "label": "B",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "C",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这条河发源于塔巴普特索阿山，支流包括瓦尔[[VAHL]]河。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-7",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "One disputed territory in this body of water has been administered from Sansha since 1956. One country claims the territory within the \"nine-dash line\" in this body of water. This body of water is home to the heavily disputed Spratly and Paracel Islands. For the point, name this southeast Asian Sea located between Vietnam, the Philippines, and its namesake country.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        },
+        {
+          "label": "C",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "自1956年以来，该水域的一处有争议领土一直由三沙管辖。一国声称对该水域“九段线”内的领土拥有主权。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-8",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "Agriculture in this country is centered on the Beqaa [[beh-KAH]] Valley. This country's highest point is Qurnat as Sawda, or the \"Black Peak.\" After Syria, this country has the second-largest Druze population in the world. Ancient cities located in this country include Byblos and Tyre. For the point, name this Middle Eastern country located north of Israel, which is governed from Beirut.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Galapagos Islands",
+          "textZh": "加拉帕戈斯群岛"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个国家的农业集中在贝卡 [[beh-KAH]] 山谷。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-9",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland [[OH-lund]] Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "B",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "C",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        },
+        {
+          "label": "D",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该国拥有沃克西河 (Vuoksi River) 的源头，该河是塞马湖的水源。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-10",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "Users of this system can utilize the InTouch app to maintain an internet connection while using all parts of the system. This system includes stations such as Euston and Paddington, and commuters using this system pay using an Oyster Card. Those boarding vehicles on this system regularly hear the phrase \"mind the gap.\" For the point, name this subway system in London, commonly called \"The Tube.\"",
+      "options": [
+        {
+          "label": "A",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该系统的用户可以利用 InTouch 应用程序在使用系统所有部分的同时保持互联网连接。"
     }
   ]
 }
