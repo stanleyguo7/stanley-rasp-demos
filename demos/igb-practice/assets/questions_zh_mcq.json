@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T11:09:04Z",
+    "updatedAt": "2026-02-22T11:44:38Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 260
+    "questionCount": 270
   },
   "questions": [
     {
@@ -8448,6 +8448,326 @@
       ],
       "answer": "B",
       "questionZh": "该州是瓦萨奇山脉的所在地，其中包括西谷和奥格登市。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-1",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This country’s main islands are separated by the bay High Water, while its smaller islands are separated by the Koro Sea. This country is served by the Nadi International Airport. This country’s Mount Tomanivi is the headwaters of its widest river, the Rewa River. The islands of Viti Levu and Vanua Lau are located in, for ten points, what South Pacific Oceanic country with capital Suva?",
+      "options": [
+        {
+          "label": "A",
+          "text": "U.S. embassies",
+          "textZh": "美国大使馆"
+        },
+        {
+          "label": "B",
+          "text": "Fiji",
+          "textZh": "斐济"
+        },
+        {
+          "label": "C",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该国的主要岛屿被高水位海湾隔开，而较小的岛屿被科罗海隔开。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-2",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This country’s highest peak of Tukosmera and Sulphur Bay are the center of the John Frum cargo cult. The Bislama creole is from this country. Pedro Fernandez de Queiros was the first European to land in this country, which was formerly known as the New Hebrides. Tanna and Espiritu Santo are islands in, for ten points, what Melenasian country between Fiji and the Solomon Islands governed from Port Vila.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vanuatu",
+          "textZh": "瓦努阿图"
+        },
+        {
+          "label": "B",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        },
+        {
+          "label": "C",
+          "text": "Fiji",
+          "textZh": "斐济"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这个国家的最高峰图科斯梅拉峰和硫磺湾是约翰·弗鲁姆货运崇拜的中心。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-3",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "In 2018, one of these locations in London auctioned 1,200 rolls of toilet paper. Secretary of State Mike Pompeo has forbidden flying LGBT pride flags at these locations, an order that some of these locations in Seoul and Chennai have defied. One of these locations was recently moved from Tel Aviv to Jerusalem. For ten points, name these locations where the United States is represented in foriegn countries.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        },
+        {
+          "label": "B",
+          "text": "U.S. embassies",
+          "textZh": "美国大使馆"
+        },
+        {
+          "label": "C",
+          "text": "Yucatan",
+          "textZh": "尤卡坦半岛"
+        },
+        {
+          "label": "D",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "2018 年，伦敦的其中一个地点拍卖了 1,200 卷卫生纸。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-4",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This country is home to the headwaters of the White Drin river and its highest point is Velika Rudoka. This country’s Rugova Canyon is located in its southwest region of Metohija. This country carried out an ethnic cleansing campaign against Serbs in the 1990s. Pristina is the capital of, for ten points, what Albanian majority country that declared independence from Serbia in 2008?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Appalachian Mountains",
+          "textZh": "阿巴拉契亚山脉"
+        },
+        {
+          "label": "B",
+          "text": "Andorra",
+          "textZh": "安道尔"
+        },
+        {
+          "label": "C",
+          "text": "Kosovo",
+          "textZh": "科索沃"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个国家是白德林河的源头所在地，其最高点是维利卡鲁多卡。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-5",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This city’s Lekki neighborhood is home to the Nike Art Center. This city’s Ikoyi neighborhood is home to an artificial island called Banana Island, which was originally titled Lagoon City. This city is the center of the Nollywood film industry. This city is the largest city in Africa and was replaced by Abuja as its country’s capital. For ten points, name this largest city in Nigeria.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lagos",
+          "textZh": "拉各斯"
+        },
+        {
+          "label": "B",
+          "text": "Vanuatu",
+          "textZh": "瓦努阿图"
+        },
+        {
+          "label": "C",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        },
+        {
+          "label": "D",
+          "text": "Fiji",
+          "textZh": "斐济"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这个城市的莱基社区是耐克艺术中心的所在地。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-6",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This mountain range is home to Shenandoah National Park, which is contained in the subrange the Blue Ridge Mountains. This mountain range includes the subrange of the Black Mountains, which contain Mount Mitchell. This mountain range’s namesake trail terminates at Mt. Katahdin in Maine. For ten points, name this mountain range in the eastern United States, whose namesake trail starts in Georgia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Appalachian Mountains",
+          "textZh": "阿巴拉契亚山脉"
+        },
+        {
+          "label": "B",
+          "text": "Lagos",
+          "textZh": "拉各斯"
+        },
+        {
+          "label": "C",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        },
+        {
+          "label": "D",
+          "text": "Yucatan",
+          "textZh": "尤卡坦半岛"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这座山脉是雪兰多国家公园的所在地，该公园位于蓝岭山脉的支山脉中。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-7",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This desert is home to the Oyu Tolgoi Project, which is operated by the Canadian company, Turquoise Hill Resources. The Dzungarian Basin and Tian Shan Mountains lie to the west of this desert. This desert is home to a supposed “death worm.” This desert is home to the Nemegt Basin, where the first dinosaur eggs were discovered For ten points, name this desert that covers northwest China and Mongolia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "U.S. embassies",
+          "textZh": "美国大使馆"
+        },
+        {
+          "label": "B",
+          "text": "Lagos",
+          "textZh": "拉各斯"
+        },
+        {
+          "label": "C",
+          "text": "Fiji",
+          "textZh": "斐济"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这片沙漠是奥尤陶勒盖项目的所在地，该项目由加拿大绿松石山资源公司运营。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-8",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This archipelago is home to a fjord named San Carlos Water, which was an important landing spot for the British during one war. This archipelago is home to Brenton Loch, which is part of the Grantham Sound. Port Louis is the former capital of this archipelago, whose modern day capital is Stanley. For ten points, name this archipelago, which was the subject of a 1980s war between the U.K. and Argentina.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Andorra",
+          "textZh": "安道尔"
+        },
+        {
+          "label": "B",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        },
+        {
+          "label": "C",
+          "text": "Vanuatu",
+          "textZh": "瓦努阿图"
+        },
+        {
+          "label": "D",
+          "text": "Lagos",
+          "textZh": "拉各斯"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个群岛是一个名为圣卡洛斯湾的峡湾的所在地，在一次战争期间，这里是英国人的重要登陆点。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-9",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "Just off the shore of this peninsula is the Chicxulub Crater, which may have been formed by the impact that wiped out the dinosaurs. That impact also formed the many cenotes sinkholes on this peninsula. The province of Campeche is located on this peninsula, as is the city of Cancun. For ten points, name this Mexican peninsula, which separates the Caribbean Sea from the Gulf of Mexico.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yucatan",
+          "textZh": "尤卡坦半岛"
+        },
+        {
+          "label": "B",
+          "text": "Vanuatu",
+          "textZh": "瓦努阿图"
+        },
+        {
+          "label": "C",
+          "text": "Kosovo",
+          "textZh": "科索沃"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁滩"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "就在这个半岛的海岸附近是希克苏鲁伯陨石坑，它可能是由灭绝恐龙的撞击形成的。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals-mcq-10",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-4-Finals.txt",
+      "year": "2019-2020",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This country’s national library is housed in the Casa Bauró. This country is home to the the ski resort town of Arinsal. This country’s two princes are comprised of the Bishop of Urgell and the President of France. Along with Spain, this is the only country where Catalan is an official language. The Pyrenees is home to, for ten points, what small country between France and Spain?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Andorra",
+          "textZh": "安道尔"
+        },
+        {
+          "label": "B",
+          "text": "U.S. embassies",
+          "textZh": "美国大使馆"
+        },
+        {
+          "label": "C",
+          "text": "Falkland Islands",
+          "textZh": "福克兰群岛"
+        },
+        {
+          "label": "D",
+          "text": "Yucatan",
+          "textZh": "尤卡坦半岛"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该国的国家图书馆位于 Casa Bauró。"
     }
   ]
 }
