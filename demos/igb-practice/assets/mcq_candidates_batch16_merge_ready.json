@@ -9,26 +9,26 @@
       "options": [
         {
           "label": "A",
-          "text": "Mo'ai",
-          "textZh": "摩艾"
-        },
-        {
-          "label": "B",
           "text": "Borneo",
           "textZh": "婆罗洲"
         },
         {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
           "label": "C",
-          "text": "Republic of Chile",
-          "textZh": "智利共和国"
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
         },
         {
           "label": "D",
-          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
-          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -46,8 +46,8 @@
         },
         {
           "label": "B",
-          "text": "Republic of Chile",
-          "textZh": "智利共和国"
+          "text": "Borneo",
+          "textZh": "婆罗洲"
         },
         {
           "label": "C",
@@ -56,8 +56,8 @@
         },
         {
           "label": "D",
-          "text": "Borneo",
-          "textZh": "婆罗洲"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         }
       ],
       "answer": "C",
@@ -105,8 +105,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Republic of Chile",
-          "textZh": "智利共和国"
+          "text": "Timor",
+          "textZh": "帝汶"
         },
         {
           "label": "B",
@@ -120,8 +120,8 @@
         },
         {
           "label": "D",
-          "text": "Timor",
-          "textZh": "帝汶"
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
         }
       ],
       "answer": "B",
@@ -137,26 +137,26 @@
       "options": [
         {
           "label": "A",
-          "text": "Kingdom of Bhutan",
-          "textZh": "不丹王国"
-        },
-        {
-          "label": "B",
           "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
           "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
           "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Mo'ai",
           "textZh": "摩艾"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -169,18 +169,18 @@
       "options": [
         {
           "label": "A",
-          "text": "Rhine River",
-          "textZh": "莱茵河"
-        },
-        {
-          "label": "B",
           "text": "Republic of Cape Verde",
           "textZh": "佛得角共和国"
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Mo'ai",
           "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
         },
         {
           "label": "D",
@@ -188,7 +188,7 @@
           "textZh": "不丹王国"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -206,21 +206,21 @@
         },
         {
           "label": "B",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "C",
           "text": "Borneo",
           "textZh": "婆罗洲"
         },
         {
-          "label": "C",
+          "label": "D",
           "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
           "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
-        },
-        {
-          "label": "D",
-          "text": "Nevada",
-          "textZh": "内华达州"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -233,18 +233,18 @@
       "options": [
         {
           "label": "A",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "B",
           "text": "Rhine River",
           "textZh": "莱茵河"
         },
         {
-          "label": "B",
+          "label": "C",
           "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
           "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
-        },
-        {
-          "label": "C",
-          "text": "Kingdom of Bhutan",
-          "textZh": "不丹王国"
         },
         {
           "label": "D",
@@ -252,7 +252,7 @@
           "textZh": "婆罗洲"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -270,13 +270,13 @@
         },
         {
           "label": "B",
-          "text": "Republic of Cape Verde",
-          "textZh": "佛得角共和国"
+          "text": "Nevada",
+          "textZh": "内华达州"
         },
         {
           "label": "C",
-          "text": "Nevada",
-          "textZh": "内华达州"
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
         },
         {
           "label": "D",
@@ -284,7 +284,7 @@
           "textZh": "不丹王国"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
@@ -297,31 +297,31 @@
       "options": [
         {
           "label": "A",
-          "text": "Kingdom of Bhutan",
-          "textZh": "不丹王国"
+          "text": "Mo'ai",
+          "textZh": "摩艾"
         },
         {
           "label": "B",
-          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
-          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
-        },
-        {
-          "label": "C",
           "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
           "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
         },
         {
+          "label": "C",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
           "label": "D",
-          "text": "Mo'ai",
-          "textZh": "摩艾"
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
       "year": "2020-2021",
       "round": "Round 3",
       "flags": []
     }
   ],
-  "generatedAt": 1771769633
+  "generatedAt": 1771771422
 }
