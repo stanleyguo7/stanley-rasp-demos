@@ -47,7 +47,7 @@
         {
           "label": "B",
           "text": "Panama Canal",
-          "textZh": "巴拿马运河"
+          "textZh": ""
         },
         {
           "label": "C",
@@ -323,5 +323,5 @@
       "flags": []
     }
   ],
-  "generatedAt": 1771738773
+  "generatedAt": 1771740559
 }
