@@ -15,7 +15,7 @@
         {
           "label": "B",
           "text": "Mo'ai",
-          "textZh": ""
+          "textZh": "摩艾"
         },
         {
           "label": "C",
@@ -47,7 +47,7 @@
         {
           "label": "B",
           "text": "Kingdom of Bhutan",
-          "textZh": ""
+          "textZh": "不丹王国"
         },
         {
           "label": "C",
@@ -323,5 +323,5 @@
       "flags": []
     }
   ],
-  "generatedAt": 1771782583
+  "generatedAt": 1771784377
 }
