@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T15:43:34Z",
+    "updatedAt": "2026-02-22T16:01:21Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 310
+    "questionCount": 320
   },
   "questions": [
     {
@@ -10048,6 +10048,326 @@
       ],
       "answer": "D",
       "questionZh": "胡安·德·富卡 (Juan de Fuca) 于 1592 年首次绘制了该州海岸线的地图，其中包括现在以他的名字命名的海峡。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-1",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This autonomous community's Chinijo [[chin-EE-ho]] Archipelago lies north of Lanzarote [[lahn-zah-RAH-tee]]. This region is the most populous archipelago in Macaronesia. A major European tourist destination, this region's most populous island is Tenerife [[ten-uh-REEF]]. For the point, name this Spanish island region off the northwestern coast of Africa whose name is derived not from a type of bird, but from the Latin word for \"dog.\"",
+      "options": [
+        {
+          "label": "A",
+          "text": "Canary Islands",
+          "textZh": "加那利群岛"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "C",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "D",
+          "text": "silk",
+          "textZh": "丝绸"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该自治区的 Chinijo [[chin-EE-ho]] 群岛位于兰萨罗特岛 [[lahn-zah-RAH-tee]] 北部。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-2",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This body of water is connected to the greater Pacific Ocean by the Strait of Tartary and the La Perouse Strait. The city of Vladivostok is the main Russian port on this body of water. The islands of Sakhalin and Hokkaido are separated from the Russian mainland by this body of water. For the point, name this East Asian sea which separates Korea from a namesake island nation governed from Tokyo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "B",
+          "text": "DMZ",
+          "textZh": "非军事区"
+        },
+        {
+          "label": "C",
+          "text": "Canary Islands",
+          "textZh": "加那利群岛"
+        },
+        {
+          "label": "D",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "该水域通过鞑靼海峡和拉彼鲁兹海峡与太平洋相连。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-3",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Natural features in this territory include Alligator Lake and the Miles Canyon Basalts. Kluane [[kloo-AH-nee]] National Park, located in this territory's southwestern corner, is home to Mount Logan, the second tallest mountain in North America. This territory's capital city of Whitehorse is the largest settlement in any of Canada's three territories. For the point, name this subarctic Canadian territory bordering Alaska.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
+        },
+        {
+          "label": "C",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该地区的自然景观包括鳄鱼湖和迈尔斯峡谷玄武岩。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-4",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Along this area in 2019, a series of hiking trails bound by barbed wire were opened up. In May 2020, the two countries separated by this area exchanged gunfire, in violation of a 1953 armistice. For the point, name this heavily fortified area along an East Asian peninsula, separating two countries whose capitals are Pyongyang and Seoul.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "DMZ",
+          "textZh": "非军事区"
+        },
+        {
+          "label": "D",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "2019年，沿着该地区开辟了一系列由铁丝网围成的远足小径。 "
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-5",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This country's sole natural lake is located in an impact crater and is known as Lake Bosumtwi. This country's Akosombo Dam forms the largest artificial lake in the world by surface area, Lake Volta. This country's interior is home to the Ashanti people, and while under British rule, this country was known as the Gold Coast. For the point, name this west African country whose capital is Accra.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
+        },
+        {
+          "label": "B",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "silk",
+          "textZh": "丝绸"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家唯一的天然湖泊位于撞击坑中，被称为博苏姆特维湖。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-6",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This country's eponymous lake is fed by the San Juan and Tipitapa Rivers and is separated from the Pacific Ocean by the Rivas Isthmus. The Amerrisque [[ah-mare-EE- skay]] mountains separate that lake in this country from Lake Managua. The city of Bluefields is the most populous in this country's Mosquito Coast region. For the point, name this Central American country located between Honduras and Costa Rica.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家的同名湖泊由圣胡安河和蒂皮塔帕河供水，并被里瓦斯地峡与太平洋隔开。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-7",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "The part of this river that flows through the Guyana Highlands is called Guainía [[gwai-NEE-uh]]. The Casiquiare [[kah-see-KYAH-reh]] canal connects this river to the Orinoco. This river's largest confluence is in the city of Manaus [[mahn-OUSS]], where the black water of this river meets the brown water of the Amazon. For the point, name this tributary of the Amazon whose name in Spanish and Portuguese refers to its color.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
+        },
+        {
+          "label": "B",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "C",
+          "text": "Rio Negro",
+          "textZh": "内格罗河"
+        },
+        {
+          "label": "D",
+          "text": "DMZ",
+          "textZh": "非军事区"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这条河流流经圭亚那高地的部分被称为 Guainía [[gwai-NEE-uh]]。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-8",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Along with a namesake peninsula, this city lies on the islands of Taipa, Coloane [[koh-loh-AH-neh]], and Hengqin [[HUNG-CHIN]]. This city is known as the “Monte Carlo of the Orient\" due to its casinos including the Venetian and the Casino Lisboa. This city is located across the Pearl River estuary from Hong Kong. For the point, name this formerly Portuguese-controlled Special Administrative Region of China, a global gambling center.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "D",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这座城市与同名半岛一起位于凼仔岛、路环岛 [[koh-loh-AH-neh]] 和横琴岛 [[HUNG-CHIN]] 上。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-9",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "In the Middle Ages, the European center for producing this good was the Italian city of Catanzaro. James I attempted to establish production of this good in the United Kingdom by planting 100 thousand mulberry trees at Hampton Court Palace. This good names a road on which it was transported from China to Europe through central Asia. For the point, name this fabric produced from the larvae of certain moths.",
+      "options": [
+        {
+          "label": "A",
+          "text": "DMZ",
+          "textZh": "非军事区"
+        },
+        {
+          "label": "B",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "C",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "D",
+          "text": "silk",
+          "textZh": "丝绸"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "在中世纪，欧洲生产这种商品的中心是意大利城市卡坦扎罗。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This river, which originates at Lake Hazar, flows through the town of Hasakeft in Batman [[BAHT-mahn]] Province. A dam formerly named after Saddam Hussein is located along this river near the city of Mosul. This is the easternmost of the two known rivers listed as being in the Garden of Eden. For the point, name this river which forms the Shatt-al-Arab at its confluence with the Euphrates.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "B",
+          "text": "silk",
+          "textZh": "丝绸"
+        },
+        {
+          "label": "C",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "D",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这条河发源于哈扎尔湖，流经蝙蝠侠[[BAHT-mahn]]省的哈萨克夫特镇。"
     }
   ]
 }
