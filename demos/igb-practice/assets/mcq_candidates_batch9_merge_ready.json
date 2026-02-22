@@ -1,0 +1,327 @@
+{
+  "readyCount": 10,
+  "skipped": 0,
+  "questions": [
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-1",
+      "question": "Many bright-colored residences line the streets of this city’s Bo-Kaap neighborhood, which lies near Signal Hill. This city is creating desalination plants due to a water crisis based around “day zero.” Devil’s Peak and Table Mountain form this city’s mountainous backdrop. This city’s Robben Island was the site of a prison that housed Jacob Zuma and Nelson Mandela. For the point, name this legislative capital of South Africa.",
+      "questionZh": "这座城市的 Bo-Kaap 街区靠近信号山，街道两旁排列着许多色彩鲜艳的住宅。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "B",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "C",
+          "text": "Tundra",
+          "textZh": "苔原"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-2",
+      "question": "A 400-year-old one of these things in the Arabian Desert lies 2 kilometers from Jebel Dukhan, Bahrain’s highest point. A very wide one of these objects is in the center of Santa Maria del Tule in Oaxaca. Examples of these organisms in California national parks include Del Norte Titan and General Sherman. A variety of these organisms are found on Madagascar’s Avenue of the Baobabs. For the point, name these plants that include redwoods and eucalyptus.",
+      "questionZh": "阿拉伯沙漠中的一处此类建筑已有 400 年历史，距离巴林最高点 Jebel Dukhan 2 公里。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Plurinational state of Bolivia",
+          "textZh": "多民族玻利维亚国"
+        },
+        {
+          "label": "B",
+          "text": "Trees",
+          "textZh": "树木"
+        },
+        {
+          "label": "C",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "D",
+          "text": "Tundra",
+          "textZh": "苔原"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-3",
+      "question": "This country’s highest point, the extinct volcano Nevado Sajama, is located in its Oruro Department. This country’s Yungas Road has been called “the most dangerous road in the world.” The Uyuni Salt Falts are in the Altiplano area of this country home to the dried-up lake Poopó [PO-O-PO] and the southern half of Lake Titicaca. For the point, name this country with its capitals at Sucre and La Paz.",
+      "questionZh": "该国的最高点是内瓦多萨哈马死火山，位于奥鲁罗省。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tundra",
+          "textZh": "苔原"
+        },
+        {
+          "label": "B",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "C",
+          "text": "Plurinational state of Bolivia",
+          "textZh": "多民族玻利维亚国"
+        },
+        {
+          "label": "D",
+          "text": "Patagonia",
+          "textZh": "巴塔哥尼亚"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-4",
+      "question": "This city experiences massive tidal peaks called acqua alta. This city’s Piombi Prison is the destination of the Bridge of Sighs, while its Piazza San Marco connects St. Mark’s Basilica to the Doge’s Palace. This city’s namesake lagoon includes Burano and Lido and is enclosed by the Adriatic Sea. For the point, the Grand Canal is the main thoroughfare of what Italian city?",
+      "questionZh": "这座城市经历了被称为“acqua alta”的巨大潮汐峰。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "B",
+          "text": "Patagonia",
+          "textZh": "巴塔哥尼亚"
+        },
+        {
+          "label": "C",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "D",
+          "text": "Trees",
+          "textZh": "树木"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-5",
+      "question": "This state’s Pamola Peak is connected to its highest point by the Knife Edge trail of Baxter State Park. In this state’s coastal Downeast region, Cadillac Mountain overlooks the Atlantic Ocean from Mount Desert Island. Whitewater rafting is popular in the Kennebec Gorge of this state home to Mount Katahdin, the northern terminus of the Appalachian Trail. For the point, Acadia National Park is in what New England state with its capital at Augusta?",
+      "questionZh": "该州的帕莫拉峰通过巴克斯特州立公园的刀锋步道与其最高点相连。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "B",
+          "text": "Tundra",
+          "textZh": "苔原"
+        },
+        {
+          "label": "C",
+          "text": "State of Maine Page 1 International Geography Bee Regionals 2018-2019 Round 4",
+          "textZh": "缅因州第 1 页 国际地理蜜蜂地区赛 2018-2019 年第 4 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-6",
+      "question": "This lake contains the extremely densely populated Migingo Island. John Hanning Speke, who names a gulf of this lake, was the first European to view this body of water. The Kagera River flows into this lake, and the cities of Jinja, Entebbe, and Kampala lie along its shores. This lake, the primary source of the White Nile, borders Uganda, Kenya, and Tanzania. For the point, name this largest lake in Africa, named for a 19th-century British Queen.",
+      "questionZh": "这个湖里有人口极其稠密的米金戈岛。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "B",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        },
+        {
+          "label": "D",
+          "text": "Plurinational state of Bolivia",
+          "textZh": "多民族玻利维亚国"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-7",
+      "question": "White settlers on this island attempted to either kill its native inhabitants or send them to Flinders Island in the “black war.” The thylacine was a carnivorous marsupial called the “tiger” or “wolf” of this island, which is separated from Victoria by the Bass Strait. A namesake “devil” is an endangered species in, for the point, what island state of Australia with its capital at Hobart?",
+      "questionZh": "这个岛上的白人定居者试图杀死当地居民，或者在“黑人战争”中将他们送到弗林德斯岛。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "B",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "C",
+          "text": "Tasmania",
+          "textZh": "塔斯马尼亚"
+        },
+        {
+          "label": "D",
+          "text": "Plurinational state of Bolivia",
+          "textZh": "多民族玻利维亚国"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-8",
+      "question": "The Welsh settlement of Trelew is the most populous city in the Chubut River Valley of this region. Laguna del Carbon, the lowest point of the Western Hemisphere, is in this region. The Valdes Peninsula is in this region that extends down to Punta Arenas, which lies across the Strait of Magellan from Tierra del Fuego. For the point, name this cold and windy region of southern Chile and Argentina.",
+      "questionZh": "威尔士定居点特雷利乌是该地区丘布特河谷人口最多的城市。",
+      "options": [
+        {
+          "label": "A",
+          "text": "State of Maine Page 1 International Geography Bee Regionals 2018-2019 Round 4",
+          "textZh": "缅因州第 1 页 国际地理蜜蜂地区赛 2018-2019 年第 4 轮"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        },
+        {
+          "label": "C",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "D",
+          "text": "Patagonia",
+          "textZh": "巴塔哥尼亚"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-9",
+      "question": "This country owns the islands of Likoma and Chizumulu. This country’s Michiru Mountain is located near its “commercial capital” of Blantyre. This country’s Shire Highlands are named for its longest river, whose source is an African Great Lake on the eastern border of this country. For the point, Lilongwe is the capital of what African nation with a namesake lake bordering Tanzania and Mozambique?",
+      "questionZh": "这个国家拥有利科马岛和奇祖穆鲁岛。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Plurinational state of Bolivia",
+          "textZh": "多民族玻利维亚国"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        },
+        {
+          "label": "C",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "D",
+          "text": "Patagonia",
+          "textZh": "巴塔哥尼亚"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-10",
+      "question": "This biome is denoted as ET in the Koppen climate classification system. Stunted forests in this biome are known as Krummholz and occur lower in elevation than this biome’s “Alpine” variety. This biome, which occurs closer to the poles than Taiga, is home to musk ox, caribou, and lichens, and is usually characterized by permafrost. For the point, name this treeless biome found in extremely cold areas.",
+      "questionZh": "该生物群落在 Koppen 气候分类系统中表示为 ET。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "B",
+          "text": "Tasmania",
+          "textZh": "塔斯马尼亚"
+        },
+        {
+          "label": "C",
+          "text": "Trees",
+          "textZh": "树木"
+        },
+        {
+          "label": "D",
+          "text": "Tundra",
+          "textZh": "苔原"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "flags": []
+    }
+  ],
+  "generatedAt": 1771731562
+}
