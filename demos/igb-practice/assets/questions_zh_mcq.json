@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T17:19:19Z",
+    "updatedAt": "2026-02-22T19:19:08Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 321
+    "questionCount": 328
   },
   "questions": [
     {
@@ -10400,6 +10400,230 @@
       ],
       "answer": "A",
       "questionZh": "这片水域最大的岛屿是肯特岛，是史蒂文斯维尔和切斯特镇的所在地。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-1",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "This country includes the limestone coral island of Caye Caulker. This country's Cayo Region is home to the ancient Mayan ruins at Xunantunich [[shoo-nahn-TOO-nitch]]. This country's natural attractions include a giant marine sinkhole called the Great Blue Hole. This is the only country in Central America whose official language is English. For the point, name this country formerly known as British Honduras, whose capital is Belmopan.",
+      "options": [
+        {
+          "label": "A",
+          "text": "lighthouses",
+          "textZh": "灯塔"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "D",
+          "text": "Belize",
+          "textZh": "伯利兹"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家包括石灰岩珊瑚岛考尔克岛。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-2",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "The Thunder Dragon Druk is depicted on this country's national flag. This country is home to the cliffside Tiger's Nest monastery. This country also is home to Gangkhar Puensum, the tallest unclimbed mountain in the world. This country, whose national language is Dzongkha, is ruled by the Wangchuck dynasty. For the point, name this small Himalayan monarchy whose capital is Thimphu",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "B",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "C",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该国国旗上描绘了雷龙德鲁克。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-4",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "One feature with this name is home to the Deux Mamelles, a pair of volcanoes whose name means \"two treats.\" A country with this name is divided into the Barlavento and Sotavento Islands. That country of this name also includes the island of Pogo. The westernmost point on continental Africa has this name. For the point, give this name shared by a peninsula in Senegal and an island country whose capital is Praia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        },
+        {
+          "label": "B",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "C",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "D",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "以这个名字命名的一个景点是 Deux Mamelles 的所在地，这是一对火山，其名字的意思是“两种享受”。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-7",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "The city of Kuching is on this island and serves as the capital of the Sarawak State. This island's northern tip consists of the Sabah State, and the city of Bandar Seri Begawan is the capital of a sultanate located entirely on this island. For the point, name this third largest island in the world, which is divided between Malaysia, Indonesia, and Brunei.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "B",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "古晋市位于这个岛上，是砂拉越州的首府。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-8",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "Near the town of Sankt Gore, this river wraps around the Lorelei Rock. This river flows through Lake Constance, where it forms an inland delta. This river originates in Lake Tomasee in Switzerland and discharges in the Netherlands. Major cities along this river include Cologne and Dusseldorf. For the point, name this European river which forms the border between France and Germany.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "B",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "C",
+          "text": "lighthouses",
+          "textZh": "灯塔"
+        },
+        {
+          "label": "D",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这条河位于圣戈尔镇附近，环绕着罗蕾莱岩。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-9",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "This state is sometimes known as the Battle Born State for achieving statehood during the U.S. Civil War. An annual festival featuring the burning of a wooden effigy is hosted at a temporary city in this state's Black Rock Desert. This state's largest city is served by McCarran International Airport and is home to many casinos, including the Venetian and Caesars Palace. For the point, name this western U.S. state whose capital is Carson City.",
+      "options": [
+        {
+          "label": "A",
+          "text": "lighthouses",
+          "textZh": "灯塔"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "该州有时因在美国内战期间获得建州地位而被称为“战斗诞生州”。"
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "The building of one of these structures on the uninhabited island of Märket led to a territorial dispute between Finland and Sweden. The tallest brick example of these structures in the United States is located at Cape Hatteras. One of these structures in ancient Alexandria was known as the Pharos. For the point, name these towers which shine out to sea in order to prevent shipwrecks.",
+      "options": [
+        {
+          "label": "A",
+          "text": "lighthouses",
+          "textZh": "灯塔"
+        },
+        {
+          "label": "B",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "C",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "D",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "在无人居住的马凯特岛上建造其中一处建筑导致了芬兰和瑞典之间的领土争端。"
     }
   ]
 }
