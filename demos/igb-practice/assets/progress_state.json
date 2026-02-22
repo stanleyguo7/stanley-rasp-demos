@@ -1,11 +1,12 @@
 {
-  "ts": 1771787957,
-  "total": 328,
+  "ts": 1771789748,
+  "total": 326,
   "valid": 326,
   "remaining_to_1000": 674,
   "qc": {
-    "duplicates": 2,
+    "duplicates": 0,
     "options_lt4": 0,
     "bad_answer_label": 0
-  }
+  },
+  "dedupe_removed": 2
 }

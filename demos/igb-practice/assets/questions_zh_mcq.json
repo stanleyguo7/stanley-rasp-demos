@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T19:19:08Z",
+    "updatedAt": "2026-02-22T19:49:08Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 328
+    "questionCount": 326
   },
   "questions": [
     {
@@ -10496,70 +10496,6 @@
       ],
       "answer": "A",
       "questionZh": "以这个名字命名的一个景点是 Deux Mamelles 的所在地，这是一对火山，其名字的意思是“两种享受”。"
-    },
-    {
-      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-7",
-      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
-      "year": "2021",
-      "round": "Regional Finals Set1 Round2",
-      "questionNo": null,
-      "question": "The city of Kuching is on this island and serves as the capital of the Sarawak State. This island's northern tip consists of the Sabah State, and the city of Bandar Seri Begawan is the capital of a sultanate located entirely on this island. For the point, name this third largest island in the world, which is divided between Malaysia, Indonesia, and Brunei.",
-      "options": [
-        {
-          "label": "A",
-          "text": "Nevada",
-          "textZh": "内华达州"
-        },
-        {
-          "label": "B",
-          "text": "Borneo",
-          "textZh": "婆罗洲"
-        },
-        {
-          "label": "C",
-          "text": "Kingdom of Bhutan",
-          "textZh": "不丹王国"
-        },
-        {
-          "label": "D",
-          "text": "Republic of Cape Verde",
-          "textZh": "佛得角共和国"
-        }
-      ],
-      "answer": "B",
-      "questionZh": "古晋市位于这个岛上，是砂拉越州的首府。"
-    },
-    {
-      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-8",
-      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
-      "year": "2021",
-      "round": "Regional Finals Set1 Round2",
-      "questionNo": null,
-      "question": "Near the town of Sankt Gore, this river wraps around the Lorelei Rock. This river flows through Lake Constance, where it forms an inland delta. This river originates in Lake Tomasee in Switzerland and discharges in the Netherlands. Major cities along this river include Cologne and Dusseldorf. For the point, name this European river which forms the border between France and Germany.",
-      "options": [
-        {
-          "label": "A",
-          "text": "Nevada",
-          "textZh": "内华达州"
-        },
-        {
-          "label": "B",
-          "text": "Rhine River",
-          "textZh": "莱茵河"
-        },
-        {
-          "label": "C",
-          "text": "lighthouses",
-          "textZh": "灯塔"
-        },
-        {
-          "label": "D",
-          "text": "Mo'ai",
-          "textZh": "摩艾"
-        }
-      ],
-      "answer": "B",
-      "questionZh": "这条河位于圣戈尔镇附近，环绕着罗蕾莱岩。"
     },
     {
       "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-9",
