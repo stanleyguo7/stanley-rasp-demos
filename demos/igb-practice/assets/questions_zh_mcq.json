@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T09:39:03Z",
+    "updatedAt": "2026-02-22T11:09:04Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 250
+    "questionCount": 260
   },
   "questions": [
     {
@@ -8128,6 +8128,326 @@
       ],
       "answer": "B",
       "questionZh": "这片沙漠是多洪马刺 (Dohone Spur) 的所在地，其中包括 Bikku Bitti 山。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-1",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This country is home to the Ascension Cathedral, which is made of wood without nails. This country is home to the elliptical shaped Baikonur Cosmodrome, which is leased to Russia. In 2019, this country changed its capital’s name to Nur-Sultan. This country contains the northern Aral Sea and is the world’s largest landlocked nation. For ten points, name this central Asian country home to Almaty and Astana.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "B",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "C",
+          "text": "U.S.-Mexico border",
+          "textZh": "美国-墨西哥边境"
+        },
+        {
+          "label": "D",
+          "text": "The Bahamas",
+          "textZh": "巴哈马"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个国家是升天大教堂的所在地，这座大教堂是用木头建造的，没有钉子。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-2",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The northern portion of this country is home to a forest of namesake pineyard trees The Turks and Caicos Islands lie to the southeast of this country. This country is home to the Exuma district as well as Andros Island and Great Inagua. This country’s most populous island is New Providence. For ten points, name this archipelago country governed from Nassau, which lies east of Florida and north of Cuba.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "B",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        },
+        {
+          "label": "C",
+          "text": "The Bahamas",
+          "textZh": "巴哈马"
+        },
+        {
+          "label": "D",
+          "text": "Utah",
+          "textZh": "犹他州"
+        }
+      ],
+      "answer": "C",
+      "questionZh": ""
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-3",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This country is home to two large ergs named Grand Erg Occidental and Grand Erg Oriental. This country is home to the Ahaggar Mountains, which are home to this country’s highest point of Mt. Tahat. This country’s cities of Constantine and Oran both lie along the Mediteranean. For ten points, name this country sandwiched between Tunisia and Morocco, the largest in Africa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Crete",
+          "textZh": "克里特岛"
+        },
+        {
+          "label": "B",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "C",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        },
+        {
+          "label": "D",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个国家有两个大型 erg，分别是 Grand Erg Occidental 和 Grand Erg Oriental。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-4",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This island is home to the Koules Fortress, which was built built by the Venetians while they ruled this island as the Kingdom of Candia. Sir Arthur Evans identified one site on this island with the labyrinth that held the minotaur. The city of Knossos was home to the Minoan civilization on this island. Heraklion is the largest city on, for ten points, what largest Greek island?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "B",
+          "text": "Crete",
+          "textZh": "克里特岛"
+        },
+        {
+          "label": "C",
+          "text": "Adriatic Sea",
+          "textZh": "亚得里亚海"
+        },
+        {
+          "label": "D",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该岛是库勒斯堡垒的所在地，该堡垒是由威尼斯人在坎迪亚王国统治该岛时建造的。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-5",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This city is home to the Victoria & Albert Waterfront, which sits on Table Bay Harbor. Robben Island sits off the coast of this city and is where Nelson Mandela was held prisoner. Table Mountain forms the backdrop of this city. This city serves as one of its country’s capitals, along with Bloemfountein and Pretoria. For ten points, name this second largest South African city after Johannesburg.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        },
+        {
+          "label": "B",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "D",
+          "text": "Adriatic Sea",
+          "textZh": "亚得里亚海"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这座城市是维多利亚和阿尔伯特海滨的所在地，位于桌湾港。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-6",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The southern end of the Tihamah coastal plains lie in this country, which is also home to the eastern edge of the Bab-el-Mandeb. This country controls the islands of Hanish and Socotra. The city of Ataq serves as the de facto capital of this country due to this country’s Houthi rebels. Aden is the main port in this country whose largest city is Sana’a. For ten points, name this country on the southern end of the Arabian peninsula.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "B",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "C",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "蒂哈马沿海平原的南端位于该国，也是曼德海峡东部边缘的所在地。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-7",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The northern portion of this body of water is home to Jugo [you-go] and Bora winds, which can drive the creation of sea ice. Cities on this body of water include Dubrovnik and Neum. This body of water is linked to the Ionian Sea by the Strait of Otranto. This body of water’s northern tip contains Venice. For ten points, name this arm of the Mediterranean, a sea that lies between Italy and Croatia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "U.S.-Mexico border",
+          "textZh": "美国-墨西哥边境"
+        },
+        {
+          "label": "B",
+          "text": "Adriatic Sea",
+          "textZh": "亚得里亚海"
+        },
+        {
+          "label": "C",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "The Bahamas",
+          "textZh": "巴哈马"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这片水域的北部是 Jugo [you-go] 和 Bora 风的所在地，它们可以推动海冰的形成。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-8",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "In December of 2019, Judge David Briones ruled that a structure being built at this location had illegally acquired funds. Reciprocating saws have been used to cut holes in one structure at this location by drug smugglers. During the 2016 campaign, Donald Trump promised to build a fortification along this location. For ten points, name this location where Donald Trump wants to build a wall.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "B",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "C",
+          "text": "The Bahamas",
+          "textZh": "巴哈马"
+        },
+        {
+          "label": "D",
+          "text": "U.S.-Mexico border",
+          "textZh": "美国-墨西哥边境"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "2019 年 12 月，法官 David Briones 裁定该地点正在建造的建筑物非法获取资金。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-9",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This city’s Old Woman’s Island and Colaba Island are both linked to the mainland by the Colaba causeway. This city was built on the islands of Salsette and Trombay, which were part of the Seven Islands of this city. This city is the largest in the Maharashtra State and is the center of the Bollywood film industry. Bombay was the former name of, for ten points, what largest city in India?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        },
+        {
+          "label": "B",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "C",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "D",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这个城市的老妇岛和戈拉巴岛均通过戈拉巴堤道与大陆相连。"
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-10",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This state is home to the Wasatch range, which includes the cities of West Valley and Ogden. This state is also home to the Sundance Resort in its city of Provo. This state was formerly known as the Deseret Territory and was settled by followers of Brigham Young. For ten points, what U.S. state is home to the headquarters of the Mormon Church and has its capital at Salt Lake City.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "B",
+          "text": "Utah",
+          "textZh": "犹他州"
+        },
+        {
+          "label": "C",
+          "text": "U.S.-Mexico border",
+          "textZh": "美国-墨西哥边境"
+        },
+        {
+          "label": "D",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该州是瓦萨奇山脉的所在地，其中包括西谷和奥格登市。"
     }
   ]
 }
