@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T12:54:39Z",
+    "updatedAt": "2026-02-22T13:18:11Z",
     "lastBatch": "retranslate batch cleanup x5",
-    "questionCount": 280
+    "questionCount": 290
   },
   "questions": [
     {
@@ -9088,6 +9088,326 @@
       ],
       "answer": "A",
       "questionZh": "该系统的用户可以利用 InTouch 应用程序在使用系统所有部分的同时保持互联网连接。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-1",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This desert's Makgadikgadi [[mahk-gahd-eek-GAH-dee]] salt pan was a lake until approximately 10,000 years ago, and this desert still hosts large subterranean water reserves like Dragon's Breath Cave. Indigenous populations living east of this desert's Okavango inland delta speak Jul'hoan [[jool-HO-ahn]], a dialect of Khoisan. For the point, name this large desert in southern Africa covering much of Botswana and Namibia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "B",
+          "text": "Zambezi River",
+          "textZh": "赞比西河"
+        },
+        {
+          "label": "C",
+          "text": "Punjab",
+          "textZh": "旁遮普省"
+        },
+        {
+          "label": "D",
+          "text": "Kalahari Desert",
+          "textZh": "喀拉哈里沙漠"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这片沙漠的 Makgadikgadi [[mahk-gahd-eek-GAH-dee]] 盐田直到大约 10,000 年前还是一个湖泊，而这片沙漠仍然拥有大量地下水储备，如龙息洞 (Dragon's Breath Cave)。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-2",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "After passing through the vale Polabí, this river receives the river Orlice [[or-LEE- tseh]] near the city of Hradec Králové [[HRAH-dets krah-LOH-veh]]. This river rises in the Krkonoše [[kreh-koh-NOH-sheh]] Mountains of Bohemia, near the Czech-Polish border. The cities of Berlin and Prague reside within this river's sizeable drainage basin, which covers most of the former state of East Germany. For the point, name this central European river which empties into the North Sea after passing through Hamburg.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "B",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        },
+        {
+          "label": "C",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "D",
+          "text": "Xinjiang [[SHIN-JYAHNG]] Uyghur Autonomous Region",
+          "textZh": "新疆 [[SHIN-JYAHNG]] 维吾尔自治区"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "流经 Polabí 谷后，这条河在赫拉德茨·克拉洛韦市 [[HRAH-dets krah-LOH-veh]] 附近汇入奥尔利斯河 [[or-LEE-tseh]]。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-3",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This island includes Nanwan Monkey Island, which is actually a peninsula. This island's major waterways include the Xinwu [[SHIN-WOO]] and Nandu Rivers. This island's largest body of water is the artificial reservoir of Songtao. This island is governed from the city of Haikou [[HAI-KOH]], which sits on the nearby island of Haidian [[HAI-DYAHN]]. For the point, name this island, which makes up a province of the southern coast of mainland China.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalahari Desert",
+          "textZh": "喀拉哈里沙漠"
+        },
+        {
+          "label": "B",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "C",
+          "text": "Hainan",
+          "textZh": "海南"
+        },
+        {
+          "label": "D",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个岛包括南湾猴岛，实际上是一个半岛。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-4",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "The Kalambo River ends in a 772-foot single-drop waterfall feeding into this lake. This lake's primary outflow is the Lukuga River, which traverses the northern edge of the Katanga Plateau. Lake Kivu drains into this lake via the Ruzizi, this lake's primary inflow. This lake is shared by four countries, including Burundi and Zambia. For the point, name this second- largest lake in the world by volume, the largest rift lake in Africa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "B",
+          "text": "Lake Tanganyika",
+          "textZh": "坦噶尼喀湖"
+        },
+        {
+          "label": "C",
+          "text": "Zambezi River",
+          "textZh": "赞比西河"
+        },
+        {
+          "label": "D",
+          "text": "Punjab",
+          "textZh": "旁遮普省"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "卡兰博河 (Kalambo River) 的终点是 772 英尺高的单落瀑布，注入该湖。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This archipelago's largest island is separated from the islands of Picton, Lennox, and Nueva by the Beagle Channel, named for the ship Charles Darwin used to traverse the region. This archipelago is bounded to the south by the Drake Passage, beyond which is Antarctica, and to the north by the Straits of Magellan, which separates this archipelago from the rest of Patagonia. For the point, name this archipelago shared by Argentina and Chile at the southern tip of South America.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalahari Desert",
+          "textZh": "喀拉哈里沙漠"
+        },
+        {
+          "label": "B",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "D",
+          "text": "Hainan",
+          "textZh": "海南"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个群岛最大的岛屿与皮克顿岛、伦诺克斯岛和努埃瓦岛之间被比格尔海峡隔开，比格尔海峡以查尔斯·达尔文横渡该地区的船只命名。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-6",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This island is home to statues of little men with mushrooms on their heads known as harubangs. This island's highest point is Hallasan, which is home to the Jonjaamji Pagoda. Nearly 300 people perished en route to this island in an April 2014 ferry disaster. This island's primary port is the city of Seogwipo [[SUH-GWEE-POH]]. For the point, name this island off the southern coast of South Korea, a popular honeymoon destination.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "B",
+          "text": "Xinjiang [[SHIN-JYAHNG]] Uyghur Autonomous Region",
+          "textZh": "新疆 [[SHIN-JYAHNG]] 维吾尔自治区"
+        },
+        {
+          "label": "C",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "D",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个岛上有一些头上长着蘑菇的小人雕像，被称为哈鲁邦 (harubang)。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-7",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "In 1968, National Park Service director George Hartzog put an end to this national park's annual Firefall event at Glacier Point. This national park's O'Shaughnessy Dam supplies water and electricity to over two million people in San Francisco and the Bay Area. Ansel Adams photographed this national park's rock formations, including El Capitan and Half Dome. For the point, name this national park located in California's Sierra Nevada mountains.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Tanganyika",
+          "textZh": "坦噶尼喀湖"
+        },
+        {
+          "label": "B",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        },
+        {
+          "label": "C",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "D",
+          "text": "Zambezi River",
+          "textZh": "赞比西河"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "1968 年，国家公园管理局局长乔治·哈佐格 (George Hartzog) 终止了该国家公园在冰川点举行的年度火瀑布活动。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-8",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "As this river passes by the town of Sioma, it forms the Ngonye Falls. Features of this river include the Kariba and Cahora Bassa dams. This river passes over the Devil's Cataracts on its way to the Indian Ocean and includes Africa's largest waterfall, the Victoria Falls. For the point, name this southern African river that forms the border between Zambia and Zimbabwe.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hainan",
+          "textZh": "海南"
+        },
+        {
+          "label": "B",
+          "text": "Zambezi River",
+          "textZh": "赞比西河"
+        },
+        {
+          "label": "C",
+          "text": "Punjab",
+          "textZh": "旁遮普省"
+        },
+        {
+          "label": "D",
+          "text": "Xinjiang [[SHIN-JYAHNG]] Uyghur Autonomous Region",
+          "textZh": "新疆 [[SHIN-JYAHNG]] 维吾尔自治区"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "当这条河流经西奥马镇时，形成了恩戈涅瀑布。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-9",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "Along with Haryana, a state named for this region is served by the capital city Chandigarh [[chahn-DEE-gahr]], while Lahore [[luh-HORE]] is the capital and main city of another state named for this region. This region's namesake language is the only tonal Indo- European language and was used to write the Adi Granth. For the point, name this region divided by India and Pakistan, the homeland of Sikhism.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "B",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        },
+        {
+          "label": "D",
+          "text": "Punjab",
+          "textZh": "旁遮普省"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "与哈里亚纳邦一样，以该地区命名的州的首府昌迪加尔 [[chahn-DEE-gahr]] 为该州服务，而拉合尔 [[luh-HORE]] 是以该地区命名的另一个州的首府和主要城市。"
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-10",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This region is home to the Bingtuan paramilitary group, which was originally founded to protect against Soviet aggression. This region was home to the Dzungars before a Qing [[CHING]] genocide occurred. This region is located north of Tibet and contains the Tarim Basin. Administered from the city of Ürümqi, for the point, what is this autonomous region of western China, the ethnic homeland of the Uyghur [[WEE-guhr]] people?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Tanganyika",
+          "textZh": "坦噶尼喀湖"
+        },
+        {
+          "label": "B",
+          "text": "Hainan",
+          "textZh": "海南"
+        },
+        {
+          "label": "C",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        },
+        {
+          "label": "D",
+          "text": "Xinjiang [[SHIN-JYAHNG]] Uyghur Autonomous Region",
+          "textZh": "新疆 [[SHIN-JYAHNG]] 维吾尔自治区"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "该地区是兵团准军事组织的所在地，该组织最初是为了抵御苏联的侵略而成立的。"
     }
   ]
 }
