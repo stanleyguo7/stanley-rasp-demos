@@ -4,9 +4,10 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T20:20:19Z",
+    "updatedAt": "2026-02-22T21:19:58Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 340
+    "questionCount": 340,
+    "qualityPass": "heartbeat-clean-batch"
   },
   "questions": [
     {
@@ -8191,7 +8192,7 @@
         }
       ],
       "answer": "C",
-      "questionZh": ""
+      "questionZh": "这个国家北部有以其命名的松林；特克斯和凯科斯群岛位于其东南。该国包括埃克苏马区、安德罗斯岛和大伊纳瓜岛，人口最多的岛是新普罗维登斯岛。请说出这个由拿骚治理、位于佛罗里达以东且古巴以北的群岛国。"
     },
     {
       "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-3",
