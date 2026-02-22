@@ -15,22 +15,40 @@ const animals = [
   { name: '蝴蝶', emoji: '🦋' }, { name: '蜜蜂', emoji: '🐝' }, { name: '蚂蚁', emoji: '🐜' },
   { name: '瓢虫', emoji: '🐞' },
 
-  // 无对应 emoji 的动物，使用网上抓图（Unsplash Source）
-  { name: '水豚', image: 'https://source.unsplash.com/featured/?capybara' },
-  { name: '红熊猫', image: 'https://source.unsplash.com/featured/?red-panda' },
-  { name: '考拉熊', image: 'https://source.unsplash.com/featured/?koala' },
-  { name: '土拨鼠', image: 'https://source.unsplash.com/featured/?marmot' },
-  { name: '雪豹', image: 'https://source.unsplash.com/featured/?snow-leopard' },
-  { name: '海獭', image: 'https://source.unsplash.com/featured/?sea-otter' },
-  { name: '鸵鸟', image: 'https://source.unsplash.com/featured/?ostrich' },
-  { name: '鹈鹕', image: 'https://source.unsplash.com/featured/?pelican' },
-  { name: '猫头鹰', image: 'https://source.unsplash.com/featured/?owl' },
-  { name: '蜂鸟', image: 'https://source.unsplash.com/featured/?hummingbird' },
-  { name: '穿山甲', image: 'https://source.unsplash.com/featured/?pangolin' },
-  { name: '儒艮', image: 'https://source.unsplash.com/featured/?dugong' },
-  { name: '抹香鲸', image: 'https://source.unsplash.com/featured/?sperm-whale' },
-  { name: '旗鱼', image: 'https://source.unsplash.com/featured/?sailfish' },
-  { name: '翻车鱼', image: 'https://source.unsplash.com/featured/?sunfish' }
+  // 无对应 emoji 的动物，使用网上抓图（主用 loremflickr，备用 wikimedia）
+  {
+    name: '水豚',
+    images: [
+      'https://loremflickr.com/640/480/capybara',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Capybara_%28Hydrochoerus_hydrochaeris%29.JPG/640px-Capybara_%28Hydrochoerus_hydrochaeris%29.JPG'
+    ]
+  },
+  {
+    name: '红熊猫',
+    images: [
+      'https://loremflickr.com/640/480/red-panda',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Red_Panda_%28Ailurus_fulgens%29.jpg/640px-Red_Panda_%28Ailurus_fulgens%29.jpg'
+    ]
+  },
+  {
+    name: '考拉熊',
+    images: [
+      'https://loremflickr.com/640/480/koala',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/640px-Koala_climbing_tree.jpg'
+    ]
+  },
+  { name: '土拨鼠', images: ['https://loremflickr.com/640/480/marmot'] },
+  { name: '雪豹', images: ['https://loremflickr.com/640/480/snow-leopard'] },
+  { name: '海獭', images: ['https://loremflickr.com/640/480/sea-otter'] },
+  { name: '鸵鸟', images: ['https://loremflickr.com/640/480/ostrich'] },
+  { name: '鹈鹕', images: ['https://loremflickr.com/640/480/pelican'] },
+  { name: '猫头鹰', images: ['https://loremflickr.com/640/480/owl'] },
+  { name: '蜂鸟', images: ['https://loremflickr.com/640/480/hummingbird'] },
+  { name: '穿山甲', images: ['https://loremflickr.com/640/480/pangolin'] },
+  { name: '儒艮', images: ['https://loremflickr.com/640/480/dugong'] },
+  { name: '抹香鲸', images: ['https://loremflickr.com/640/480/sperm-whale'] },
+  { name: '旗鱼', images: ['https://loremflickr.com/640/480/sailfish'] },
+  { name: '翻车鱼', images: ['https://loremflickr.com/640/480/sunfish'] }
 ];
 
 const roundEl = document.getElementById('round');
@@ -48,6 +66,43 @@ const nextBtn = document.getElementById('nextBtn');
 let round = 1;
 let current = null;
 
+function withNoCache(url) {
+  const joiner = url.includes('?') ? '&' : '?';
+  return `${url}${joiner}r=${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
+}
+
+function loadImageWithFallback(urls = []) {
+  const candidates = urls.filter(Boolean);
+  if (!candidates.length) {
+    imageEl.classList.add('hidden');
+    imageEl.removeAttribute('src');
+    emojiEl.textContent = '🖼️';
+    emojiEl.classList.remove('hidden');
+    return;
+  }
+
+  let i = 0;
+  const tryNext = () => {
+    if (i >= candidates.length) {
+      imageEl.classList.add('hidden');
+      imageEl.removeAttribute('src');
+      emojiEl.textContent = '🖼️';
+      emojiEl.classList.remove('hidden');
+      return;
+    }
+    const src = withNoCache(candidates[i]);
+    i += 1;
+    imageEl.onerror = tryNext;
+    imageEl.onload = () => {
+      imageEl.onerror = null;
+      imageEl.onload = null;
+    };
+    imageEl.src = src;
+  };
+
+  tryNext();
+}
+
 function pickAnimal() {
   const idx = Math.floor(Math.random() * animals.length);
   return animals[idx];
@@ -61,10 +116,10 @@ function renderCard(animal) {
     emojiEl.classList.remove('hidden');
     imageEl.classList.add('hidden');
     imageEl.removeAttribute('src');
-  } else if (animal.image) {
+  } else if (animal.images?.length) {
     emojiEl.classList.add('hidden');
-    imageEl.src = `${animal.image}&sig=${Date.now()}`;
     imageEl.classList.remove('hidden');
+    loadImageWithFallback(animal.images);
   } else {
     emojiEl.textContent = '❓';
     emojiEl.classList.remove('hidden');
