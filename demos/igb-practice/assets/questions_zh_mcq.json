@@ -4,10 +4,10 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-22T21:49:50Z",
+    "updatedAt": "2026-02-23T02:22:46Z",
     "lastBatch": "mcq expand batch 19-20 merge",
     "questionCount": 340,
-    "qualityPass": "heartbeat-dedupe-batch",
+    "qualityPass": "heartbeat-clean-batch-2",
     "dedupeRemovedInLastPass": 8
   },
   "questions": [
@@ -6734,7 +6734,7 @@
         {
           "label": "A",
           "text": "Dubai",
-          "textZh": ""
+          "textZh": "Dubai"
         },
         {
           "label": "B",
@@ -7539,7 +7539,7 @@
         {
           "label": "B",
           "text": "Panama Canal",
-          "textZh": ""
+          "textZh": "Panama Canal"
         },
         {
           "label": "C",
@@ -8937,7 +8937,7 @@
       "year": "2020-2021",
       "round": "Round 1",
       "questionNo": null,
-      "question": "This river originates from the mountain of Thaba Putsoa, and its tributaries include the Vaal [[VAHL]] River. This river, which passes over the Augrabies [[aw-KRAH-beez]] Falls, discharges into the Atlantic Ocean at the Alexander Bay. This river originates in the Drakensberg Mountains in Lesotho [[leh-SOO=too]]. For the point, what is this colorfully- named African river which is at the center of a border dispute between Namibia and South Africa?",
+      "question": "This river originates from the mountain of Thaba Putsoa, and its tributaries include the Vaal River. This river, which passes over the Augrabies Falls, discharges into the Atlantic Ocean at the Alexander Bay. This river originates in the Drakensberg Mountains in Lesotho. For the point, what is this colorfully- named African river which is at the center of a border dispute between Namibia and South Africa?",
       "options": [
         {
           "label": "A",
@@ -9001,7 +9001,7 @@
       "year": "2020-2021",
       "round": "Round 1",
       "questionNo": null,
-      "question": "Agriculture in this country is centered on the Beqaa [[beh-KAH]] Valley. This country's highest point is Qurnat as Sawda, or the \"Black Peak.\" After Syria, this country has the second-largest Druze population in the world. Ancient cities located in this country include Byblos and Tyre. For the point, name this Middle Eastern country located north of Israel, which is governed from Beirut.",
+      "question": "Agriculture in this country is centered on the Beqaa Valley. This country's highest point is Qurnat as Sawda, or the \"Black Peak.\" After Syria, this country has the second-largest Druze population in the world. Ancient cities located in this country include Byblos and Tyre. For the point, name this Middle Eastern country located north of Israel, which is governed from Beirut.",
       "options": [
         {
           "label": "A",
@@ -9033,7 +9033,7 @@
       "year": "2020-2021",
       "round": "Round 1",
       "questionNo": null,
-      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland [[OH-lund]] Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
+      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
       "options": [
         {
           "label": "A",
@@ -9097,7 +9097,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "This desert's Makgadikgadi [[mahk-gahd-eek-GAH-dee]] salt pan was a lake until approximately 10,000 years ago, and this desert still hosts large subterranean water reserves like Dragon's Breath Cave. Indigenous populations living east of this desert's Okavango inland delta speak Jul'hoan [[jool-HO-ahn]], a dialect of Khoisan. For the point, name this large desert in southern Africa covering much of Botswana and Namibia.",
+      "question": "This desert's Makgadikgadi salt pan was a lake until approximately 10,000 years ago, and this desert still hosts large subterranean water reserves like Dragon's Breath Cave. Indigenous populations living east of this desert's Okavango inland delta speak Jul'hoan, a dialect of Khoisan. For the point, name this large desert in southern Africa covering much of Botswana and Namibia.",
       "options": [
         {
           "label": "A",
@@ -9129,7 +9129,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "After passing through the vale Polabí, this river receives the river Orlice [[or-LEE- tseh]] near the city of Hradec Králové [[HRAH-dets krah-LOH-veh]]. This river rises in the Krkonoše [[kreh-koh-NOH-sheh]] Mountains of Bohemia, near the Czech-Polish border. The cities of Berlin and Prague reside within this river's sizeable drainage basin, which covers most of the former state of East Germany. For the point, name this central European river which empties into the North Sea after passing through Hamburg.",
+      "question": "After passing through the vale Polabí, this river receives the river Orlice near the city of Hradec Králové. This river rises in the Krkonoše Mountains of Bohemia, near the Czech-Polish border. The cities of Berlin and Prague reside within this river's sizeable drainage basin, which covers most of the former state of East Germany. For the point, name this central European river which empties into the North Sea after passing through Hamburg.",
       "options": [
         {
           "label": "A",
@@ -9161,7 +9161,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "This island includes Nanwan Monkey Island, which is actually a peninsula. This island's major waterways include the Xinwu [[SHIN-WOO]] and Nandu Rivers. This island's largest body of water is the artificial reservoir of Songtao. This island is governed from the city of Haikou [[HAI-KOH]], which sits on the nearby island of Haidian [[HAI-DYAHN]]. For the point, name this island, which makes up a province of the southern coast of mainland China.",
+      "question": "This island includes Nanwan Monkey Island, which is actually a peninsula. This island's major waterways include the Xinwu and Nandu Rivers. This island's largest body of water is the artificial reservoir of Songtao. This island is governed from the city of Haikou, which sits on the nearby island of Haidian. For the point, name this island, which makes up a province of the southern coast of mainland China.",
       "options": [
         {
           "label": "A",
@@ -9257,7 +9257,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "This island is home to statues of little men with mushrooms on their heads known as harubangs. This island's highest point is Hallasan, which is home to the Jonjaamji Pagoda. Nearly 300 people perished en route to this island in an April 2014 ferry disaster. This island's primary port is the city of Seogwipo [[SUH-GWEE-POH]]. For the point, name this island off the southern coast of South Korea, a popular honeymoon destination.",
+      "question": "This island is home to statues of little men with mushrooms on their heads known as harubangs. This island's highest point is Hallasan, which is home to the Jonjaamji Pagoda. Nearly 300 people perished en route to this island in an April 2014 ferry disaster. This island's primary port is the city of Seogwipo. For the point, name this island off the southern coast of South Korea, a popular honeymoon destination.",
       "options": [
         {
           "label": "A",
@@ -9353,7 +9353,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "Along with Haryana, a state named for this region is served by the capital city Chandigarh [[chahn-DEE-gahr]], while Lahore [[luh-HORE]] is the capital and main city of another state named for this region. This region's namesake language is the only tonal Indo- European language and was used to write the Adi Granth. For the point, name this region divided by India and Pakistan, the homeland of Sikhism.",
+      "question": "Along with Haryana, a state named for this region is served by the capital city Chandigarh, while Lahore is the capital and main city of another state named for this region. This region's namesake language is the only tonal Indo- European language and was used to write the Adi Granth. For the point, name this region divided by India and Pakistan, the homeland of Sikhism.",
       "options": [
         {
           "label": "A",
@@ -9385,7 +9385,7 @@
       "year": "2020-2021",
       "round": "Round 2",
       "questionNo": null,
-      "question": "This region is home to the Bingtuan paramilitary group, which was originally founded to protect against Soviet aggression. This region was home to the Dzungars before a Qing [[CHING]] genocide occurred. This region is located north of Tibet and contains the Tarim Basin. Administered from the city of Ürümqi, for the point, what is this autonomous region of western China, the ethnic homeland of the Uyghur [[WEE-guhr]] people?",
+      "question": "This region is home to the Bingtuan paramilitary group, which was originally founded to protect against Soviet aggression. This region was home to the Dzungars before a Qing genocide occurred. This region is located north of Tibet and contains the Tarim Basin. Administered from the city of Ürümqi, for the point, what is this autonomous region of western China, the ethnic homeland of the Uyghur people?",
       "options": [
         {
           "label": "A",
@@ -9481,7 +9481,7 @@
       "year": "2020-2021",
       "round": "Round 3",
       "questionNo": null,
-      "question": "Major cities on this island include Kupang and Baucau. This island, the largest of the Outer Banda Islands, has its highest point at Ramelau. The exclave of Oecusse [[WEH-CYUSE]] lies on the western part of this island. The eastern half of this island was colonized by Portugal following the establishment of the capital city of Dili. For the point, name this Southeast Asian island split between Indonesia and a namesake country.",
+      "question": "Major cities on this island include Kupang and Baucau. This island, the largest of the Outer Banda Islands, has its highest point at Ramelau. The exclave of Oecusse lies on the western part of this island. The eastern half of this island was colonized by Portugal following the establishment of the capital city of Dili. For the point, name this Southeast Asian island split between Indonesia and a namesake country.",
       "options": [
         {
           "label": "A",
@@ -9545,7 +9545,7 @@
       "year": "2020-2021",
       "round": "Round 3",
       "questionNo": null,
-      "question": "The shores of this body of water were formerly the site of the cities of Nguimi [[NGWEE-mee]] and Bol. One proposal to restore this body of water was the Transqua Project, which would have redirected water from the Ubangi River. This Sahel lake has lost over 95% of its historic volume. For the point, name this rapidly drying-up African lake which shares its name with a country governed from N'Djamena [[un-jah-MAY-nah]].",
+      "question": "The shores of this body of water were formerly the site of the cities of Nguimi and Bol. One proposal to restore this body of water was the Transqua Project, which would have redirected water from the Ubangi River. This Sahel lake has lost over 95% of its historic volume. For the point, name this rapidly drying-up African lake which shares its name with a country governed from N'Djamena.",
       "options": [
         {
           "label": "A",
@@ -9769,7 +9769,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round1",
       "questionNo": null,
-      "question": "Bouvet Island, located in the Subantarctic, is a dependency of this country. Much of this country's power comes from a dam on the River Glomma [[GLO-mah]], whose mouth flows through the city of Fredrikstad. Though governed by this country, the Svalbard archipelago is an unincorporated and visa-free jurisdiction. For the point, name this kingdom whose border with Sweden runs along the Scandinavian Mountains.",
+      "question": "Bouvet Island, located in the Subantarctic, is a dependency of this country. Much of this country's power comes from a dam on the River Glomma, whose mouth flows through the city of Fredrikstad. Though governed by this country, the Svalbard archipelago is an unincorporated and visa-free jurisdiction. For the point, name this kingdom whose border with Sweden runs along the Scandinavian Mountains.",
       "options": [
         {
           "label": "A",
@@ -9897,7 +9897,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round1",
       "questionNo": null,
-      "question": "In this country in 1974, Jane Goodall discovered an ongoing \"war\" between chimpanzee tribes in the Gombe Stream National Park. This country's Ngorongoro [[en-gor- on-GOR-oh]] Conservation Area is home to the Olduvai Gorge, a ravine spanning 50 kilometers of the Great Rift Valley. This country is home to the highest mountain in Africa, Mount Kilimanjaro. For the point, name this East African country whose largest city is Dar es Salaam.",
+      "question": "In this country in 1974, Jane Goodall discovered an ongoing \"war\" between chimpanzee tribes in the Gombe Stream National Park. This country's Ngorongoro Conservation Area is home to the Olduvai Gorge, a ravine spanning 50 kilometers of the Great Rift Valley. This country is home to the highest mountain in Africa, Mount Kilimanjaro. For the point, name this East African country whose largest city is Dar es Salaam.",
       "options": [
         {
           "label": "A",
@@ -9993,7 +9993,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round1",
       "questionNo": null,
-      "question": "This island contains Mt. Tuba, which is in the Barisan Mountains, and this island's highest point is Mt. Kerinci [[keh-RIN-chee]]. The northern end of this island is home to the province of Aceh [[AH-cheh]]. This island is separated from the Malay Peninsula by the Straits of Malacca and is separated from Java in the south by the Sunda Strait. For the point, name this westernmost of the major Indonesian islands.",
+      "question": "This island contains Mt. Tuba, which is in the Barisan Mountains, and this island's highest point is Mt. Kerinci. The northern end of this island is home to the province of Aceh. This island is separated from the Malay Peninsula by the Straits of Malacca and is separated from Java in the south by the Sunda Strait. For the point, name this westernmost of the major Indonesian islands.",
       "options": [
         {
           "label": "A",
@@ -10057,7 +10057,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "This autonomous community's Chinijo [[chin-EE-ho]] Archipelago lies north of Lanzarote [[lahn-zah-RAH-tee]]. This region is the most populous archipelago in Macaronesia. A major European tourist destination, this region's most populous island is Tenerife [[ten-uh-REEF]]. For the point, name this Spanish island region off the northwestern coast of Africa whose name is derived not from a type of bird, but from the Latin word for \"dog.\"",
+      "question": "This autonomous community's Chinijo Archipelago lies north of Lanzarote. This region is the most populous archipelago in Macaronesia. A major European tourist destination, this region's most populous island is Tenerife. For the point, name this Spanish island region off the northwestern coast of Africa whose name is derived not from a type of bird, but from the Latin word for \"dog.\"",
       "options": [
         {
           "label": "A",
@@ -10121,7 +10121,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "Natural features in this territory include Alligator Lake and the Miles Canyon Basalts. Kluane [[kloo-AH-nee]] National Park, located in this territory's southwestern corner, is home to Mount Logan, the second tallest mountain in North America. This territory's capital city of Whitehorse is the largest settlement in any of Canada's three territories. For the point, name this subarctic Canadian territory bordering Alaska.",
+      "question": "Natural features in this territory include Alligator Lake and the Miles Canyon Basalts. Kluane National Park, located in this territory's southwestern corner, is home to Mount Logan, the second tallest mountain in North America. This territory's capital city of Whitehorse is the largest settlement in any of Canada's three territories. For the point, name this subarctic Canadian territory bordering Alaska.",
       "options": [
         {
           "label": "A",
@@ -10217,7 +10217,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "This country's eponymous lake is fed by the San Juan and Tipitapa Rivers and is separated from the Pacific Ocean by the Rivas Isthmus. The Amerrisque [[ah-mare-EE- skay]] mountains separate that lake in this country from Lake Managua. The city of Bluefields is the most populous in this country's Mosquito Coast region. For the point, name this Central American country located between Honduras and Costa Rica.",
+      "question": "This country's eponymous lake is fed by the San Juan and Tipitapa Rivers and is separated from the Pacific Ocean by the Rivas Isthmus. The Amerrisque mountains separate that lake in this country from Lake Managua. The city of Bluefields is the most populous in this country's Mosquito Coast region. For the point, name this Central American country located between Honduras and Costa Rica.",
       "options": [
         {
           "label": "A",
@@ -10249,7 +10249,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "The part of this river that flows through the Guyana Highlands is called Guainía [[gwai-NEE-uh]]. The Casiquiare [[kah-see-KYAH-reh]] canal connects this river to the Orinoco. This river's largest confluence is in the city of Manaus [[mahn-OUSS]], where the black water of this river meets the brown water of the Amazon. For the point, name this tributary of the Amazon whose name in Spanish and Portuguese refers to its color.",
+      "question": "The part of this river that flows through the Guyana Highlands is called Guainía. The Casiquiare canal connects this river to the Orinoco. This river's largest confluence is in the city of Manaus, where the black water of this river meets the brown water of the Amazon. For the point, name this tributary of the Amazon whose name in Spanish and Portuguese refers to its color.",
       "options": [
         {
           "label": "A",
@@ -10281,7 +10281,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "Along with a namesake peninsula, this city lies on the islands of Taipa, Coloane [[koh-loh-AH-neh]], and Hengqin [[HUNG-CHIN]]. This city is known as the “Monte Carlo of the Orient\" due to its casinos including the Venetian and the Casino Lisboa. This city is located across the Pearl River estuary from Hong Kong. For the point, name this formerly Portuguese-controlled Special Administrative Region of China, a global gambling center.",
+      "question": "Along with a namesake peninsula, this city lies on the islands of Taipa, Coloane, and Hengqin. This city is known as the “Monte Carlo of the Orient\" due to its casinos including the Venetian and the Casino Lisboa. This city is located across the Pearl River estuary from Hong Kong. For the point, name this formerly Portuguese-controlled Special Administrative Region of China, a global gambling center.",
       "options": [
         {
           "label": "A",
@@ -10345,7 +10345,7 @@
       "year": "2021",
       "round": "Regional Finals Set2 Round2",
       "questionNo": null,
-      "question": "This river, which originates at Lake Hazar, flows through the town of Hasakeft in Batman [[BAHT-mahn]] Province. A dam formerly named after Saddam Hussein is located along this river near the city of Mosul. This is the easternmost of the two known rivers listed as being in the Garden of Eden. For the point, name this river which forms the Shatt-al-Arab at its confluence with the Euphrates.",
+      "question": "This river, which originates at Lake Hazar, flows through the town of Hasakeft in Batman Province. A dam formerly named after Saddam Hussein is located along this river near the city of Mosul. This is the easternmost of the two known rivers listed as being in the Garden of Eden. For the point, name this river which forms the Shatt-al-Arab at its confluence with the Euphrates.",
       "options": [
         {
           "label": "A",
@@ -10409,7 +10409,7 @@
       "year": "2021",
       "round": "Regional Finals Set1 Round2",
       "questionNo": null,
-      "question": "This country includes the limestone coral island of Caye Caulker. This country's Cayo Region is home to the ancient Mayan ruins at Xunantunich [[shoo-nahn-TOO-nitch]]. This country's natural attractions include a giant marine sinkhole called the Great Blue Hole. This is the only country in Central America whose official language is English. For the point, name this country formerly known as British Honduras, whose capital is Belmopan.",
+      "question": "This country includes the limestone coral island of Caye Caulker. This country's Cayo Region is home to the ancient Mayan ruins at Xunantunich. This country's natural attractions include a giant marine sinkhole called the Great Blue Hole. This is the only country in Central America whose official language is English. For the point, name this country formerly known as British Honduras, whose capital is Belmopan.",
       "options": [
         {
           "label": "A",
@@ -10665,7 +10665,7 @@
       "year": "2021",
       "round": "Regional Finals Set1 Round1",
       "questionNo": null,
-      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland [[AW-lund]] Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
+      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
       "options": [
         {
           "label": "A",
