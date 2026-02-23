@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T08:04:59Z",
+    "updatedAt": "2026-02-23T08:34:39Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 352,
+    "questionCount": 353,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11405,6 +11405,39 @@
         }
       ],
       "answer": "B",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-13",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "This civilization had Cusco as a major center and is famous for Machu Picchu. Which civilization is this?",
+      "questionZh": "这一文明以库斯科为重要中心，并以马丘比丘闻名。它是哪个文明？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Maya",
+          "textZh": "玛雅文明"
+        },
+        {
+          "label": "B",
+          "text": "Aztec",
+          "textZh": "阿兹特克文明"
+        },
+        {
+          "label": "C",
+          "text": "Inca",
+          "textZh": "印加文明"
+        },
+        {
+          "label": "D",
+          "text": "Olmec",
+          "textZh": "奥尔梅克文明"
+        }
+      ],
+      "answer": "C",
       "flags": []
     }
   ]
