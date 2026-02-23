@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T08:34:39Z",
+    "updatedAt": "2026-02-23T09:04:43Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 353,
+    "questionCount": 354,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11438,6 +11438,39 @@
         }
       ],
       "answer": "C",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-14",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "Yellowstone National Park is largely in this U.S. state, whose capital is Cheyenne. Which state is this?",
+      "questionZh": "黄石国家公园大部分位于这个美国州，该州首府是夏延。这个州是哪个？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Montana",
+          "textZh": "蒙大拿州"
+        },
+        {
+          "label": "B",
+          "text": "Wyoming",
+          "textZh": "怀俄明州"
+        },
+        {
+          "label": "C",
+          "text": "Idaho",
+          "textZh": "爱达荷州"
+        },
+        {
+          "label": "D",
+          "text": "Colorado",
+          "textZh": "科罗拉多州"
+        }
+      ],
+      "answer": "B",
       "flags": []
     }
   ]
