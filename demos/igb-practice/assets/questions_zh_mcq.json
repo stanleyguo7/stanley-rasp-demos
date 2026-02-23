@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T07:39:40Z",
+    "updatedAt": "2026-02-23T08:04:59Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 351,
+    "questionCount": 352,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11372,6 +11372,39 @@
         }
       ],
       "answer": "C",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-12",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "This river forms part of the border between Germany and Poland and flows toward the Baltic near Szczecin. Which river is it?",
+      "questionZh": "这条河构成德国与波兰部分边界，并在什切青附近流向波罗的海。它是哪条河？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Elbe River",
+          "textZh": "易北河"
+        },
+        {
+          "label": "B",
+          "text": "Oder River",
+          "textZh": "奥得河"
+        },
+        {
+          "label": "C",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "D",
+          "text": "Danube River",
+          "textZh": "多瑙河"
+        }
+      ],
+      "answer": "B",
       "flags": []
     }
   ]
