@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T06:39:58Z",
+    "updatedAt": "2026-02-23T07:09:27Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 345,
+    "questionCount": 350,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11174,6 +11174,171 @@
       "year": "2020",
       "round": "National Championships Round1 Elementary",
       "questionNo": null,
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-6",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "The Shannon is the longest river of this country, whose major cities include Dublin, Cork, and Limerick. Name this country.",
+      "questionZh": "香农河是该国最长河流，其主要城市包括都柏林、科克和利默里克。这个国家是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Scotland",
+          "textZh": "苏格兰"
+        },
+        {
+          "label": "B",
+          "text": "Wales",
+          "textZh": "威尔士"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Ireland",
+          "textZh": "爱尔兰共和国"
+        },
+        {
+          "label": "D",
+          "text": "Iceland",
+          "textZh": "冰岛"
+        }
+      ],
+      "answer": "C",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-7",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "Sami people use this pachyderm for pulling sleds in some regions, and ivory is associated with it. Name this animal.",
+      "questionZh": "在一些地区，人们会让这种厚皮动物拉雪橇，象牙也与其有关。请说出这种动物。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rhinoceros",
+          "textZh": "犀牛"
+        },
+        {
+          "label": "B",
+          "text": "Elephant",
+          "textZh": "大象"
+        },
+        {
+          "label": "C",
+          "text": "Hippopotamus",
+          "textZh": "河马"
+        },
+        {
+          "label": "D",
+          "text": "Tapir",
+          "textZh": "貘"
+        }
+      ],
+      "answer": "B",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-8",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "Juba is the capital of this country, which became independent in 2011 and is the world’s newest country. Name it.",
+      "questionZh": "朱巴是这个国家的首都。该国于2011年独立，被称为世界上最新成立的国家。它是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "South Sudan",
+          "textZh": "南苏丹"
+        },
+        {
+          "label": "B",
+          "text": "Sudan",
+          "textZh": "苏丹"
+        },
+        {
+          "label": "C",
+          "text": "Eritrea",
+          "textZh": "厄立特里亚"
+        },
+        {
+          "label": "D",
+          "text": "Chad",
+          "textZh": "乍得"
+        }
+      ],
+      "answer": "A",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-9",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "This name is shared by a historic port city in South Carolina and the capital of West Virginia. What city name is it?",
+      "questionZh": "这个城市名同时对应南卡罗来纳州一座历史港口城市，以及西弗吉尼亚州首府。这个名字是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Richmond",
+          "textZh": "里士满"
+        },
+        {
+          "label": "B",
+          "text": "Charleston",
+          "textZh": "查尔斯顿"
+        },
+        {
+          "label": "C",
+          "text": "Savannah",
+          "textZh": "萨凡纳"
+        },
+        {
+          "label": "D",
+          "text": "Norfolk",
+          "textZh": "诺福克"
+        }
+      ],
+      "answer": "B",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-10",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "Located near the mouth of the Fraser River, this is the most populous city in British Columbia. Name this Canadian city.",
+      "questionZh": "这座城市位于弗雷泽河口附近，是不列颠哥伦比亚省人口最多的城市。请说出这座加拿大城市。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Calgary",
+          "textZh": "卡尔加里"
+        },
+        {
+          "label": "B",
+          "text": "Edmonton",
+          "textZh": "埃德蒙顿"
+        },
+        {
+          "label": "C",
+          "text": "Victoria",
+          "textZh": "维多利亚"
+        },
+        {
+          "label": "D",
+          "text": "Vancouver",
+          "textZh": "温哥华"
+        }
+      ],
+      "answer": "D",
       "flags": []
     }
   ]
