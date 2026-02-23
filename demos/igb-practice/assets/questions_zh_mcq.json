@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T13:04:40Z",
+    "updatedAt": "2026-02-23T14:04:43Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 355,
+    "questionCount": 356,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11504,6 +11504,39 @@
         }
       ],
       "answer": "C",
+      "flags": []
+    },
+    {
+      "id": "2021-International-Geography-Bee-High-School-Playoff-Round-1-mcq-1",
+      "sourceFile": "2021-International-Geography-Bee-High-School-Playoff-Round-1.txt",
+      "year": "2021",
+      "round": "High School Playoff Round1",
+      "questionNo": null,
+      "question": "This region stretches from Yaviza and is a notorious break in the Pan-American Highway between Panama and Colombia. What is this region called?",
+      "questionZh": "该地区从亚维萨一带开始，是巴拿马与哥伦比亚之间泛美公路著名的“断裂地带”。这个地区叫什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mosquito Coast",
+          "textZh": "蚊子海岸"
+        },
+        {
+          "label": "B",
+          "text": "Darien Gap",
+          "textZh": "达连隘口"
+        },
+        {
+          "label": "C",
+          "text": "Atacama Corridor",
+          "textZh": "阿塔卡马走廊"
+        },
+        {
+          "label": "D",
+          "text": "Guajira Isthmus",
+          "textZh": "瓜希拉地峡"
+        }
+      ],
+      "answer": "B",
       "flags": []
     }
   ]
