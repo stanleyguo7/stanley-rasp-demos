@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T03:22:42.431675+00:00",
+    "updatedAt": "2026-02-23T06:39:58Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 340,
+    "questionCount": 345,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11009,6 +11009,171 @@
       "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
       "year": "2021",
       "round": "Regional Finals Set1 Round2",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-1",
+      "question": "On this island, the “black line” attempted to force natives out of the Forestier Peninsula. Convicts were resettled at Port Arthur, and Hobart is its capital. What island state of Australia is this?",
+      "questionZh": "在这座岛上，“黑线”政策曾试图把原住民驱离福雷斯蒂耶半岛；囚犯也曾被安置到亚瑟港。其首府是霍巴特。这个澳大利亚的岛州是哪里？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tasmania",
+          "textZh": "塔斯马尼亚"
+        },
+        {
+          "label": "B",
+          "text": "Queensland",
+          "textZh": "昆士兰"
+        },
+        {
+          "label": "C",
+          "text": "Victoria",
+          "textZh": "维多利亚州"
+        },
+        {
+          "label": "D",
+          "text": "New South Wales",
+          "textZh": "新南威尔士州"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-2",
+      "question": "This inland desert includes Etosha and Makgadikgadi salt pans, and the Okavango flows through it in an endorheic basin. Name this desert in Namibia, Botswana, and South Africa.",
+      "questionZh": "这片内陆沙漠拥有埃托沙与马卡迪卡迪盐沼，奥卡万戈河在其中形成内流盆地。请说出位于纳米比亚、博茨瓦纳和南非的这片沙漠。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namib Desert",
+          "textZh": "纳米布沙漠"
+        },
+        {
+          "label": "B",
+          "text": "Kalahari Desert",
+          "textZh": "卡拉哈里沙漠"
+        },
+        {
+          "label": "C",
+          "text": "Atacama Desert",
+          "textZh": "阿塔卡马沙漠"
+        },
+        {
+          "label": "D",
+          "text": "Gobi Desert",
+          "textZh": "戈壁沙漠"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-3",
+      "question": "The PKK and Peshmerga are associated with this ethnic group, and many members live in Turkey, Syria, Iran, and Iraq. What Middle Eastern minority group is this?",
+      "questionZh": "库尔德工人党（PKK）和佩什梅格都与这一族群相关，主要分布在土耳其、叙利亚、伊朗和伊拉克。这个中东少数民族是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kurds",
+          "textZh": "库尔德人"
+        },
+        {
+          "label": "B",
+          "text": "Pashtuns",
+          "textZh": "普什图人"
+        },
+        {
+          "label": "C",
+          "text": "Berbers",
+          "textZh": "柏柏尔人"
+        },
+        {
+          "label": "D",
+          "text": "Uyghurs",
+          "textZh": "维吾尔族"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-4",
+      "question": "Siida communities of the Sami herd this animal and use it to pull sleds; it also appears on the Canadian quarter. Name this type of deer.",
+      "questionZh": "萨米人的 siida 社群会放牧这种动物并用其拉雪橇；它也出现在加拿大 25 分硬币上。请说出这种鹿。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Moose",
+          "textZh": "驼鹿"
+        },
+        {
+          "label": "B",
+          "text": "Elk",
+          "textZh": "马鹿"
+        },
+        {
+          "label": "C",
+          "text": "Reindeer",
+          "textZh": "驯鹿"
+        },
+        {
+          "label": "D",
+          "text": "Roe deer",
+          "textZh": "狍"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-5",
+      "question": "This city at the confluence of the American River and its namesake river is the capital of California. Name this city.",
+      "questionZh": "这座城市位于美国河与其同名河流交汇处，是加利福尼亚州首府。它是哪座城市？",
+      "options": [
+        {
+          "label": "A",
+          "text": "San Diego",
+          "textZh": "圣迭戈"
+        },
+        {
+          "label": "B",
+          "text": "Sacramento",
+          "textZh": "萨克拉门托"
+        },
+        {
+          "label": "C",
+          "text": "San Jose",
+          "textZh": "圣何塞"
+        },
+        {
+          "label": "D",
+          "text": "Fresno",
+          "textZh": "弗雷斯诺"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
       "flags": []
     }
   ]
