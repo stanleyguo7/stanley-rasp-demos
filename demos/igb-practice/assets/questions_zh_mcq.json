@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T09:04:43Z",
+    "updatedAt": "2026-02-23T09:34:48Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 354,
+    "questionCount": 355,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11471,6 +11471,39 @@
         }
       ],
       "answer": "B",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-15",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "Nairobi is the capital of this East African country, and Mount Kenya is located there. Which country is it?",
+      "questionZh": "内罗毕是这个东非国家的首都，肯尼亚山也位于该国。这个国家是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Uganda",
+          "textZh": "乌干达"
+        },
+        {
+          "label": "B",
+          "text": "Tanzania",
+          "textZh": "坦桑尼亚"
+        },
+        {
+          "label": "C",
+          "text": "Kenya",
+          "textZh": "肯尼亚"
+        },
+        {
+          "label": "D",
+          "text": "Rwanda",
+          "textZh": "卢旺达"
+        }
+      ],
+      "answer": "C",
       "flags": []
     }
   ]
