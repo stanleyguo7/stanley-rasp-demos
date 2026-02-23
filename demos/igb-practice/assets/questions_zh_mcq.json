@@ -4,9 +4,9 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T07:09:27Z",
+    "updatedAt": "2026-02-23T07:39:40Z",
     "lastBatch": "mcq expand batch 19-20 merge",
-    "questionCount": 350,
+    "questionCount": 351,
     "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
@@ -11339,6 +11339,39 @@
         }
       ],
       "answer": "D",
+      "flags": []
+    },
+    {
+      "id": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary-mcq-11",
+      "sourceFile": "2020-International-Geography-Bee-National-Championships-Round-1-Elementary.txt",
+      "year": "2020",
+      "round": "National Championships Round1 Elementary",
+      "questionNo": null,
+      "question": "This planned city with many buildings by Oscar Niemeyer is the capital of Brazil. Name it.",
+      "questionZh": "这座由奥斯卡·尼迈耶设计了许多建筑的规划城市，是巴西的首都。它是？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rio de Janeiro",
+          "textZh": "里约热内卢"
+        },
+        {
+          "label": "B",
+          "text": "São Paulo",
+          "textZh": "圣保罗"
+        },
+        {
+          "label": "C",
+          "text": "Brasília",
+          "textZh": "巴西利亚"
+        },
+        {
+          "label": "D",
+          "text": "Salvador",
+          "textZh": "萨尔瓦多"
+        }
+      ],
+      "answer": "C",
       "flags": []
     }
   ]
