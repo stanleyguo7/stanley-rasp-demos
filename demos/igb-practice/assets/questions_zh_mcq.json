@@ -4,10 +4,10 @@
     "translated": true,
     "scope": "ORQE real MCQ",
     "removedDueToTranslationWarning": 87,
-    "updatedAt": "2026-02-23T02:22:46Z",
+    "updatedAt": "2026-02-23T02:53:33Z",
     "lastBatch": "mcq expand batch 19-20 merge",
     "questionCount": 340,
-    "qualityPass": "heartbeat-clean-batch-2",
+    "qualityPass": "heartbeat-clean-dedupe",
     "dedupeRemovedInLastPass": 8
   },
   "questions": [
@@ -10658,38 +10658,6 @@
       ],
       "answer": "A",
       "questionZh": "该地区是玛旁雍错湖的所在地，该湖被当地苯教视为圣湖。"
-    },
-    {
-      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-9",
-      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
-      "year": "2021",
-      "round": "Regional Finals Set1 Round1",
-      "questionNo": null,
-      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
-      "options": [
-        {
-          "label": "A",
-          "text": "Republic of Finland",
-          "textZh": "芬兰共和国"
-        },
-        {
-          "label": "B",
-          "text": "Orange River",
-          "textZh": "奥兰治河"
-        },
-        {
-          "label": "C",
-          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
-          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
-        },
-        {
-          "label": "D",
-          "text": "Lebanon",
-          "textZh": "黎巴嫩"
-        }
-      ],
-      "answer": "A",
-      "questionZh": "该国拥有沃克西河 (Vuoksi River) 的源头，该河是塞马湖的水源。"
     },
     {
       "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-7",
