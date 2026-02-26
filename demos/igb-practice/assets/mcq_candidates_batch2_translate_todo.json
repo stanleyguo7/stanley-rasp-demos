@@ -1,0 +1,115 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "id": "qa-mcq-clean-1",
+      "question_en": "This country’s city of Constanta lies near the Black Sea, while its city of Timişoara is near its border with Serbia. This country’s historical regions of Wallachia and Moldavia lie south and east, respectively, of its more famous region of Transylvania, which is home to an ethnic Hungarian minority. For the point, name this Balkan country where a Romance language is spoken in its capital city of Bucharest.",
+      "options_en": [
+        "Romania",
+        "Bangkok",
+        "salt",
+        "Triangles"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa-mcq-clean-2",
+      "question_en": "Many street vendors hawk legal and illegal goods on this city’s Khaosan Road. This city’s Erawan Shrine, which houses a statue of Phra Phrom, is located in its Pathum Wan district. Its Wat Phra Kaew [Wat Frah Kow] temple was built under the Chakri Dynasty. The Chao Phraya [Chow Pry-Uh] River flows through this city and passes by its Grand Palace. King Rama IX [the ninth] Park is in, for the point, what capital of Thailand?",
+      "options_en": [
+        "Romania",
+        "salt",
+        "Triangles",
+        "Bangkok"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa-mcq-clean-3",
+      "question_en": "The New and Alamo Rivers are two inflows to a lake named for this resource. That lake named for this resource was created when the Colorado River overflowed into the Imperial Valley. This resource also names a body of water fed by the Bear and Jordan Rivers, and which is the largest remnant of Lake Bonneville. For the point, the Bonneville flats and the largest lake in Utah are named after what resource measured by salinity?",
+      "options_en": [
+        "Bangkok",
+        "Triangles",
+        "salt",
+        "Romania"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa-mcq-clean-4",
+      "question_en": "This shape names a disputed area around the city of Hala’ib, which borders the unclaimed Bir Tawil. It’s not a crescent, but an infamous opium-producing region in Southeast Asia is known as the “Golden” one of these shapes. Many aircraft and ships have supposedly disappeared in a region named for this shape. For the point, the region between Miami, Puerto Rico, and Bermuda is named for what shape?",
+      "options_en": [
+        "salt",
+        "Triangles",
+        "Romania",
+        "Bangkok"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa-mcq-clean-5",
+      "question_en": "Popular natural attractions on one island in this archipelago include the Na Pali Coast and Waimea Canyon. The Banzai Pipeline is a beach on this archipelago, which hosts the Triple Crown of Surfing. Haleakala is a dormant shield volcano on this island group, where the 2018 lower Puna eruption took place on Kilauea. For the point, name this island group including Maui and Oahu.",
+      "options_en": [
+        "State of Hawaii",
+        "Romania",
+        "Bangkok",
+        "salt"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa-mcq-clean-6",
+      "question_en": "This river begins at Lake Hazar, while the ancient city of Opis was supposedly located near its confluence with the Diyala. This river marks the easternmost portion of Syria’s border before it joins the Great Zab near Mosul. At Al-Qurnah, it joins a more western river to form the Shatt-al-Arab. For the point, Baghdad is on what second-longest Mesopotamian river, after the Euphrates?",
+      "options_en": [
+        "Romania",
+        "Bangkok",
+        "salt",
+        "Tigris River Page 1 International Geography Bee Regionals 2018-2019 Replacements"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa-mcq-clean-7",
+      "question_en": "In the city of Cayambe, the Quitsato [Keet-sato] Sundial contains a line of pebbles to represent this entity. Another monument to this entity is located in Pontianak, Indonesia. This entity passes through the Ecuadorian Middle of the World City, which is located at 0 degrees latitude. For the point, name this entity that divides the world into northern and southern hemispheres.",
+      "options_en": [
+        "Bangkok",
+        "salt",
+        "Equator",
+        "Romania"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa-mcq-clean-8",
+      "question_en": "This city is ringed by the A90 [A-Ninety] Motorway, which is officially named the G.R.A. [G-R-A] and called “The Junction.” The St. Angelo Bridge and the Milvian Bridge are ancient arch bridges still serving pedestrians in this capital of Lazio. One road that connected this city to Brundisium was known as the Appian Way. For the point, name this home of the Colosseum, the capital of Italy.",
+      "options_en": [
+        "salt",
+        "Rome",
+        "Romania",
+        "Bangkok"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa-mcq-clean-9",
+      "question_en": "This country’s Jurong Island serves as a base of operations for numerous petrochemical companies. Examples of innovative architecture in this country include its ArtScience Museum, which is shaped like a lotus leaf, and its Marina Bay Sands resort. The People’s Action Party leads this country, which has strict laws on littering and chewing gum. For the point, name this city-state located on the edge of the Malay peninsula.",
+      "options_en": [
+        "Republic of Singapore",
+        "Romania",
+        "Bangkok",
+        "salt"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa-mcq-clean-10",
+      "question_en": "This city’s tallest building is the Britam Tower, which is in its Upper Hill district. Due to its large Somali population, this city’s suburb of Eastleigh is known as “Little Mogadishu.” This city’s matatu buses transport people to its Maasai market and its Kibera slum. Al-Shabaab claimed responsibility for a 2013 attack on the Westgate shopping mall in this city. For the point, name this capital of Kenya.",
+      "options_en": [
+        "Romania",
+        "Bangkok",
+        "salt",
+        "Nairobi"
+      ],
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sourceFile": "Round-5-1.txt",
+  "count": 10,
+  "items": [
+    {
+      "qno": 1,
+      "question": "The mundu is a popular garment worn in this state that is home to a drive-in beach called Muzhappilangad. The large amount of gold in this state’s Padmanabhaswamy Temple makes it the wealthiest temple in the world. With 1,084 women per 1,000 men, this state has the highest sex ratio in India. Lakshadweep is a union territory found off the coast of this state. The Malabar region is found in this state that is southwest of Karnataka and west of Tamil Nadu. Malayalam is widely spoken in, for the point, what state of southern India that contains Cochin?",
+      "answer": "Kerala (accept Keralam)"
+    },
+    {
+      "qno": 2,
+      "question": "The Nassara Strip is a commercialized area in this city whose main movie theater is the Cinema le Normandie. This city contains a national museum where the skull of the “Toumai” hominid is housed. The Daza is the largest ethnic group in this capital city whose wealthy European quarter is based around the Avenue Charles de Gaulle. The Logone Occidental Region is just south of this city originally founded as Fort Lamy. With a name translating to “place of rest” in French, this city can be found on the Chari River that flows into its country’s namesake lake. For the point, name this capital city of Chad.",
+      "answer": "N’Djamena (accept Injamina)"
+    },
+    {
+      "qno": 3,
+      "question": "Though not in Sweden, three stations on this transit system feature GoLibrary book vending machines. In 1993, this transit system launched Translink, which was a forerunner to the Clipper Card system now integrated into its turnstiles. Warm Springs and Richmond are among the termini of this system. On one day in 2009, a then record of over 432,000 people rode this transit system after the temporary closure of the Bay Bridge. Fremont and West Oakland are among the stops along, for the point, what transit system in Northern California?",
+      "answer": "BART (accept Bay Area Rapid Transit)"
+    },
+    {
+      "qno": 4,
+      "question": "Along with the Half Moon Caye, this feature is one of the two natural monuments within its country’s only UNESCO World Heritage Site. Ned Middleton came up with the name of this feature that was popularized by his book Ten Years Underwater. Located near the middle of Lighthouse Reef, this feature reaches 407 feet in depth. Stalactites were found to be growing in caves found in this feature that Jacques Cousteau labeled one of the finest SCUBA diving locations on Earth. For the point, name this major tourist attraction in Belize.",
+      "answer": "Great Blue Hole"
+    },
+    {
+      "qno": 5,
+      "question": "Near this country’s West Bay Lagoon, tens of billions of dollars have been spent developing its planned Lusail City. The Dukhan field is a major source of oil for this country, which, though not Japan, is home to an Inland Sea where pearl diving is popular. I.M. Pei designed the dhow-shaped Museum of Islamic Art in this country, whose residents have the highest per capita income on Earth. The media network Al-Jazeera is based in this country that, in 2022, will become the first country in the Middle East to host the FIFA World Cup. For the point, name this small country with capital at Doha.",
+      "answer": "State of Qatar (accept Dawlat Qatar)"
+    },
+    {
+      "qno": 6,
+      "question": "A legend claimed that after Jesus ascended a mountain near this body of water he looked out and said “beyond [it] there [is] nothing.” A folk song dedicated to this body of water refers to it as a “glorious sea” and makes a reference to the winds that arise in the Barguzin range near it. The nerpa is a species of seal that is endemic to this body of water. Submersibles from the Mir program conducted geological studies of this body of water, which forms the western border of Buryatia in Siberia. For the point, name this deepest lake on Earth, which is found in Russia.",
+      "answer": "Lake Baikal (accept Ozero Baykal)"
+    },
+    {
+      "qno": 7,
+      "question": "A field named for showing this characteristic contains a popular windsurfing destination in its country known as Lake Cerknika. The Skocjan Caves form a UNESCO world heritage site that demonstrates the contact form of this phenomenon. This phenomenon also names a region extending to the Gulf of Trieste in the northern Adriatic. A plateau that is named for its exhibition of this phenomenon extends through Slovenia. This phenomenon can develop when rocks like dolomite or limestone dissolve. Sinkholes are a common feature of, for the point, what German- named type of topography?",
+      "answer": "Karst topography (accept Karst Plateau; accept karst field; accept karst polje; accept contact karst)"
+    },
+    {
+      "qno": 8,
+      "question": "Large float parades are held on this country’s holiday of Mashramani. This country’s Cuyuni- Mazaruni region is home to the large Omai gold mine while the mining of the aluminum ore bauxite drives the economy of this country’s city of Linden. This country’s flag depicts a red triangle inside a yellow triangle against a green background with the two triangles having black and white fimbriations respectively. The Essequibo River flows through this nation that is the only English-speaking country in South America. Suriname is to the east of, for the point, what country with capital at Georgetown.",
+      "answer": "Co-operative Republic of Guyana"
+    },
+    {
+      "qno": 9,
+      "question": "This national park is the central subject of Donald Finkel’s poetry collection titled Answer Back. Spanning over 50,000 acres, the majority of this national park is found in Edmonson County. The Great Onyx is a feature within this national park that has been linked to the Flint Ridge system. The Green River flows through this national park that is within fifty miles of Bowling Green. Despite its name, this park has never shown evidence of containing the remains of the “wooly” species of its namesake mammal. For the point, name this Kentucky national park containing the longest cave system on Earth.",
+      "answer": "Mammoth Cave National Park"
+    },
+    {
+      "qno": 10,
+      "question": "Maria Finucci spelled out the word “HELP” in a UNESCO-backed art installation that is meant to create awareness about this region. Project Kaisei is a Japanese program focusing on this region which Charles J. Moore supposedly discovered this region on his way back from a yacht race. This region can be found in a gyre bound by the latitude lines of 0 and 50 degrees north. This region composes up to 8% of the ocean in which it is found and roughly 10% of fish species in this region are found to have plastic in them. For the point, name this large oceanic garbage patch.",
+      "answer": "Great Pacific Garbage Patch (accept Eastern Pacific Garbage Patch; accept Pacific trash vortex)"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "count": 10,
+  "badDistractorText": 10,
+  "questions": [
+    {
+      "id": "qa-mcq-1",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This country’s city of Constanta lies near the Black Sea, while its city of Timişoara is near its border with Serbia. This country’s historical regions of Wallachia and Moldavia lie south and east, respectively, of its more famous region of Transylvania, which is home to an ethnic Hungarian minority. For the point, name this Balkan country where a Romance language is spoken in its capital city of Bucharest.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Triangles (accept Hala’ib Triangle or Bir Tawil Triangle or Golden Triangle or Bermuda Triangle)",
+          "textZh": ""
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-2",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "Many street vendors hawk legal and illegal goods on this city’s Khaosan Road. This city’s Erawan Shrine, which houses a statue of Phra Phrom, is located in its Pathum Wan district. Its Wat Phra Kaew [Wat Frah Kow] temple was built under the Chakri Dynasty. The Chao Phraya [Chow Pry-Uh] River flows through this city and passes by its Grand Palace. King Rama IX [the ninth] Park is in, for the point, what capital of Thailand?",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Triangles (accept Hala’ib Triangle or Bir Tawil Triangle or Golden Triangle or Bermuda Triangle)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-3",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "The New and Alamo Rivers are two inflows to a lake named for this resource. That lake named for this resource was created when the Colorado River overflowed into the Imperial Valley. This resource also names a body of water fed by the Bear and Jordan Rivers, and which is the largest remnant of Lake Bonneville. For the point, the Bonneville flats and the largest lake in Utah are named after what resource measured by salinity?",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Triangles (accept Hala’ib Triangle or Bir Tawil Triangle or Golden Triangle or Bermuda Triangle)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Romania",
+          "textZh": ""
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-4",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This shape names a disputed area around the city of Hala’ib, which borders the unclaimed Bir Tawil. It’s not a crescent, but an infamous opium-producing region in Southeast Asia is known as the “Golden” one of these shapes. Many aircraft and ships have supposedly disappeared in a region named for this shape. For the point, the region between Miami, Puerto Rico, and Bermuda is named for what shape?",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Triangles (accept Hala’ib Triangle or Bir Tawil Triangle or Golden Triangle or Bermuda Triangle)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-5",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "Popular natural attractions on one island in this archipelago include the Na Pali Coast and Waimea Canyon. The Banzai Pipeline is a beach on this archipelago, which hosts the Triple Crown of Surfing. Haleakala is a dormant shield volcano on this island group, where the 2018 lower Puna eruption took place on Kilauea. For the point, name this island group including Maui and Oahu.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "State of Hawaii (or Hawaiian Islands)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-6",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This river begins at Lake Hazar, while the ancient city of Opis was supposedly located near its confluence with the Diyala. This river marks the easternmost portion of Syria’s border before it joins the Great Zab near Mosul. At Al-Qurnah, it joins a more western river to form the Shatt-al-Arab. For the point, Baghdad is on what second-longest Mesopotamian river, after the Euphrates?",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Tigris River Page 1 International Geography Bee Regionals 2018-2019 Replacements",
+          "textZh": ""
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-7",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "In the city of Cayambe, the Quitsato [Keet-sato] Sundial contains a line of pebbles to represent this entity. Another monument to this entity is located in Pontianak, Indonesia. This entity passes through the Ecuadorian Middle of the World City, which is located at 0 degrees latitude. For the point, name this entity that divides the world into northern and southern hemispheres.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Equator (accept 0 degree line of latitude before it is read)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Romania",
+          "textZh": ""
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-8",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This city is ringed by the A90 [A-Ninety] Motorway, which is officially named the G.R.A. [G-R-A] and called “The Junction.” The St. Angelo Bridge and the Milvian Bridge are ancient arch bridges still serving pedestrians in this capital of Lazio. One road that connected this city to Brundisium was known as the Appian Way. For the point, name this home of the Colosseum, the capital of Italy.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Rome (or Roma)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-9",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This country’s Jurong Island serves as a base of operations for numerous petrochemical companies. Examples of innovative architecture in this country include its ArtScience Museum, which is shaped like a lotus leaf, and its Marina Bay Sands resort. The People’s Action Party leads this country, which has strict laws on littering and chewing gum. For the point, name this city-state located on the edge of the Malay peninsula.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Singapore ( accept Republica Singapura)",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-10",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "question": "This city’s tallest building is the Britam Tower, which is in its Upper Hill district. Due to its large Somali population, this city’s suburb of Eastleigh is known as “Little Mogadishu.” This city’s matatu buses transport people to its Maasai market and its Kibera slum. Al-Shabaab claimed responsibility for a 2013 attack on the Westgate shopping mall in this city. For the point, name this capital of Kenya.",
+      "questionZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Romania",
+          "textZh": ""
+        },
+        {
+          "label": "B",
+          "text": "Bangkok (accept Krung Thep Maha Nakhon)",
+          "textZh": ""
+        },
+        {
+          "label": "C",
+          "text": "salt (accept Salton Sea or Great Salt Lake or Bonneville Salt Flats)",
+          "textZh": ""
+        },
+        {
+          "label": "D",
+          "text": "Nairobi, Kenya Page 2",
+          "textZh": ""
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review",
+        "bad_distractor_text"
+      ]
+    }
+  ]
+}

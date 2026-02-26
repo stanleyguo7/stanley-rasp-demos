@@ -1,0 +1,95 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "id": "qa-mcq-clean-1",
+      "question_en": "This country’s city of Constanta lies near the Black Sea, while its city of Timişoara is near its border with Serbia. This country’s historical regions of Wallachia and Moldavia lie south and east, respectively, of its more famous region of Transylvania, which is home to an ethnic Hungarian minority. For the point, name this Balkan country where a Romance language is spoken in its capital city of Bucharest.",
+      "question_zh": "该国的康斯坦察位于黑海附近，而蒂米什瓦拉靠近与塞尔维亚的边界。该国历史上的瓦拉几亚和摩尔达维亚分别位于其更著名的特兰西瓦尼亚地区的南部和东部，后者有大量匈牙利族少数群体。该国首都布加勒斯特使用一种罗曼语族语言。这个巴尔干国家是哪个？",
+      "options_en": [
+        "Romania",
+        "Bangkok",
+        "salt",
+        "Triangles"
+      ],
+      "options_zh": [
+        "罗马尼亚",
+        "曼谷",
+        "盐",
+        "三角形"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa-mcq-clean-2",
+      "question_en": "Many street vendors hawk legal and illegal goods on this city’s Khaosan Road. This city’s Erawan Shrine, which houses a statue of Phra Phrom, is located in its Pathum Wan district. Its Wat Phra Kaew [Wat Frah Kow] temple was built under the Chakri Dynasty. The Chao Phraya [Chow Pry-Uh] River flows through this city and passes by its Grand Palace. King Rama IX [the ninth] Park is in, for the point, what capital of Thailand?",
+      "question_zh": "这座城市的考山路上有许多街头商贩售卖合法或非法商品。其巴吞旺区有供奉梵天像的四面佛神龛。玉佛寺建于却克里王朝时期。湄南河穿过该城并流经大皇宫。九世王公园位于这座城市。问：这是泰国的哪座首都？",
+      "options_en": [
+        "Romania",
+        "salt",
+        "Triangles",
+        "Bangkok"
+      ],
+      "options_zh": [
+        "罗马尼亚",
+        "盐",
+        "三角形",
+        "曼谷"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa-mcq-clean-3",
+      "question_en": "The New and Alamo Rivers are two inflows to a lake named for this resource. That lake named for this resource was created when the Colorado River overflowed into the Imperial Valley. This resource also names a body of water fed by the Bear and Jordan Rivers, and which is the largest remnant of Lake Bonneville. For the point, the Bonneville flats and the largest lake in Utah are named after what resource measured by salinity?",
+      "question_zh": "新河与阿拉莫河注入一座以这种资源命名的湖泊。该湖由科罗拉多河泛滥进入帝王谷形成。另一个以该资源命名的水体由贝尔河和约旦河注入，是邦纳维尔湖最大遗迹。问：邦纳维尔盐滩和犹他州最大湖泊都以哪种由盐度衡量的资源命名？",
+      "options_en": [
+        "Bangkok",
+        "Triangles",
+        "salt",
+        "Romania"
+      ],
+      "options_zh": [
+        "曼谷",
+        "三角形",
+        "盐",
+        "罗马尼亚"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa-mcq-clean-4",
+      "question_en": "This shape names a disputed area around the city of Hala’ib, which borders the unclaimed Bir Tawil. It’s not a crescent, but an infamous opium-producing region in Southeast Asia is known as the “Golden” one of these shapes. Many aircraft and ships have supposedly disappeared in a region named for this shape. For the point, the region between Miami, Puerto Rico, and Bermuda is named for what shape?",
+      "question_zh": "这种形状的名字用于哈拉伊卜争议地区（其旁是无人认领的比尔泰维勒）。东南亚一个臭名昭著的鸦片产区被称为“金三角”。也有不少飞机和船只据称在以这种形状命名的区域失踪。问：位于迈阿密、波多黎各和百慕大之间的区域以什么形状命名？",
+      "options_en": [
+        "salt",
+        "Triangles",
+        "Romania",
+        "Bangkok"
+      ],
+      "options_zh": [
+        "盐",
+        "三角形",
+        "罗马尼亚",
+        "曼谷"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa-mcq-clean-5",
+      "question_en": "Popular natural attractions on one island in this archipelago include the Na Pali Coast and Waimea Canyon. The Banzai Pipeline is a beach on this archipelago, which hosts the Triple Crown of Surfing. Haleakala is a dormant shield volcano on this island group, where the 2018 lower Puna eruption took place on Kilauea. For the point, name this island group including Maui and Oahu.",
+      "question_zh": "该群岛中某岛的著名自然景观包括纳帕利海岸和威美亚峡谷。班赞管浪点位于该群岛，并举办冲浪三冠赛。哈雷阿卡拉是该群岛上的一座休眠盾状火山，2018年普纳低地喷发发生在基拉韦厄。问：包含毛伊岛和瓦胡岛在内的这个群岛叫什么？",
+      "options_en": [
+        "State of Hawaii",
+        "Romania",
+        "Bangkok",
+        "salt"
+      ],
+      "options_zh": [
+        "夏威夷州",
+        "罗马尼亚",
+        "曼谷",
+        "盐"
+      ],
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "id": "qa2-mcq-clean-6",
+      "question_en": "A traditional form of this cuisine known as khorkhog often uses lamb or goat, cooked with a set of large rocks. A chain founded in Missoula, Montana called HuHot specializes in this type of cuisine, as does BD’s, which claims that this cuisine originated from a style of meal-preparation involving warriors cooking on their shields. This cuisine was invented in Taiwan, rather than the namesake country. Meat and vegetables are stir fried on a griddle in, For the point, what type of cuisine that one can eat at Genghis Grill?",
+      "question_zh": "这种菜系有一种传统做法叫 khorkhog，常用羊肉或山羊肉与加热石块同烹。美国蒙大拿州米苏拉创立的 HuHot 连锁、以及 BD’s 等餐厅都主打这种菜系；后者还宣称其起源于战士在盾牌上烹饪食物的方式。实际上这种菜系诞生于台湾，而非其名字所指国家。其特点是把肉和蔬菜在铁板上翻炒。问：在 Genghis Grill 可吃到的这类菜系叫什么？",
+      "options_en": [
+        "Massachusetts",
+        "Namib Desert",
+        "Marseilles",
+        "Mongolian barbecue"
+      ],
+      "options_zh": [
+        "马萨诸塞州",
+        "纳米布沙漠",
+        "马赛",
+        "蒙古烤肉"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa2-mcq-clean-7",
+      "question_en": "John Palmer Parker started a namesake ranch on this mountain after being awarded land for helping a king clear a region of wild bulls. Queen Emma once bathed in a lake on this peak when competing for a royal position. A pair of twin telescopes on this peak are a part of the Keck Observatory. When measured from its base below sea level, this mountain is over 10,000 meters tall and over 100 meters taller than its neighbor, Mauna Loa. For the point, name this volcano on Hawaii’s Big Island.",
+      "question_zh": "约翰·帕尔默·帕克在这座山上建立了同名牧场，他因协助国王清理野牛而获赐土地。艾玛女王曾在该峰一处湖中沐浴。凯克天文台的一对双子望远镜位于此峰。若从海平面以下的山基测量，这座山超过1万米高，并比邻峰冒纳罗亚高一百多米。问：夏威夷大岛上的这座火山是哪一座？",
+      "options_en": [
+        "Namib Desert",
+        "Marseilles",
+        "Mauna Kea",
+        "Massachusetts"
+      ],
+      "options_zh": [
+        "纳米布沙漠",
+        "马赛",
+        "冒纳凯阿火山",
+        "马萨诸塞州"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa2-mcq-clean-8",
+      "question_en": "Cities on the coast of this country include Qasr Ahmad near Misrata, as well as the ancient ruins of Leptis Magna. Italy, Nazi Germany, the UK, and the US have occupied Wheelus Air Base near this country’s capital. Another coastal city, Sirte [surt], was the birthplace of a former dictator, while Christopher Stevens was killed in another city on its Mediterranean coast in the US Embassy in 2012. For the point, name this North African country whose cities include Tripoli and Benghazi.",
+      "question_zh": "这个国家海岸城市包括米苏拉塔附近的盖斯尔艾哈迈德，以及古城雷普蒂斯·马格纳遗址。意大利、纳粹德国、英国和美国都曾占领其首都附近的惠勒斯空军基地。另一海岸城市苏尔特是其前独裁者出生地；2012年，美国驻地中海沿岸另一城市的大使馆遇袭，克里斯托弗·史蒂文斯遇难。问：这个北非国家、其城市包括的黎波里和班加西，是哪国？",
+      "options_en": [
+        "Marseilles",
+        "Libya",
+        "Massachusetts",
+        "Namib Desert"
+      ],
+      "options_zh": [
+        "马赛",
+        "利比亚",
+        "马萨诸塞州",
+        "纳米布沙漠"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa2-mcq-clean-32",
+      "question_en": "cabildos and is located in the basin of the Guayllabamba River. Carondelet Palace, the residence of its country’s head of state, is in this city, which has views of Cotopaxi and lies on the stratovolcano Pinchincha. This city is the capital of a country whose largest city is Guayaquil. The equator passes roughly a mile north of, For the point, what capital city of Ecuador?",
+      "question_zh": "这座城市设有 cabildos（市政机构），位于瓜伊亚兰巴河流域。该国元首官邸卡隆德莱宫位于此城，这里可远眺科托帕希火山，并坐落在平钦查火山一带。该城所属国家最大城市是瓜亚基尔。赤道大约从这座城市以北一英里处经过。问：这是厄瓜多尔的哪座首都？",
+      "options_en": [
+        "Quito",
+        "Massachusetts",
+        "Namib Desert",
+        "Marseilles"
+      ],
+      "options_zh": [
+        "基多",
+        "马萨诸塞州",
+        "纳米布沙漠",
+        "马赛"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa2-mcq-clean-10",
+      "question_en": "Art Gilkey and Mario Puchoz died on this mountain within a year of each other in the 1950s; they now name a memorial at this mountain’s base camp. A resemblance to the Alps led a feature of this mountain near the Baltoro Glacier to be named Concordia. Over three-fourths of climbers of this mountain use its southeastern Abruzzi Spur. This peak was once named for surveror Henry Godwin-Austen, and it is the tallest in the Karakoram Range. For the point, name this second-tallest mountain on Earth.",
+      "question_zh": "20世纪50年代，阿特·吉尔基和马里奥·普乔兹在这座山上相隔一年先后遇难；如今山脚大本营有以他们命名的纪念地。因外形类似阿尔卑斯山，这座山靠近巴尔托洛冰川的一处地点被命名为协和地。超过四分之三的登山者经由其东南侧的阿布鲁齐山脊攀登。该峰曾以测量员亨利·戈德温-奥斯汀命名，是喀喇昆仑山脉最高峰。问：地球第二高峰是哪座山？",
+      "options_en": [
+        "Massachusetts",
+        "Namib Desert",
+        "Marseilles",
+        "K2  Page 2 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals"
+      ],
+      "options_zh": [
+        "马萨诸塞州",
+        "纳米布沙漠",
+        "马赛",
+        "乔戈里峰（K2）"
+      ],
+      "answer": "D"
+    }
+  ]
+}

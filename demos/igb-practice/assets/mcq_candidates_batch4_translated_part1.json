@@ -1,0 +1,95 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "id": "qa3-mcq-clean-1",
+      "question_en": "The mundu is a popular garment worn in this state that is home to a drive-in beach called Muzhappilangad. The large amount of gold in this state’s Padmanabhaswamy Temple makes it the wealthiest temple in the world. With 1,084 women per 1,000 men, this state has the highest sex ratio in India. Lakshadweep is a union territory found off the coast of this state. The Malabar region is found in this state that is southwest of Karnataka and west of Tamil Nadu. Malayalam is widely spoken in, for the point, what state of southern India that contains Cochin?",
+      "question_zh": "在这个邦，mundu 是一种常见服饰；该邦还有名为 Muzhappilangad 的汽车海滩。该邦帕德玛纳巴史瓦米神庙因储藏大量黄金而被称为世界上最富有的寺庙。该邦每1000名男性对应1084名女性，是印度性别比最高的邦。拉克沙群岛位于该邦外海。马拉巴尔地区也在该邦内，地处卡纳塔克邦西南、泰米尔纳德邦以西。马拉雅拉姆语在此广泛使用。问：这个包含科钦的印度南部邦是哪个？",
+      "options_en": [
+        "Kerala",
+        "N’Djamena",
+        "BART",
+        "Great Blue Hole"
+      ],
+      "options_zh": [
+        "喀拉拉邦",
+        "恩贾梅纳",
+        "湾区捷运（BART）",
+        "大蓝洞"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa3-mcq-clean-2",
+      "question_en": "The Nassara Strip is a commercialized area in this city whose main movie theater is the Cinema le Normandie. This city contains a national museum where the skull of the “Toumai” hominid is housed. The Daza is the largest ethnic group in this capital city whose wealthy European quarter is based around the Avenue Charles de Gaulle. The Logone Occidental Region is just south of this city originally founded as Fort Lamy. With a name translating to “place of rest” in French, this city can be found on the Chari River that flows into its country’s namesake lake. For the point, name this capital city of Chad.",
+      "question_zh": "纳萨拉地带是这座城市的商业区，其主要影院为 Cinema le Normandie。该城有国家博物馆，收藏着“图迈”古人类头骨。达扎族是这座首都最大的族群，其富裕欧洲人社区围绕戴高乐大道分布。洛贡西区位于该城以南；该城最初名为拉密堡。其法语名称意为“休憩之地”，坐落在注入同名湖泊的沙里河畔。问：这是乍得的哪座首都？",
+      "options_en": [
+        "Kerala",
+        "BART",
+        "Great Blue Hole",
+        "N’Djamena"
+      ],
+      "options_zh": [
+        "喀拉拉邦",
+        "湾区捷运（BART）",
+        "大蓝洞",
+        "恩贾梅纳"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa3-mcq-clean-3",
+      "question_en": "Though not in Sweden, three stations on this transit system feature GoLibrary book vending machines. In 1993, this transit system launched Translink, which was a forerunner to the Clipper Card system now integrated into its turnstiles. Warm Springs and Richmond are among the termini of this system. On one day in 2009, a then record of over 432,000 people rode this transit system after the temporary closure of the Bay Bridge. Fremont and West Oakland are among the stops along, for the point, what transit system in Northern California?",
+      "question_zh": "虽然不在瑞典，这一交通系统有三个车站设有 GoLibrary 图书自动售卖机。1993年，该系统推出 Translink，后来成为如今闸机整合的 Clipper 卡系统前身。Warm Springs 和 Richmond 是该系统两个终点。2009年某天，因海湾大桥临时关闭，该系统单日客流曾创43.2万以上纪录。Fremont 与 West Oakland 都是其站点。问：这是北加州的哪一套交通系统？",
+      "options_en": [
+        "N’Djamena",
+        "Great Blue Hole",
+        "BART",
+        "Kerala"
+      ],
+      "options_zh": [
+        "恩贾梅纳",
+        "大蓝洞",
+        "湾区捷运（BART）",
+        "喀拉拉邦"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa3-mcq-clean-4",
+      "question_en": "Along with the Half Moon Caye, this feature is one of the two natural monuments within its country’s only UNESCO World Heritage Site. Ned Middleton came up with the name of this feature that was popularized by his book Ten Years Underwater. Located near the middle of Lighthouse Reef, this feature reaches 407 feet in depth. Stalactites were found to be growing in caves found in this feature that Jacques Cousteau labeled one of the finest SCUBA diving locations on Earth. For the point, name this major tourist attraction in Belize.",
+      "question_zh": "与半月礁一起，这一地貌是其国家唯一联合国世界遗产中的两个自然纪念物之一。Ned Middleton 提出这一地貌名称，并因其《Ten Years Underwater》而广为人知。它位于灯塔礁中央，深达407英尺。该地貌洞穴中发现钟乳石生长，雅克·库斯托称其为地球上最佳水肺潜点之一。问：这是伯利兹的哪一著名景点？",
+      "options_en": [
+        "BART",
+        "Great Blue Hole",
+        "Kerala",
+        "N’Djamena"
+      ],
+      "options_zh": [
+        "湾区捷运（BART）",
+        "大蓝洞",
+        "喀拉拉邦",
+        "恩贾梅纳"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa3-mcq-clean-5",
+      "question_en": "Near this country’s West Bay Lagoon, tens of billions of dollars have been spent developing its planned Lusail City. The Dukhan field is a major source of oil for this country, which, though not Japan, is home to an Inland Sea where pearl diving is popular. I.M. Pei designed the dhow-shaped Museum of Islamic Art in this country, whose residents have the highest per capita income on Earth. The media network Al-Jazeera is based in this country that, in 2022, will become the first country in the Middle East to host the FIFA World Cup. For the point, name this small country with capital at Doha.",
+      "question_zh": "在该国西湾潟湖附近，已投入数百亿美元开发其计划中的卢赛尔新城。杜汉油田是该国重要石油来源。该国（并非日本）也有适合珍珠潜水的“内海”。贝聿铭设计了该国阿拉伯帆船造型的伊斯兰艺术博物馆。该国居民人均收入位居世界前列。媒体网络半岛电视台总部设在该国；该国将在2022年成为中东首个举办世界杯的国家。问：这个首都为多哈的小国是哪个？",
+      "options_en": [
+        "State of Qatar",
+        "Kerala",
+        "N’Djamena",
+        "BART"
+      ],
+      "options_zh": [
+        "卡塔尔国",
+        "喀拉拉邦",
+        "恩贾梅纳",
+        "湾区捷运（BART）"
+      ],
+      "answer": "A"
+    }
+  ]
+}

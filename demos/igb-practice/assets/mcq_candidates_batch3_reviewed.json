@@ -1,0 +1,286 @@
+{
+  "count": 10,
+  "bad": 0,
+  "questions": [
+    {
+      "id": "qa2-mcq-clean-1",
+      "sourceFile": "Finals-1.txt",
+      "question": "In this state, the Weymouth Fore River flows into the sea between Hingham and Quincy Bays. A body of water on this state’s coastline extends north to Cape Ann, home to the fishing city of Gloucester [glaw-ster]. Also on this state’s coastline is the Presidential Library of John F. Kennedy, just south of a harbor that was polluted in 1773 by unruly colonists wearing Native American costumes. For the point, name this New England state whose coastline includes Boston Harbor.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "B",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "C",
+          "text": "Marseilles"
+        },
+        {
+          "label": "D",
+          "text": "Day of the Dead"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-2",
+      "sourceFile": "Finals-1.txt",
+      "question": "In this region, the Sesriem gate allows access to a national park. Brown fur seals form a breeding colony along this region’s Cape Cross. An annual sailing event begins in this desert’s city of Ludëritz. John Henry Marsh’s book on a shipwreck on the Dunedin Star inspired the name of a portion of this desert called the Skeleton Coast. The Herero people live north of this desert, which is west of the Kalahari Desert. For the point, name this desert of southwest Africa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "B",
+          "text": "Marseilles"
+        },
+        {
+          "label": "C",
+          "text": "Day of the Dead"
+        },
+        {
+          "label": "D",
+          "text": "Namib Desert"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-3",
+      "sourceFile": "Finals-1.txt",
+      "question": "The “pharaoist” [pharaoh-ist] hip hop group IAM [I am] was formed in this city. In 2004, the CMA CGM Tower was built in this city. The fish stew bouillabaisse originated in this city, which is home to the prison fortress of Chateau d’If. Pied-noirs rushed to this city in 1962, and a large Corsican community lives in this city, which has historically been its country’s main Mediterranean port. Originally called Massalia by the Romans, for the point, name this second most populous city in France.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "B",
+          "text": "Day of the Dead"
+        },
+        {
+          "label": "C",
+          "text": "Marseilles"
+        },
+        {
+          "label": "D",
+          "text": "Massachusetts"
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-4",
+      "sourceFile": "Finals-1.txt",
+      "question": "The central deity of this event is married to a god who oversees a realm that contains crashing mountains and winds containing knives. Toys are brought for the “little angels” during this event. A dough-based drink called atol is sometimes drunk during this holiday, during which a prominent parade is held in the city of Mérida. During this holiday, merchants at the Alfeñique fair in Toluca sell sugar skulls. For the point, name this three-day Mexican holiday at the end of October and start of November that honors the deceased.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marseilles"
+        },
+        {
+          "label": "B",
+          "text": "Day of the Dead"
+        },
+        {
+          "label": "C",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "D",
+          "text": "Namib Desert"
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-5",
+      "sourceFile": "Finals-1.txt",
+      "question": "The largest city in this region hosts the largest fish market in the world. A disaster named for this region was caused along the boundary of the Philippine Sea Plate; Frank Lloyd Wright’s Imperial Hotel withstood that 1923 earthquake. This region includes parts of seven prefectures and is home to its country’s largest plain. Yokohama can be found on the island of Honshu in, for the point, what region of Japan containing Tokyo?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kanto region  Page 1 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals"
+        },
+        {
+          "label": "B",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "C",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "D",
+          "text": "Marseilles"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-6",
+      "sourceFile": "Finals-1.txt",
+      "question": "A traditional form of this cuisine known as khorkhog often uses lamb or goat, cooked with a set of large rocks. A chain founded in Missoula, Montana called HuHot specializes in this type of cuisine, as does BD’s, which claims that this cuisine originated from a style of meal-preparation involving warriors cooking on their shields. This cuisine was invented in Taiwan, rather than the namesake country. Meat and vegetables are stir fried on a griddle in, For the point, what type of cuisine that one can eat at Genghis Grill?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "B",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "C",
+          "text": "Marseilles"
+        },
+        {
+          "label": "D",
+          "text": "Mongolian barbecue"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-7",
+      "sourceFile": "Finals-1.txt",
+      "question": "John Palmer Parker started a namesake ranch on this mountain after being awarded land for helping a king clear a region of wild bulls. Queen Emma once bathed in a lake on this peak when competing for a royal position. A pair of twin telescopes on this peak are a part of the Keck Observatory. When measured from its base below sea level, this mountain is over 10,000 meters tall and over 100 meters taller than its neighbor, Mauna Loa. For the point, name this volcano on Hawaii’s Big Island.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "B",
+          "text": "Marseilles"
+        },
+        {
+          "label": "C",
+          "text": "Mauna Kea"
+        },
+        {
+          "label": "D",
+          "text": "Massachusetts"
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-8",
+      "sourceFile": "Finals-1.txt",
+      "question": "Cities on the coast of this country include Qasr Ahmad near Misrata, as well as the ancient ruins of Leptis Magna. Italy, Nazi Germany, the UK, and the US have occupied Wheelus Air Base near this country’s capital. Another coastal city, Sirte [surt], was the birthplace of a former dictator, while Christopher Stevens was killed in another city on its Mediterranean coast in the US Embassy in 2012. For the point, name this North African country whose cities include Tripoli and Benghazi.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marseilles"
+        },
+        {
+          "label": "B",
+          "text": "Libya"
+        },
+        {
+          "label": "C",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "D",
+          "text": "Namib Desert"
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-32",
+      "sourceFile": "Finals-1.txt",
+      "question": "cabildos and is located in the basin of the Guayllabamba River. Carondelet Palace, the residence of its country’s head of state, is in this city, which has views of Cotopaxi and lies on the stratovolcano Pinchincha. This city is the capital of a country whose largest city is Guayaquil. The equator passes roughly a mile north of, For the point, what capital city of Ecuador?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Quito"
+        },
+        {
+          "label": "B",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "C",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "D",
+          "text": "Marseilles"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-10",
+      "sourceFile": "Finals-1.txt",
+      "question": "Art Gilkey and Mario Puchoz died on this mountain within a year of each other in the 1950s; they now name a memorial at this mountain’s base camp. A resemblance to the Alps led a feature of this mountain near the Baltoro Glacier to be named Concordia. Over three-fourths of climbers of this mountain use its southeastern Abruzzi Spur. This peak was once named for surveror Henry Godwin-Austen, and it is the tallest in the Karakoram Range. For the point, name this second-tallest mountain on Earth.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massachusetts"
+        },
+        {
+          "label": "B",
+          "text": "Namib Desert"
+        },
+        {
+          "label": "C",
+          "text": "Marseilles"
+        },
+        {
+          "label": "D",
+          "text": "K2  Page 2 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sourceFile": "Finals-1.txt",
+  "count": 10,
+  "items": [
+    {
+      "qno": 1,
+      "question": "In this state, the Weymouth Fore River flows into the sea between Hingham and Quincy Bays. A body of water on this state’s coastline extends north to Cape Ann, home to the fishing city of Gloucester [glaw-ster]. Also on this state’s coastline is the Presidential Library of John F. Kennedy, just south of a harbor that was polluted in 1773 by unruly colonists wearing Native American costumes. For the point, name this New England state whose coastline includes Boston Harbor.",
+      "answer": "Massachusetts"
+    },
+    {
+      "qno": 2,
+      "question": "In this region, the Sesriem gate allows access to a national park. Brown fur seals form a breeding colony along this region’s Cape Cross. An annual sailing event begins in this desert’s city of Ludëritz. John Henry Marsh’s book on a shipwreck on the Dunedin Star inspired the name of a portion of this desert called the Skeleton Coast. The Herero people live north of this desert, which is west of the Kalahari Desert. For the point, name this desert of southwest Africa.",
+      "answer": "Namib Desert"
+    },
+    {
+      "qno": 3,
+      "question": "The “pharaoist” [pharaoh-ist] hip hop group IAM [I am] was formed in this city. In 2004, the CMA CGM Tower was built in this city. The fish stew bouillabaisse originated in this city, which is home to the prison fortress of Chateau d’If. Pied-noirs rushed to this city in 1962, and a large Corsican community lives in this city, which has historically been its country’s main Mediterranean port. Originally called Massalia by the Romans, for the point, name this second most populous city in France.",
+      "answer": "Marseilles (accept Marselha)"
+    },
+    {
+      "qno": 4,
+      "question": "The central deity of this event is married to a god who oversees a realm that contains crashing mountains and winds containing knives. Toys are brought for the “little angels” during this event. A dough-based drink called atol is sometimes drunk during this holiday, during which a prominent parade is held in the city of Mérida. During this holiday, merchants at the Alfeñique fair in Toluca sell sugar skulls. For the point, name this three-day Mexican holiday at the end of October and start of November that honors the deceased.",
+      "answer": "Day of the Dead (or Dia de Muertos or Dia de los Muertos)"
+    },
+    {
+      "qno": 5,
+      "question": "The largest city in this region hosts the largest fish market in the world. A disaster named for this region was caused along the boundary of the Philippine Sea Plate; Frank Lloyd Wright’s Imperial Hotel withstood that 1923 earthquake. This region includes parts of seven prefectures and is home to its country’s largest plain. Yokohama can be found on the island of Honshu in, for the point, what region of Japan containing Tokyo?",
+      "answer": "Kanto region (prompt on Japan; prompt on Honshu; anti-prompt on Tokyo by asking “I need a larger geographical region than that”) Page 1 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals"
+    },
+    {
+      "qno": 6,
+      "question": "A traditional form of this cuisine known as khorkhog often uses lamb or goat, cooked with a set of large rocks. A chain founded in Missoula, Montana called HuHot specializes in this type of cuisine, as does BD’s, which claims that this cuisine originated from a style of meal-preparation involving warriors cooking on their shields. This cuisine was invented in Taiwan, rather than the namesake country. Meat and vegetables are stir fried on a griddle in, For the point, what type of cuisine that one can eat at Genghis Grill?",
+      "answer": "Mongolian barbecue (or Mongolian stir-fry; prompt on stir-fry before it is read; prompt on partial answers; prompt on descriptive answers relating to “fake Mongolian food” after “chain” is read, with the player then needing to provide something like “fake Mongolian barbecue”)"
+    },
+    {
+      "qno": 7,
+      "question": "John Palmer Parker started a namesake ranch on this mountain after being awarded land for helping a king clear a region of wild bulls. Queen Emma once bathed in a lake on this peak when competing for a royal position. A pair of twin telescopes on this peak are a part of the Keck Observatory. When measured from its base below sea level, this mountain is over 10,000 meters tall and over 100 meters taller than its neighbor, Mauna Loa. For the point, name this volcano on Hawaii’s Big Island.",
+      "answer": "Mauna Kea"
+    },
+    {
+      "qno": 8,
+      "question": "Cities on the coast of this country include Qasr Ahmad near Misrata, as well as the ancient ruins of Leptis Magna. Italy, Nazi Germany, the UK, and the US have occupied Wheelus Air Base near this country’s capital. Another coastal city, Sirte [surt], was the birthplace of a former dictator, while Christopher Stevens was killed in another city on its Mediterranean coast in the US Embassy in 2012. For the point, name this North African country whose cities include Tripoli and Benghazi.",
+      "answer": "Libya"
+    },
+    {
+      "qno": 32,
+      "question": "cabildos and is located in the basin of the Guayllabamba River. Carondelet Palace, the residence of its country’s head of state, is in this city, which has views of Cotopaxi and lies on the stratovolcano Pinchincha. This city is the capital of a country whose largest city is Guayaquil. The equator passes roughly a mile north of, For the point, what capital city of Ecuador?",
+      "answer": "Quito"
+    },
+    {
+      "qno": 10,
+      "question": "Art Gilkey and Mario Puchoz died on this mountain within a year of each other in the 1950s; they now name a memorial at this mountain’s base camp. A resemblance to the Alps led a feature of this mountain near the Baltoro Glacier to be named Concordia. Over three-fourths of climbers of this mountain use its southeastern Abruzzi Spur. This peak was once named for surveror Henry Godwin-Austen, and it is the tallest in the Karakoram Range. For the point, name this second-tallest mountain on Earth.",
+      "answer": "K2 (accept Mount Godwen-Austen before read) Page 2 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals"
+    }
+  ]
+}

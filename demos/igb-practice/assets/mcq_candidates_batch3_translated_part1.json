@@ -1,0 +1,95 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "id": "qa2-mcq-clean-1",
+      "question_en": "In this state, the Weymouth Fore River flows into the sea between Hingham and Quincy Bays. A body of water on this state’s coastline extends north to Cape Ann, home to the fishing city of Gloucester [glaw-ster]. Also on this state’s coastline is the Presidential Library of John F. Kennedy, just south of a harbor that was polluted in 1773 by unruly colonists wearing Native American costumes. For the point, name this New England state whose coastline includes Boston Harbor.",
+      "question_zh": "在这个州，韦茅斯前河在欣厄姆湾和昆西湾之间注入海洋。该州海岸线上有一片水域向北延伸到安角，那里有渔业城市格洛斯特。该州海岸线上还有约翰·F·肯尼迪总统图书馆，位于一处港口以南，而该港口在1773年曾被打扮成美洲原住民的殖民者倾倒污染物。问：这个海岸线包含波士顿港的新英格兰州是哪个？",
+      "options_en": [
+        "Massachusetts",
+        "Namib Desert",
+        "Marseilles",
+        "Day of the Dead"
+      ],
+      "options_zh": [
+        "马萨诸塞州",
+        "纳米布沙漠",
+        "马赛",
+        "亡灵节"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": "qa2-mcq-clean-2",
+      "question_en": "In this region, the Sesriem gate allows access to a national park. Brown fur seals form a breeding colony along this region’s Cape Cross. An annual sailing event begins in this desert’s city of Ludëritz. John Henry Marsh’s book on a shipwreck on the Dunedin Star inspired the name of a portion of this desert called the Skeleton Coast. The Herero people live north of this desert, which is west of the Kalahari Desert. For the point, name this desert of southwest Africa.",
+      "question_zh": "在这一地区，塞斯里姆大门可进入国家公园。棕色毛皮海豹在该地区的十字角形成繁殖群。该沙漠的吕德里茨市每年举办一项帆船赛事。约翰·亨利·马什关于“达尼丁之星”沉船的著作启发了该沙漠一段海岸“骷髅海岸”的命名。赫雷罗人居住在这片沙漠以北，而它位于卡拉哈里沙漠以西。问：这是非洲西南部的哪片沙漠？",
+      "options_en": [
+        "Massachusetts",
+        "Marseilles",
+        "Day of the Dead",
+        "Namib Desert"
+      ],
+      "options_zh": [
+        "马萨诸塞州",
+        "马赛",
+        "亡灵节",
+        "纳米布沙漠"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": "qa2-mcq-clean-3",
+      "question_en": "The “pharaoist” [pharaoh-ist] hip hop group IAM [I am] was formed in this city. In 2004, the CMA CGM Tower was built in this city. The fish stew bouillabaisse originated in this city, which is home to the prison fortress of Chateau d’If. Pied-noirs rushed to this city in 1962, and a large Corsican community lives in this city, which has historically been its country’s main Mediterranean port. Originally called Massalia by the Romans, for the point, name this second most populous city in France.",
+      "question_zh": "“法老派”嘻哈组合 IAM 组建于这座城市。2004年，CMA CGM大楼在此建成。鱼汤马赛鱼汤起源于此城，这里还有伊夫堡监狱要塞。1962年，大量“黑脚人”涌入这座城市，且当地有庞大的科西嘉社群；它历来是本国主要的地中海港口。该城在罗马时期称为 Massalia。问：这是法国第二大城市哪座？",
+      "options_en": [
+        "Namib Desert",
+        "Day of the Dead",
+        "Marseilles",
+        "Massachusetts"
+      ],
+      "options_zh": [
+        "纳米布沙漠",
+        "亡灵节",
+        "马赛",
+        "马萨诸塞州"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": "qa2-mcq-clean-4",
+      "question_en": "The central deity of this event is married to a god who oversees a realm that contains crashing mountains and winds containing knives. Toys are brought for the “little angels” during this event. A dough-based drink called atol is sometimes drunk during this holiday, during which a prominent parade is held in the city of Mérida. During this holiday, merchants at the Alfeñique fair in Toluca sell sugar skulls. For the point, name this three-day Mexican holiday at the end of October and start of November that honors the deceased.",
+      "question_zh": "这一节日的核心神祇嫁给了一位掌管“坠山与刀风之境”的神。节日期间，人们会为“小天使”带来玩具。假期中有时会饮用一种面糊饮料 atol，并在梅里达市举行重要游行。在托卢卡的 Alfeñique 集市上，商贩会出售糖骷髅。问：这是哪个在10月底到11月初、为期三天、纪念逝者的墨西哥节日？",
+      "options_en": [
+        "Marseilles",
+        "Day of the Dead",
+        "Massachusetts",
+        "Namib Desert"
+      ],
+      "options_zh": [
+        "马赛",
+        "亡灵节",
+        "马萨诸塞州",
+        "纳米布沙漠"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": "qa2-mcq-clean-5",
+      "question_en": "The largest city in this region hosts the largest fish market in the world. A disaster named for this region was caused along the boundary of the Philippine Sea Plate; Frank Lloyd Wright’s Imperial Hotel withstood that 1923 earthquake. This region includes parts of seven prefectures and is home to its country’s largest plain. Yokohama can be found on the island of Honshu in, for the point, what region of Japan containing Tokyo?",
+      "question_zh": "该地区最大城市拥有全球最大的鱼市。以该地区命名的一场灾害发生在菲律宾海板块边界；弗兰克·劳埃德·赖特设计的帝国饭店在1923年地震中幸存。该地区涵盖七个都道府县的一部分，并拥有该国最大平原。横滨位于本州岛上的这一地区。问：包含东京的日本这一地区是哪里？",
+      "options_en": [
+        "Kanto region  Page 1 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals",
+        "Massachusetts",
+        "Namib Desert",
+        "Marseilles"
+      ],
+      "options_zh": [
+        "关东地区",
+        "马萨诸塞州",
+        "纳米布沙漠",
+        "马赛"
+      ],
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "count": 10,
+  "bad": 0,
+  "questions": [
+    {
+      "id": "qa4-mcq-clean-1",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "This location was the site of a drawing of the Hasan Dag mountains, which may be the world’s first map. This location was the site of a “Seated Woman” sculpture featuring a corpulent goddess resting on a throne adorned with leopard heads. James (+) Mellaart excavated this site, where mound settlements were separated by the Carsamba River. No streets existed at this location, whose (*) mudbrick houses were built wall to wall. For the points, name this site that flourished roughly nine thousand years ago, the largest Neolithic settlement found, where studies continue in southern Turkey.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "B",
+          "text": "Tahiti"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "D",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-2",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "This island experiences solar tides instead of lunar tides due to its location on an amphidromic point. This volcanic island consists of a larger “nui” section to the west, and a smaller “iti” section to the east. In 1960, its Fa’a’a (+) International Airport was built to facilitate nuclear testing on the islands of Mururora and Fangataufa, over a thousand miles to the south. This island’s traditional (*) otea dance consists of rapid hip-shaking. In 1769, Joseph Banks observed this island’s flora while James Cook studied the transit of Venus. For the points, name this island in French Polynesia where breadfruit was harvested prior to the mutiny on the HMS Bounty.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "B",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "C",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2"
+        },
+        {
+          "label": "D",
+          "text": "Tahiti"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-3",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "Ivan Getting established the basis for this technology by improving upon the World War II-era LORAN system. This technology’s competing WGS-84 and GCJ-02 datums are not reconciled well in China. This technology’s (+) accuracy can be improved via geometric dilution of precision or the method of least squares, either of which require accounting for time dilation. (*) Ronald Reagan promised to make this technology available for civilian use after Korean Air Lines Flight 007 was shot down after accidentally flying into Soviet airspace. For the points, name this satellite-based navigation technology.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tahiti"
+        },
+        {
+          "label": "B",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "D",
+          "text": "Catalhoyuk"
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-4",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "In 2016, a warlord from this region began hosting The Team, a reality TV show based on The Apprentice, and asked his Instagram followers to help him find his missing cat. In 1995, militants from this region led by (+) Shamil Basayev seized nearly 2,000 hostages at a hospital in Budyonnovsk. Russia lost nearly 2,000 tanks during a (*) 1995 war in this region that embarrassed Boris Yeltsin. The strongman Ramzan Kadyrov currently rules this region to the west of Dagestan. Grozny is the capital of, for the points, what disputed Caucasus region of Russia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "B",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2"
+        },
+        {
+          "label": "C",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "D",
+          "text": "Tahiti"
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-5",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "In 1751, this island was visited by a 19-year-old George Washington, who embarked on what would be the only long sea voyage of his life. On this island, the Mount Gay rum distillery was founded in 1703, making it the world’s (+) oldest rum brand. During the 1600s, this island was widely considered the most prosperous British colony in the Americas, but it fell into decline after many of its white settlers moved to the (*) Carolinas in the 1700s. The singer Rihanna was born on this easternmost island of the Lesser Antilles, which has its capital at Bridgetown. For the points, name this former British colony in the eastern Caribbean.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Barbados"
+        },
+        {
+          "label": "B",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "C",
+          "text": "Tahiti"
+        },
+        {
+          "label": "D",
+          "text": "Global Positioning System"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-6",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "This mountain range looms over Jenny Lake and a line of homesteads known as Mormon Row. The T. A. Moulton Barn, reputedly “the most photographed barn in America,” sits below the (+) three tallest peaks in this mountain range, known as the Cathedral Group. The John D. Rockefeller, Jr. Parkway runs alongside this range, which rises to the north of the ski resort town of (*) Jackson Hole. Its highest peak is nicknamed “The Grand.” For the points, give this Wyoming mountain range that names a national park south of Yellowstone.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "B",
+          "text": "Tahiti"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "D",
+          "text": "Teton Range"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-7",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "In this country, child laborers still work on the world’s largest rubber plantation, which was built in 1926 after this country’s government gave Firestone Rubber complete control over its finances. After Panama, this country maintains the world’s second-largest (+) maritime registry, with over 3000 ships flying its flag, primarily as a “flag of convenience.” This country lies in a region once known as the Grain Coast, or (*) Pepper Coast. In the 1990s, its dictator Charles Taylor traded guns for blood diamonds from its northwestern neighbor, Sierra Leone. For the points, name this poor West African country originally founded by freed American slaves with capital Monrovia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tahiti"
+        },
+        {
+          "label": "B",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "C",
+          "text": "Liberia"
+        },
+        {
+          "label": "D",
+          "text": "Catalhoyuk"
+        }
+      ],
+      "answer": "C",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-8",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "This region’s flag consisted of small red, white, blue, and black stripes in the top left of a large yellow patch, a symbol of the doctrine “Five races under one union.” An attempt to attract Jews to settle in this region was put forth in the (+) Fugu Plan. As this region was being invaded in Operation August Storm by the Soviet Union, its capital was moved to (*) Tonghua from Hsinking. Puyi was the nominal head of, for the points, what Japanese puppet government set up after the Mukden Incident in Manchuria?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "B",
+          "text": "Manchukuo"
+        },
+        {
+          "label": "C",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "D",
+          "text": "Tahiti"
+        }
+      ],
+      "answer": "B",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-9",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "This site is home to the village of Sivu’ovi, a prominent settlement of the Basketmaker II era, and other settlements in this site include the Agate House and the Puerco ruins. This site’s “Newspaper Rock” has been inscribed with over 650 (+) petroglyphs by this park’s former inhabitants, the Pueblo. This park’s northern sector extends into the (*) Painted Desert, and its most famous features are the result of burial by volcanic sediment since the Triassic period. For the points, name this national park in Arizona known for its fossilized trees.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Petrified Forest National Park Page 2 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2"
+        },
+        {
+          "label": "B",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "C",
+          "text": "Tahiti"
+        },
+        {
+          "label": "D",
+          "text": "Global Positioning System"
+        }
+      ],
+      "answer": "A",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-10",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "question": "In what is now this country, the fortress of La Goletta overlooked a major port that Spain repeatedly lost and recaptured over the course of a century. This present-day country was the central territory of the Hafsid Dynasty. (+) Spain sent multiple 16th-century expeditions to seize this country’s large, sandy island of Djerba, whose final loss in 1560 occurred during the leadup to the Great Siege of (*) Malta. Fifty years after the conquest of Algeria, this former Ottoman territory became a French protectorate. For the points, name this country where Barbary corsairs were once based in Tunis.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk"
+        },
+        {
+          "label": "B",
+          "text": "Tahiti"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System"
+        },
+        {
+          "label": "D",
+          "text": "Tunisia"
+        }
+      ],
+      "answer": "D",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ]
+    }
+  ]
+}
