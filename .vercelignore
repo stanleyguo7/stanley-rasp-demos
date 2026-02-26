@@ -1,0 +1,3 @@
+# Keep deployment lightweight: exclude build-time heavy materials
+
+demos/igb-practice/data/

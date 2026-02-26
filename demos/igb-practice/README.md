@@ -10,10 +10,14 @@ IGB（International Geography Bee）手机端刷题练习系统。
 - 支持按年份、轮次筛选；支持 10/20/50/不限题量
 
 ## 题库文件
-- `assets/questions_zh_mcq.json`：前端当前加载的“中英双语选择题”题库
-- `assets/questions.json`：早期抽取的原始题库（不全是选择题）
-- `data/raw/`：原始下载文件
-- `data/text/`：抽取后的文本
+- 运行时（前端必需）
+  - `assets/questions_zh_mcq.json`：前端加载的“中英双语选择题”题库
+- 历史/原料（构建维护使用，非前端必需）
+  - `assets/questions.json`：早期抽取的原始题库（不全是选择题）
+  - `data/raw/`：原始下载文件
+  - `data/text/`：抽取后的文本
+
+> 优化建议：静态部署时只发布运行时必需文件；`data/raw` 与 `data/text` 不需要进入站点产物。
 
 ## 构建题库（可选）
 ```bash

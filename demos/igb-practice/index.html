@@ -28,7 +28,15 @@
             <option value="9999">不限</option>
           </select>
         </label>
+        <label>模式
+          <select id="modeFilter">
+            <option value="all" selected>全部题目</option>
+            <option value="wrong">仅错题</option>
+          </select>
+        </label>
         <button id="startBtn">开始练习</button>
+        <button id="clearWrongBtn" type="button">清空错题本</button>
+        <div>错题本：<strong id="wrongCount">0</strong> 题</div>
       </section>
 
       <section id="quiz" class="panel hidden">
