@@ -1,0 +1,2129 @@
+{
+  "removed_count": 60,
+  "removed": [
+    {
+      "id": "Geo-2019-ORQE-10",
+      "sourceFile": "Geo-2019-ORQE.txt",
+      "year": "2019-2022",
+      "round": "ORQE",
+      "questionNo": 10,
+      "question": "Which of these landmarks is found on the continent of Africa?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Eifel Tower",
+          "textZh": "艾菲尔铁塔"
+        },
+        {
+          "label": "B",
+          "text": "Great Pyramid of Giza",
+          "textZh": "吉萨大金字塔"
+        },
+        {
+          "label": "C",
+          "text": "Taj Mahal",
+          "textZh": "泰姬陵"
+        },
+        {
+          "label": "D",
+          "text": "Sydney Opera House United States Geography Championships & International Geography Bee | 1 | 2019-2020 G Set National Qualifying Exam",
+          "textZh": "悉尼歌剧院美国地理锦标赛暨国际地理蜜蜂赛1 | 2019-2020年G组全国资格考试"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "以下哪些地标位于非洲大陆？",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "Geo-2019-ORQE-26",
+      "sourceFile": "Geo-2019-ORQE.txt",
+      "year": "2019-2022",
+      "round": "ORQE",
+      "questionNo": 26,
+      "question": "Which of these countries is most threatened by rising sea levels due to global warming?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bangladesh",
+          "textZh": "孟加拉国"
+        },
+        {
+          "label": "B",
+          "text": "Nepal",
+          "textZh": "尼泊尔"
+        },
+        {
+          "label": "C",
+          "text": "Bhutan",
+          "textZh": "不丹"
+        },
+        {
+          "label": "D",
+          "text": "Kyrgyzstan United States Geography Championships & International Geography Bee | 2 | 2019-2020 G Set National Qualifying Exam",
+          "textZh": "吉尔吉斯斯坦美国地理锦标赛暨国际地理蜜蜂赛| 2 | 2019-2020年G组全国资格考试"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "以下哪个国家受到全球变暖导致海平面上升的威胁最大？",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "Geo-2019-ORQE-42",
+      "sourceFile": "Geo-2019-ORQE.txt",
+      "year": "2019-2022",
+      "round": "ORQE",
+      "questionNo": 42,
+      "question": "In the USA, which of these states does NOT border the other three at the Four Corners point, the only spot in the USA where four states meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Utah",
+          "textZh": "猶他"
+        },
+        {
+          "label": "B",
+          "text": "Arizona",
+          "textZh": "亞利桑那"
+        },
+        {
+          "label": "C",
+          "text": "New Mexico",
+          "textZh": "新墨西哥州"
+        },
+        {
+          "label": "D",
+          "text": "Montana United States Geography Championships & International Geography Bee | 3 | 2019-2020 G Set National Qualifying Exam",
+          "textZh": "蒙大拿州美国地理锦标赛暨国际地理比赛| 蒙大拿州3 | 2019-2020年G组全国资格考试"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "在美国，以下哪个州在四个角点（美国四个州交界的唯一地点）处不与其他三个州接壤？",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "Geo-2019-ORQE-50",
+      "sourceFile": "Geo-2019-ORQE.txt",
+      "year": "2019-2022",
+      "round": "ORQE",
+      "questionNo": 50,
+      "question": "Cabinda, which lies to the north of the short Atlantic coastline of the Democratic Republic of the Congo, is an exclave of which African country?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sao Tome and Principe",
+          "textZh": "圣多美和普林西比"
+        },
+        {
+          "label": "B",
+          "text": "Namibia",
+          "textZh": "纳米比亚"
+        },
+        {
+          "label": "C",
+          "text": "Gabon",
+          "textZh": "加蓬"
+        },
+        {
+          "label": "D",
+          "text": "Angola United States Geography Championships & International Geography Bee | 4 | 2019-2020 G Set National Qualifying Exam",
+          "textZh": "安哥拉美国地理锦标赛暨国际地理蜜蜂赛| 4 | 2019-2020年G组全国资格考试"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "卡宾达位于刚果民主共和国大西洋短海岸线以北，是哪个非洲国家的飞地？",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa-mcq-clean-6",
+      "question": "This river begins at Lake Hazar, while the ancient city of Opis was supposedly located near its confluence with the Diyala. This river marks the easternmost portion of Syria’s border before it joins the Great Zab near Mosul. At Al-Qurnah, it joins a more western river to form the Shatt-al-Arab. For the point, Baghdad is on what second-longest Mesopotamian river, after the Euphrates?",
+      "questionZh": "这条河发源于哈扎尔湖，古城奥皮斯据称位于其与迪亚拉河汇合处附近。它构成叙利亚边境最东段，随后在摩苏尔附近与大扎布河汇合。在库尔纳，它与更靠西的一条河汇流形成阿拉伯河。问：巴格达位于哪条两河流域第二长河（仅次于幼发拉底河）？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Romania",
+          "textZh": "罗马尼亚"
+        },
+        {
+          "label": "B",
+          "text": "Bangkok",
+          "textZh": "曼谷"
+        },
+        {
+          "label": "C",
+          "text": "salt",
+          "textZh": "盐"
+        },
+        {
+          "label": "D",
+          "text": "Tigris River Page 1 International Geography Bee Regionals 2018-2019 Replacements",
+          "textZh": "底格里斯河"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Backups-and-Tiebreakers.txt",
+      "year": "2018-2019",
+      "round": "Regional",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-5",
+      "question": "The largest city in this region hosts the largest fish market in the world. A disaster named for this region was caused along the boundary of the Philippine Sea Plate; Frank Lloyd Wright’s Imperial Hotel withstood that 1923 earthquake. This region includes parts of seven prefectures and is home to its country’s largest plain. Yokohama can be found on the island of Honshu in, for the point, what region of Japan containing Tokyo?",
+      "questionZh": "该地区最大城市拥有全球最大的鱼市。以该地区命名的一场灾害发生在菲律宾海板块边界；弗兰克·劳埃德·赖特设计的帝国饭店在1923年地震中幸存。该地区涵盖七个都道府县的一部分，并拥有该国最大平原。横滨位于本州岛上的这一地区。问：包含东京的日本这一地区是哪里？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kanto region  Page 1 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals",
+          "textZh": "关东地区"
+        },
+        {
+          "label": "B",
+          "text": "Massachusetts",
+          "textZh": "马萨诸塞州"
+        },
+        {
+          "label": "C",
+          "text": "Namib Desert",
+          "textZh": "纳米布沙漠"
+        },
+        {
+          "label": "D",
+          "text": "Marseilles",
+          "textZh": "马赛"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "Finals-1.txt",
+      "year": "2016-2017",
+      "round": "Finals",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa2-mcq-clean-10",
+      "question": "Art Gilkey and Mario Puchoz died on this mountain within a year of each other in the 1950s; they now name a memorial at this mountain’s base camp. A resemblance to the Alps led a feature of this mountain near the Baltoro Glacier to be named Concordia. Over three-fourths of climbers of this mountain use its southeastern Abruzzi Spur. This peak was once named for surveror Henry Godwin-Austen, and it is the tallest in the Karakoram Range. For the point, name this second-tallest mountain on Earth.",
+      "questionZh": "20世纪50年代，阿特·吉尔基和马里奥·普乔兹在这座山上相隔一年先后遇难；如今山脚大本营有以他们命名的纪念地。因外形类似阿尔卑斯山，这座山靠近巴尔托洛冰川的一处地点被命名为协和地。超过四分之三的登山者经由其东南侧的阿布鲁齐山脊攀登。该峰曾以测量员亨利·戈德温-奥斯汀命名，是喀喇昆仑山脉最高峰。问：地球第二高峰是哪座山？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massachusetts",
+          "textZh": "马萨诸塞州"
+        },
+        {
+          "label": "B",
+          "text": "Namib Desert",
+          "textZh": "纳米布沙漠"
+        },
+        {
+          "label": "C",
+          "text": "Marseilles",
+          "textZh": "马赛"
+        },
+        {
+          "label": "D",
+          "text": "K2  Page 2 US Elementary and Middle School Nationals - International Geography Bee 2016-2017 Finals",
+          "textZh": "乔戈里峰（K2）"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "Finals-1.txt",
+      "year": "2016-2017",
+      "round": "Finals",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-1",
+      "question": "This location was the site of a drawing of the Hasan Dag mountains, which may be the world’s first map. This location was the site of a “Seated Woman” sculpture featuring a corpulent goddess resting on a throne adorned with leopard heads. James (+) Mellaart excavated this site, where mound settlements were separated by the Carsamba River. No streets existed at this location, whose (*) mudbrick houses were built wall to wall. For the points, name this site that flourished roughly nine thousand years ago, the largest Neolithic settlement found, where studies continue in southern Turkey.",
+      "questionZh": "这个地点曾出现一幅哈桑山脉绘图，可能是世界上最早的地图。这里还出土了“坐姿女神”雕像，描绘一位体态丰腴的女神坐在饰有豹首的王座上。詹姆斯·梅拉尔特曾发掘该遗址，这里的土丘聚落被恰尔尚巴河分隔。该地没有街道，泥砖房屋彼此紧贴而建。问：这个约九千年前繁荣、位于土耳其南部、目前仍在研究中的最大新石器时代聚落遗址是哪里？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk",
+          "textZh": "恰塔尔休于克"
+        },
+        {
+          "label": "B",
+          "text": "Tahiti",
+          "textZh": "塔希提"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System",
+          "textZh": "全球定位系统"
+        },
+        {
+          "label": "D",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2",
+          "textZh": "车臣"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "year": "2016-2017",
+      "round": "Playoff Round 2",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-2",
+      "question": "This island experiences solar tides instead of lunar tides due to its location on an amphidromic point. This volcanic island consists of a larger “nui” section to the west, and a smaller “iti” section to the east. In 1960, its Fa’a’a (+) International Airport was built to facilitate nuclear testing on the islands of Mururora and Fangataufa, over a thousand miles to the south. This island’s traditional (*) otea dance consists of rapid hip-shaking. In 1769, Joseph Banks observed this island’s flora while James Cook studied the transit of Venus. For the points, name this island in French Polynesia where breadfruit was harvested prior to the mutiny on the HMS Bounty.",
+      "questionZh": "由于位于无潮点，这座岛经历的是太阳潮而非月潮。该火山岛由西部较大的“nui”和东部较小的“iti”组成。1960年，为支持南方千余英里外穆鲁罗阿和方加陶法岛的核试验，法阿国际机场在此建成。该岛传统 otea 舞以快速摆胯著称。1769年，约瑟夫·班克斯在此观察植物，詹姆斯·库克在此研究金星凌日。问：这座法属波利尼西亚岛屿叫什么？“邦蒂号叛变”前曾在此采集面包果。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Catalhoyuk",
+          "textZh": "恰塔尔休于克"
+        },
+        {
+          "label": "B",
+          "text": "Global Positioning System",
+          "textZh": "全球定位系统"
+        },
+        {
+          "label": "C",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2",
+          "textZh": "车臣"
+        },
+        {
+          "label": "D",
+          "text": "Tahiti",
+          "textZh": "塔希提"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "year": "2016-2017",
+      "round": "Playoff Round 2",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-3",
+      "question": "Ivan Getting established the basis for this technology by improving upon the World War II-era LORAN system. This technology’s competing WGS-84 and GCJ-02 datums are not reconciled well in China. This technology’s (+) accuracy can be improved via geometric dilution of precision or the method of least squares, either of which require accounting for time dilation. (*) Ronald Reagan promised to make this technology available for civilian use after Korean Air Lines Flight 007 was shot down after accidentally flying into Soviet airspace. For the points, name this satellite-based navigation technology.",
+      "questionZh": "伊万·盖廷在二战时期 LORAN 系统基础上改进，奠定了这项技术的基础。这项技术在中国使用的 WGS-84 与 GCJ-02 基准并不完全一致。其精度可通过几何精度衰减或最小二乘法改进，这些都需考虑时间膨胀。大韩航空007航班误入苏联领空被击落后，里根承诺将这项技术开放给民用。问：这项基于卫星的导航技术是什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tahiti",
+          "textZh": "塔希提"
+        },
+        {
+          "label": "B",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2",
+          "textZh": "车臣"
+        },
+        {
+          "label": "C",
+          "text": "Global Positioning System",
+          "textZh": "全球定位系统"
+        },
+        {
+          "label": "D",
+          "text": "Catalhoyuk",
+          "textZh": "恰塔尔休于克"
+        }
+      ],
+      "answer": "C",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "year": "2016-2017",
+      "round": "Playoff Round 2",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-4",
+      "question": "In 2016, a warlord from this region began hosting The Team, a reality TV show based on The Apprentice, and asked his Instagram followers to help him find his missing cat. In 1995, militants from this region led by (+) Shamil Basayev seized nearly 2,000 hostages at a hospital in Budyonnovsk. Russia lost nearly 2,000 tanks during a (*) 1995 war in this region that embarrassed Boris Yeltsin. The strongman Ramzan Kadyrov currently rules this region to the west of Dagestan. Grozny is the capital of, for the points, what disputed Caucasus region of Russia?",
+      "questionZh": "2016年，这一地区的一名军阀开办了仿《学徒》的真人秀《The Team》，并在 Instagram 上请粉丝帮忙找猫。1995年，该地区武装分子在沙米尔·巴萨耶夫带领下，在布琼诺夫斯克一所医院劫持近2000名人质。俄罗斯在1995年该地区战争中损失近2000辆坦克，令叶利钦政府难堪。卡德罗夫家族现控制该地区，位于达吉斯坦以西。问：首府为格罗兹尼的俄罗斯高加索争议地区是哪里？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Global Positioning System",
+          "textZh": "全球定位系统"
+        },
+        {
+          "label": "B",
+          "text": "Chechnya Page 1 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2",
+          "textZh": "车臣"
+        },
+        {
+          "label": "C",
+          "text": "Catalhoyuk",
+          "textZh": "恰塔尔休于克"
+        },
+        {
+          "label": "D",
+          "text": "Tahiti",
+          "textZh": "塔希提"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "year": "2016-2017",
+      "round": "Playoff Round 2",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "qa4-mcq-clean-9",
+      "question": "This site is home to the village of Sivu’ovi, a prominent settlement of the Basketmaker II era, and other settlements in this site include the Agate House and the Puerco ruins. This site’s “Newspaper Rock” has been inscribed with over 650 (+) petroglyphs by this park’s former inhabitants, the Pueblo. This park’s northern sector extends into the (*) Painted Desert, and its most famous features are the result of burial by volcanic sediment since the Triassic period. For the points, name this national park in Arizona known for its fossilized trees.",
+      "questionZh": "该遗址内有 Sivu’ovi 村（篮编者 II 时期重要聚落），其他聚落包括 Agate House 与 Puerco 遗址。这里的“报纸岩”刻有650多幅岩画，出自其早期居民普韦布洛人。公园北部延伸至彩绘沙漠；其最著名景观源于三叠纪以来被火山沉积掩埋形成。问：这是亚利桑那州哪座以树木化石闻名的国家公园？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Petrified Forest National Park Page 2 US Varsity and JV National - International Geography Bee 2016-2017 Bee Finals Phase 2",
+          "textZh": "石化森林国家公园"
+        },
+        {
+          "label": "B",
+          "text": "Catalhoyuk",
+          "textZh": "恰塔尔休于克"
+        },
+        {
+          "label": "C",
+          "text": "Tahiti",
+          "textZh": "塔希提"
+        },
+        {
+          "label": "D",
+          "text": "Global Positioning System",
+          "textZh": "全球定位系统"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "IGB-Playoff-Round-2.txt",
+      "year": "2016-2017",
+      "round": "Playoff Round 2",
+      "flags": [
+        "auto_from_qa",
+        "needs_review"
+      ],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-5",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "This state’s Pamola Peak is connected to its highest point by the Knife Edge trail of Baxter State Park. In this state’s coastal Downeast region, Cadillac Mountain overlooks the Atlantic Ocean from Mount Desert Island. Whitewater rafting is popular in the Kennebec Gorge of this state home to Mount Katahdin, the northern terminus of the Appalachian Trail. For the point, Acadia National Park is in what New England state with its capital at Augusta?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Venice",
+          "textZh": "威尼斯"
+        },
+        {
+          "label": "B",
+          "text": "Tundra",
+          "textZh": "苔原"
+        },
+        {
+          "label": "C",
+          "text": "State of Maine Page 1 International Geography Bee Regionals 2018-2019 Round 4",
+          "textZh": "缅因州第 1 页 国际地理蜜蜂地区赛 2018-2019 年第 4 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "该州的波莫拉峰（Pamola Peak）通过巴克斯特州立公园的\"刀锋小径\"（Knife Edge trail）与该州最高点相连。该州的阿卡迪亚国家公园是著名旅游地。请说出这个美国州。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals-mcq-8",
+      "sourceFile": "2018-2019-International-Geography-Bee-Regional-Quiz-Tournament-Finals.txt",
+      "year": "2018-2019",
+      "round": "Finals",
+      "questionNo": null,
+      "question": "The Welsh settlement of Trelew is the most populous city in the Chubut River Valley of this region. Laguna del Carbon, the lowest point of the Western Hemisphere, is in this region. The Valdes Peninsula is in this region that extends down to Punta Arenas, which lies across the Strait of Magellan from Tierra del Fuego. For the point, name this cold and windy region of southern Chile and Argentina.",
+      "options": [
+        {
+          "label": "A",
+          "text": "State of Maine Page 1 International Geography Bee Regionals 2018-2019 Round 4",
+          "textZh": "缅因州第 1 页 国际地理蜜蜂地区赛 2018-2019 年第 4 轮"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Malawi",
+          "textZh": "马拉维共和国"
+        },
+        {
+          "label": "C",
+          "text": "Lake Victoria",
+          "textZh": "维多利亚湖"
+        },
+        {
+          "label": "D",
+          "text": "Patagonia",
+          "textZh": "巴塔哥尼亚"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "威尔士人建立的 Trelew 定居点是该地区丘布特河谷人口最多的城市。拉古纳德尔卡本（Laguna del Carbon）是西半球最低点。请说出这个南美地区。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-2",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "One of these systems in Glasgow consists of two concentric circles and is operated by the Strathclyde Partnership. One of these systems found in Paris has several cast iron entrances designed by Hector Guimard. Portions of one of these systems in London include Euston and Paddington. For ten points, name these systems of trains that run underground, which are often called rapid transit systems.",
+      "options": [
+        {
+          "label": "A",
+          "text": "subway systems [or metro systems",
+          "textZh": "地铁系统[或地铁系统"
+        },
+        {
+          "label": "B",
+          "text": "Panama Canal",
+          "textZh": "Panama Canal"
+        },
+        {
+          "label": "C",
+          "text": "Yellowstone National Park",
+          "textZh": "黄石国家公园"
+        },
+        {
+          "label": "D",
+          "text": "Arabian Peninsula",
+          "textZh": "阿拉伯半岛"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "格拉斯哥的一个此类系统由两个同心圆组成，由 Strathclyde 合作伙伴运营。伦敦的此类系统有环线、区域线等多条线路。请说出这种交通系统。",
+      "_remove_reasons": [
+        "unbalanced_brackets"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-3",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "The village of Zermatt is overlooked by this mountain and is the base for most climbs of this mountain. This mountains first ascent included Lord Francis Douglas and ended with four of the seven climbers deaths. This nearly pyramidal mountain lies in the canton of Valais. For ten points, name this last major mountain in the Alps to be climbed, which sits on the Swiss-Italian border.",
+      "options": [
+        {
+          "label": "A",
+          "text": "subway systems [or metro systems",
+          "textZh": "地铁系统[或地铁系统"
+        },
+        {
+          "label": "B",
+          "text": "Matterhorn",
+          "textZh": "马特洪峰"
+        },
+        {
+          "label": "C",
+          "text": "Yellowstone National Park",
+          "textZh": "黄石国家公园"
+        },
+        {
+          "label": "D",
+          "text": "Arabian Peninsula",
+          "textZh": "阿拉伯半岛"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "采尔马特村俯瞰着这座山，是攀登这座山的大本营。这座山的意大利一侧从布勒伊 - 切尔维尼亚村可以到达。请说出这座阿尔卑斯山峰。",
+      "_remove_reasons": [
+        "unbalanced_brackets"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-6",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "The British Overseas Territories of Akrotiri and Dhekelia are located on this island. This island is divided by the Green Line, with its northern half being an unrecognized independent country. This island is home to the Kyrenia and Troodos mountains. This island is shared by Turkish and Greek inhabitants and has its capital at Nicosia. For ten points, name this large Mediterranean island found south of Turkey.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Research stations in Antarctica",
+          "textZh": "南极洲研究站"
+        },
+        {
+          "label": "B",
+          "text": "Yangtze River",
+          "textZh": "长江"
+        },
+        {
+          "label": "C",
+          "text": "Cyprus Page 1 IGB Regionals 2019-2020 Round 1",
+          "textZh": "塞浦路斯第 1 页 IGB 地区赛 2019-2020 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Matterhorn",
+          "textZh": "马特洪峰"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "英国海外领土阿克罗蒂里和德凯利亚位于这个岛上。这个岛被希腊绿线和北部的\"北塞浦路斯\"分割。请说出这个地中海岛屿。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-7",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "The only non-American alligator species in the world is endemic to this river, which also names a species of finless porpoise. This river was formerly home to the baiji river dolphin, which was harmed by the construction of the Three Gorges Dam. This river flows into the East China Sea near Shanghai. For ten points, name this Chinese river, the longest river in Asia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Venezuela",
+          "textZh": "委内瑞拉"
+        },
+        {
+          "label": "B",
+          "text": "Cyprus Page 1 IGB Regionals 2019-2020 Round 1",
+          "textZh": "塞浦路斯第 1 页 IGB 地区赛 2019-2020 第 1 轮"
+        },
+        {
+          "label": "C",
+          "text": "Mount Kilimanjaro",
+          "textZh": "乞力马扎罗山"
+        },
+        {
+          "label": "D",
+          "text": "Yangtze River",
+          "textZh": "长江"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "世界上唯一非美洲的短吻鳄物种是这个河流的特有种，这个河流还有一种无鳍江豚。这个河流是中国南方的主要河流。请说出这条河流。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-9",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "The mouth of the Catatumbo River in this country is home to a perpetual lightning storm. That river empties into this country’s lake Maracaibo. This country is also home to where the Orinoco River empties into the Caribbean Sea. This country is home to the highest uninterrupted waterfall in the world, Angel Falls. For ten points, name this South American country east of Colombia with capital Caracas.",
+      "options": [
+        {
+          "label": "A",
+          "text": "subway systems [or metro systems",
+          "textZh": "地铁系统[或地铁系统"
+        },
+        {
+          "label": "B",
+          "text": "Yangtze River",
+          "textZh": "长江"
+        },
+        {
+          "label": "C",
+          "text": "Cyprus Page 1 IGB Regionals 2019-2020 Round 1",
+          "textZh": "塞浦路斯第 1 页 IGB 地区赛 2019-2020 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Venezuela",
+          "textZh": "委内瑞拉"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "卡塔通博河河口在这个国家，这里有持续的闪电风暴。这条河注入这个国家的马拉开波湖。这个国家以石油资源丰富著称。请说出这个南美国家。",
+      "_remove_reasons": [
+        "unbalanced_brackets"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1-mcq-10",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-1.txt",
+      "year": "2019-2020",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "Lago Alajuela’s flooding caused the closure of this structure. This structure was created following the Hay-Bunau-Varilla Treaty. This structure is crossed by the Bridge of the Americas. This structure Gatun Lake and the Gaillard Cut lie along this structure. For ten points, name this structure that connects the Caribbean Sea to the Pacific Ocean, a waterway through its namesake Central American country.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arabian Peninsula",
+          "textZh": "阿拉伯半岛"
+        },
+        {
+          "label": "B",
+          "text": "subway systems [or metro systems",
+          "textZh": "地铁系统[或地铁系统"
+        },
+        {
+          "label": "C",
+          "text": "Matterhorn",
+          "textZh": "马特洪峰"
+        },
+        {
+          "label": "D",
+          "text": "Panama Canal",
+          "textZh": "巴拿马运河"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "阿拉胡埃拉湖（Lago Alajuela）的洪水导致这个建筑的关闭。这个建筑是在海 - 布诺 - 瓦里拉条约（Hay-Bunau-Varilla Treaty）后建造的。请说出这个连接两大洋的运河。",
+      "_remove_reasons": [
+        "unbalanced_brackets"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-2-mcq-6",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-2.txt",
+      "year": "2019-2020",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "The Lorelai Rock sits on the shores of this river, where a beautiful maiden was said to lure sailors into crashing their ships. The Neckar and Main rivers flow into this other river, which flows past the city of Cologne. This river forms the borders between Liechtenstein, Austria, and Switzerland. For ten points, name this European river that flows through Germany on its way to the North Sea.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "B",
+          "text": "China",
+          "textZh": "中国"
+        },
+        {
+          "label": "C",
+          "text": "Denali",
+          "textZh": "迪纳利峰"
+        },
+        {
+          "label": "D",
+          "text": "The Rhine Page 1 IGB Regionals 2019-2020 Round 2",
+          "textZh": "莱茵河第 1 页 IGB 地区赛 2019-2020 第 2 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "罗蕾莱岩石位于这条河的岸边，传说一位美丽的少女曾引诱水手触礁。这条河是德国最长的河流，流经科隆和杜塞尔多夫。请说出这条河流。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-2-mcq-8",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-2.txt",
+      "year": "2019-2020",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This archipelago’s largest volcano is located on Fernandina Island. The largest island in this archipelago is Isabella. This archipelago is the only native habitat of the flightless cormorant and the marine iguana. The Voyage of the Beagle was written about a trip to this archipelago. For ten points, name this archipelago off the coast of Ecuador, where Charles Darwin studied its tortoises and finches.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Denali",
+          "textZh": "迪纳利峰"
+        },
+        {
+          "label": "B",
+          "text": "craters",
+          "textZh": "陨石坑"
+        },
+        {
+          "label": "C",
+          "text": "The Rhine Page 1 IGB Regionals 2019-2020 Round 2",
+          "textZh": "莱茵河第 1 页 IGB 地区赛 2019-2020 第 2 轮"
+        },
+        {
+          "label": "D",
+          "text": "Galapagos Islands",
+          "textZh": "加拉帕戈斯群岛"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个群岛最大的火山位于费尔南迪纳岛。这个群岛最大的岛屿是伊莎贝拉岛。这个群岛以独特的野生动物闻名，达尔文曾在此考察。请说出这个群岛。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-5",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "This city is home to the Victoria & Albert Waterfront, which sits on Table Bay Harbor. Robben Island sits off the coast of this city and is where Nelson Mandela was held prisoner. Table Mountain forms the backdrop of this city. This city serves as one of its country’s capitals, along with Bloemfountein and Pretoria. For ten points, name this second largest South African city after Johannesburg.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        },
+        {
+          "label": "B",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Cape Town",
+          "textZh": "开普敦"
+        },
+        {
+          "label": "D",
+          "text": "Adriatic Sea",
+          "textZh": "亚得里亚海"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这座城市的维多利亚和阿尔弗雷德海滨位于桌湾港。罗本岛位于这个城市海岸外。这个城市以桌山闻名。请说出南非的立法首都。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-6",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The southern end of the Tihamah coastal plains lie in this country, which is also home to the eastern edge of the Bab-el-Mandeb. This country controls the islands of Hanish and Socotra. The city of Ataq serves as the de facto capital of this country due to this country’s Houthi rebels. Aden is the main port in this country whose largest city is Sana’a. For ten points, name this country on the southern end of the Arabian peninsula.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kazakhstan",
+          "textZh": "哈萨克斯坦"
+        },
+        {
+          "label": "B",
+          "text": "Algeria",
+          "textZh": "阿尔及利亚"
+        },
+        {
+          "label": "C",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Mumbai",
+          "textZh": "孟买"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "提哈马（Tihamah）沿海平原的南端位于这个国家，该国还有巴布曼德布海峡的东缘。首都是萨那。请说出这个阿拉伯半岛国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3-mcq-7",
+      "sourceFile": "2019-2020-International-Geography-Bee-Regional-Quiz-Tournament-Round-3.txt",
+      "year": "2019-2020",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The northern portion of this body of water is home to Jugo [you-go] and Bora winds, which can drive the creation of sea ice. Cities on this body of water include Dubrovnik and Neum. This body of water is linked to the Ionian Sea by the Strait of Otranto. This body of water’s northern tip contains Venice. For ten points, name this arm of the Mediterranean, a sea that lies between Italy and Croatia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "U.S.-Mexico border",
+          "textZh": "美国-墨西哥边境"
+        },
+        {
+          "label": "B",
+          "text": "Adriatic Sea",
+          "textZh": "亚得里亚海"
+        },
+        {
+          "label": "C",
+          "text": "Yemen Page 1 IGB Regionals 2019-2020 Round 3",
+          "textZh": "也门第 1 页 IGB 地区赛 2019-2020 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "The Bahamas",
+          "textZh": "巴哈马"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个水域的北部有 Jugo 和 Bora 风，它们可以推动海浪的形成。这个水域位于意大利和巴尔干半岛之间。请说出这个海域。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This region is home to Lake Manasarovar, which is considered sacred to the local Bon religion. This region is separated from the Tarim Basin by the Kunlun Mountains. A railroad stretching from Xining to this region’s capital is the highest in the world. This region’s status as the world’s highest and largest plateau has led it to be called the \"Roof of the World.\" For the point, name this autonomous region of China with capital at Lhasa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这个国家的佩特拉古城是\"新七大奇迹\"之一。该国死海沿岸是世界最低点。首都是安曼。请说出这个中东国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-6",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "This river originates from the mountain of Thaba Putsoa, and its tributaries include the Vaal River. This river, which passes over the Augrabies Falls, discharges into the Atlantic Ocean at the Alexander Bay. This river originates in the Drakensberg Mountains in Lesotho. For the point, what is this colorfully- named African river which is at the center of a border dispute between Namibia and South Africa?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mozambique Channel",
+          "textZh": "莫桑比克海峡"
+        },
+        {
+          "label": "B",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "C",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个城市以\"风城\"著称，位于密歇根湖畔。该城市有 Willis Tower 和云门雕塑。请说出这个美国城市。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-7",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "One disputed territory in this body of water has been administered from Sansha since 1956. One country claims the territory within the \"nine-dash line\" in this body of water. This body of water is home to the heavily disputed Spratly and Paracel Islands. For the point, name this southeast Asian Sea located between Vietnam, the Philippines, and its namesake country.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        },
+        {
+          "label": "C",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家拥有世界最大的珊瑚礁系统大堡礁。该国首都是堪培拉，最大城市是悉尼。请说出这个大洋洲国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-1-A-Set-mcq-10",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-1-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 1",
+      "questionNo": null,
+      "question": "Users of this system can utilize the InTouch app to maintain an internet connection while using all parts of the system. This system includes stations such as Euston and Paddington, and commuters using this system pay using an Oyster Card. Those boarding vehicles on this system regularly hear the phrase \"mind the gap.\" For the point, name this subway system in London, commonly called \"The Tube.\"",
+      "options": [
+        {
+          "label": "A",
+          "text": "London Underground",
+          "textZh": "伦敦地铁"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Tibetan Plateau 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 1",
+          "textZh": "青藏高原 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "South China Sea",
+          "textZh": "南海"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这个国家以郁金香和风车闻名。该国首都阿姆斯特丹有众多运河。请说出这个西欧国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This archipelago's largest island is separated from the islands of Picton, Lennox, and Nueva by the Beagle Channel, named for the ship Charles Darwin used to traverse the region. This archipelago is bounded to the south by the Drake Passage, beyond which is Antarctica, and to the north by the Straits of Magellan, which separates this archipelago from the rest of Patagonia. For the point, name this archipelago shared by Argentina and Chile at the southern tip of South America.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kalahari Desert",
+          "textZh": "喀拉哈里沙漠"
+        },
+        {
+          "label": "B",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "D",
+          "text": "Hainan",
+          "textZh": "海南"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这个国家以金字塔和狮身人面像闻名。该国首都是开罗。请说出这个北非国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-6",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "This island is home to statues of little men with mushrooms on their heads known as harubangs. This island's highest point is Hallasan, which is home to the Jonjaamji Pagoda. Nearly 300 people perished en route to this island in an April 2014 ferry disaster. This island's primary port is the city of Seogwipo. For the point, name this island off the southern coast of South Korea, a popular honeymoon destination.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "B",
+          "text": "Xinjiang [[SHIN-JYAHNG]] Uyghur Autonomous Region",
+          "textZh": "新疆 [[SHIN-JYAHNG]] 维吾尔自治区"
+        },
+        {
+          "label": "C",
+          "text": "Jeju Island",
+          "textZh": "济州岛"
+        },
+        {
+          "label": "D",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个群岛是印度洋上的热带天堂，以奢华度假村闻名。首都是马累。请说出这个岛国。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-2-A-Set-mcq-9",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-2-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 2",
+      "questionNo": null,
+      "question": "Along with Haryana, a state named for this region is served by the capital city Chandigarh, while Lahore is the capital and main city of another state named for this region. This region's namesake language is the only tonal Indo- European language and was used to write the Adi Granth. For the point, name this region divided by India and Pakistan, the homeland of Sikhism.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yosemite National Park",
+          "textZh": "优胜美地国家公园"
+        },
+        {
+          "label": "B",
+          "text": "Tierra del Fuego 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee – Round 2",
+          "textZh": "火地岛 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 – 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Elbe [[EL-buh]] River",
+          "textZh": "易北河 [[EL-buh]] 河"
+        },
+        {
+          "label": "D",
+          "text": "Punjab",
+          "textZh": "旁遮普省"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个岛屿是加勒比海最大岛屿，以雪茄和老爷车闻名。首都是哈瓦那。请说出这个岛屿国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-1",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "One island governed by this country is separated from the mainland by the Chacao Channel and has its capital at Castro. This country’s indigenous Mapuche people, who historically were concentrated in its south, compose nearly 10% of this country’s population. This country's southernmost region is governed from the city of Punta Arenas. The flag of this nation is very similar to the flag of Texas, except that the blue field is only in the upper left corner. For the point, name this narrow South American country whose capital is Santiago.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Chile",
+          "textZh": "智利共和国"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家以樱花和富士山闻名。该国首都是东京。请说出这个东亚国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-5",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The shores of this body of water were formerly the site of the cities of Nguimi and Bol. One proposal to restore this body of water was the Transqua Project, which would have redirected water from the Ubangi River. This Sahel lake has lost over 95% of its historic volume. For the point, name this rapidly drying-up African lake which shares its name with a country governed from N'Djamena.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "B",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这片水域的海岸以前是恩吉米 [[NGWEE-mee]] 和波尔市的所在地。 ",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-7",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "The city of Kuching is on this island and serves as the capital of the Sarawak State. This island's northern tip consists of the Sabah State, and the city of Bandar Seri Begawan is the capital of a sultanate located entirely on this island. This island’s highest peak of Mount Kinabalu overlooks the habitat of its native orangutans. For the point, name this third largest island in the world, which is divided between Malaysia, Indonesia, and Brunei.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "C",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "D",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "古晋市位于这个岛上，是砂拉越州的首府。这个岛是东南亚最大的岛屿，被马来西亚、印度尼西亚和文莱三国分割。请说出这个岛屿。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-8",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "Near the town of Sankt Gore, this river wraps around the Lorelei Rock. This river is the source of the seldom-used last name of the 17th century painter of The Jewish Bride. This river flows through Lake Constance, where it forms an inland delta. This river originates in Lake Tomasee in Switzerland and discharges in the Netherlands. Major cities along this river include Cologne and Dusseldorf. For the point, name this European river which forms the border between France and Germany.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "B",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "C",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "D",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "这条河位于圣戈尔镇附近，环绕着罗蕾莱岩石。这条河是德国最长的河流，流经科隆和杜塞尔多夫。请说出这条河流。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2020-2021-International-Geography-Bee-Round-3-A-Set-mcq-10",
+      "sourceFile": "2020-2021-International-Geography-Bee-Round-3-A-Set.txt",
+      "year": "2020-2021",
+      "round": "Round 3",
+      "questionNo": null,
+      "question": "In 2019, the first member of this country’s predominant ethnic group to be elected to the US Congress, began representing the Minnesota 5th district. A former British colony claimed by this country runs a de facto independent government from the city of Hargeisa. The breakaway region of Puntland is located along this country's northeast coast. This country is separated from Yemen by the Gulf of Aden. For the point, name this country on the Horn of Africa, whose capital city is Mogadishu.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "B",
+          "text": "Federal Republic of Somalia 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "索马里联邦共和国 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 V/JV Spring Geography Bee V/JV Spring Geography Bee - Round 3",
+          "textZh": "乍得湖 2020-21 V/JV 春季地理蜜蜂 V/JV 春季地理蜜蜂 - 第 3 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "2019 年，该国首位当选美国国会议员的主要族裔成员开始代表明尼苏达州第五选区。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-4",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "One ethno-religion practiced by these people features a six-day pilgrimage to the city of Lalish. The city of Erbil serves as the capital to a territory named for these people. These Yazidi-practicing people have been the subject of a genocidal campaign by ISIL. For the point, name this ethnic minority who are seeking to form an independent state in northern Iraq and Syria.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Oregon 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "俄勒冈州 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Kingdom of Norway",
+          "textZh": "挪威王国"
+        },
+        {
+          "label": "C",
+          "text": "Kurds",
+          "textZh": "库尔德人"
+        },
+        {
+          "label": "D",
+          "text": "United Republic of Tanzania",
+          "textZh": "坦桑尼亚联合共和国"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这些人信奉的一种民族宗教是前往拉利什市进行为期六天的朝圣。这些人主要分布在印度西北部和巴基斯坦。请说出这个民族。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-5",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "This city is served by the world's largest desalination plant at the port of Jebel Ali. This city's The Palm hotel notably has underwater rooms. This city is home to archipelagos of artificial islands shaped like a map of the world. This city is home to the tallest skyscraper in the world, which is known as the Burj [this city]. For the point, name this most populous city in the United Arab Emirates.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dubai 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "迪拜 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Kurds",
+          "textZh": "库尔德人"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Norway",
+          "textZh": "挪威王国"
+        },
+        {
+          "label": "D",
+          "text": "River Delta",
+          "textZh": "河三角洲"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "杰贝阿里港拥有世界上最大的海水淡化厂，为这座城市提供服务。这座城市是阿联酋人口最多的城市，有哈利法塔。请说出这个城市。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-6",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "In this country in 1974, Jane Goodall discovered an ongoing \"war\" between chimpanzee tribes in the Gombe Stream National Park. This country's Ngorongoro Conservation Area is home to the Olduvai Gorge, a ravine spanning 50 kilometers of the Great Rift Valley. This country is home to the highest mountain in Africa, Mount Kilimanjaro. For the point, name this East African country whose largest city is Dar es Salaam.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sumatra",
+          "textZh": "苏门答腊岛"
+        },
+        {
+          "label": "B",
+          "text": "Aquifers",
+          "textZh": "含水层"
+        },
+        {
+          "label": "C",
+          "text": "United Republic of Tanzania",
+          "textZh": "坦桑尼亚联合共和国"
+        },
+        {
+          "label": "D",
+          "text": "Oregon 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "俄勒冈州 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "1974 年，简·古道尔 (Jane Goodall) 在这个国家的贡贝溪国家公园 (Gombe Stream National Park) 发现黑猩猩部落之间正在进行一场“战争”。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-7",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "Cities on this body of water include Sundsvall and Vaasa, on this body of water's northern arm, the Gulf of Bothnia. 114 miles of Russian coastline touch this body of water by way of the Kaliningrad Oblast. This body of water's name is also used to refer collectively to the former Soviet states of Estonia, Latvia, and Lithuania. For the point, name this northern European body of water spanning from Denmark to Finland.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Baltic Sea",
+          "textZh": "波罗的海"
+        },
+        {
+          "label": "B",
+          "text": "River Delta",
+          "textZh": "河三角洲"
+        },
+        {
+          "label": "C",
+          "text": "Dubai 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "迪拜 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Norway",
+          "textZh": "挪威王国"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该水域上的城市包括松兹瓦尔和瓦萨，位于该水域的北臂波的尼亚湾。 ",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-9",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "This island contains Mt. Tuba, which is in the Barisan Mountains, and this island's highest point is Mt. Kerinci. The northern end of this island is home to the province of Aceh. This island is separated from the Malay Peninsula by the Straits of Malacca and is separated from Java in the south by the Sunda Strait. For the point, name this westernmost of the major Indonesian islands.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kingdom of Norway",
+          "textZh": "挪威王国"
+        },
+        {
+          "label": "B",
+          "text": "Dubai 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "迪拜 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        },
+        {
+          "label": "C",
+          "text": "Sumatra",
+          "textZh": "苏门答腊岛"
+        },
+        {
+          "label": "D",
+          "text": "United Republic of Tanzania",
+          "textZh": "坦桑尼亚联合共和国"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "这个岛包含位于 Barisan 山脉的 Tuba 山，这个岛的最高点是 Kerinci 山 [[keh-RIN-chee]]。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round1",
+      "questionNo": null,
+      "question": "The coast of this state was first mapped in 1592 by Juan de Fuca, including the strait that now bears his name. This state hosts part of the Cascade Volcanic Arc, including Mount Jefferson, Mount Hood, and the Three Sisters. Seventy percent of this state's population lives in the Willamette Valley, which stretches from Newberg to Eugene. For the point, name this West Coast state whose largest city is Portland.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kurds",
+          "textZh": "库尔德人"
+        },
+        {
+          "label": "B",
+          "text": "River Delta",
+          "textZh": "河三角洲"
+        },
+        {
+          "label": "C",
+          "text": "Kingdom of Norway",
+          "textZh": "挪威王国"
+        },
+        {
+          "label": "D",
+          "text": "Oregon 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 1",
+          "textZh": "俄勒冈州 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 1 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "胡安·德·富卡 (Juan de Fuca) 于 1592 年首次绘制了该州海岸线的地图，其中包括现在以他的名字命名的海峡。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-3",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Natural features in this territory include Alligator Lake and the Miles Canyon Basalts. Kluane National Park, located in this territory's southwestern corner, is home to Mount Logan, the second tallest mountain in North America. This territory's capital city of Whitehorse is the largest settlement in any of Canada's three territories. For the point, name this subarctic Canadian territory bordering Alaska.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
+        },
+        {
+          "label": "C",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该地区的自然景观包括鳄鱼湖和迈尔斯峡谷玄武岩。这个地区是加拿大的一个地区，以极光闻名。请说出这个地区。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-4",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Along this area in 2019, a series of hiking trails bound by barbed wire were opened up. In May 2020, the two countries separated by this area exchanged gunfire, in violation of a 1953 armistice. For the point, name this heavily fortified area along an East Asian peninsula, separating two countries whose capitals are Pyongyang and Seoul.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "DMZ",
+          "textZh": "非军事区"
+        },
+        {
+          "label": "D",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "2019年，沿着该地区开辟了一系列由铁丝网围成的远足小径。 ",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-5",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This country's sole natural lake is located in an impact crater and is known as Lake Bosumtwi. This country's Akosombo Dam forms the largest artificial lake in the world by surface area, Lake Volta. This country's interior is home to the Ashanti people, and while under British rule, this country was known as the Gold Coast. For the point, name this west African country whose capital is Accra.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yukon Territory",
+          "textZh": "育空地区"
+        },
+        {
+          "label": "B",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "silk",
+          "textZh": "丝绸"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家唯一的天然湖泊位于撞击坑中，被称为博苏姆特维湖。这个国家位于西非，首都是阿克拉。请说出这个国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-6",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This country's eponymous lake is fed by the San Juan and Tipitapa Rivers and is separated from the Pacific Ocean by the Rivas Isthmus. The Amerrisque mountains separate that lake in this country from Lake Managua. The city of Bluefields is the most populous in this country's Mosquito Coast region. For the point, name this Central American country located between Honduras and Costa Rica.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "D",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这个国家的同名湖泊由圣胡安河和蒂皮塔帕河供水，并被里瓦斯地峡与太平洋隔开。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-8",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "Along with a namesake peninsula, this city lies on the islands of Taipa, Coloane, and Hengqin. This city is known as the “Monte Carlo of the Orient\" due to its casinos including the Venetian and the Casino Lisboa. This city is located across the Pearl River estuary from Hong Kong. For the point, name this formerly Portuguese-controlled Special Administrative Region of China, a global gambling center.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sea of Japan",
+          "textZh": "日本海"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Ghana 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "加纳共和国 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        },
+        {
+          "label": "D",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这座城市与同名半岛一起位于凼仔岛、路环岛 [[koh-loh-AH-neh]] 和横琴岛 [[HUNG-CHIN]] 上。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-2-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set2 Round2",
+      "questionNo": null,
+      "question": "This river, which originates at Lake Hazar, flows through the town of Hasakeft in Batman Province. A dam formerly named after Saddam Hussein is located along this river near the city of Mosul. This is the easternmost of the two known rivers listed as being in the Garden of Eden. For the point, name this river which forms the Shatt-al-Arab at its confluence with the Euphrates.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Nicaragua",
+          "textZh": "尼加拉瓜共和国"
+        },
+        {
+          "label": "B",
+          "text": "silk",
+          "textZh": "丝绸"
+        },
+        {
+          "label": "C",
+          "text": "Macau Special Administrative Region of the People's Republic of China",
+          "textZh": "中华人民共和国澳门特别行政区"
+        },
+        {
+          "label": "D",
+          "text": "Tigris River 2020-21 Geography Bee Two - 2021-03-22 Geography Bee Two - Round 2",
+          "textZh": "底格里斯河 2020-21 地理蜜蜂第二场 - 2021-03-22 地理蜜蜂第二场 - 第 2 轮"
+        }
+      ],
+      "answer": "D",
+      "questionZh": "这条河发源于哈扎尔湖，流经蝙蝠侠[[BAHT-mahn]]省的哈萨克夫特镇。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-10",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This body of water's largest island is Kent Island, home to the towns of Stevensville and Chester. This body of water's mouth is located between Cape Henry and Cape Charles. This body of water is fed by the Susquehanna and Potomac Rivers and separates the Delmarva Peninsula from the mainland. For the point, name this large East Coast estuary, famous for its crab fishing, which borders Maryland and Virginia.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "C",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "这片水域最大的岛屿是肯特岛，是史蒂文斯维尔和切斯特镇的所在地。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-2",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "The Thunder Dragon Druk is depicted on this country's national flag. This country is home to the cliffside Tiger's Nest monastery. This country also is home to Gangkhar Puensum, the tallest unclimbed mountain in the world. This country, whose national language is Dzongkha, is ruled by the Wangchuck dynasty. For the point, name this small Himalayan monarchy whose capital is Thimphu",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rhine River",
+          "textZh": "莱茵河"
+        },
+        {
+          "label": "B",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        },
+        {
+          "label": "C",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "该国国旗上描绘了雷龙德鲁克。这个国家位于喜马拉雅山脉，以国民幸福总值闻名。首都是廷布。请说出这个国家。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-9",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "questionNo": null,
+      "question": "This state is sometimes known as the Battle Born State for achieving statehood during the U.S. Civil War. An annual festival featuring the burning of a wooden effigy is hosted at a temporary city in this state's Black Rock Desert. This state's largest city is served by McCarran International Airport and is home to many casinos, including the Venetian and Caesars Palace. For the point, name this western U.S. state whose capital is Carson City.",
+      "options": [
+        {
+          "label": "A",
+          "text": "lighthouses",
+          "textZh": "灯塔"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Nevada",
+          "textZh": "内华达州"
+        },
+        {
+          "label": "D",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        }
+      ],
+      "answer": "C",
+      "questionZh": "该州有时因在美国内战期间获得建州地位而被称为“战斗诞生州”。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-2",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "Major mountain ranges on this island include the Hido and Kiso Ranges. This island's largest lakes are Lake Biwa and Lake Hachirogata. This island's southern coast is formed by the Kanmon Straits, which separate this island from Kyushu. This island is separated from Hokkaido in the north by the Tsugaru Strait. For the point, name this largest and most populous Japanese island, the location of the city of Tokyo.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "B",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "C",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        },
+        {
+          "label": "D",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        }
+      ],
+      "answer": "B",
+      "questionZh": "岛上的主要山脉包括飞户山脉和木曾山脉。这个岛是日本最大的岛屿，东京、大阪都位于此。请说出这个岛屿。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-5",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "questionNo": null,
+      "question": "This region is home to Lake Manasarovar, which is considered sacred to the local Bon religion. This region is separated from the Tarim Basin by the Kunlun Mountains. Due to being the largest and highest plateau on earth, this region is sometimes called the \"Roof of the World.\" For the point, name this East Asian plateau, which shares its name with an autonomous region of China with capital at Lhasa.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "B",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "C",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "D",
+          "text": "Honshu",
+          "textZh": "本州"
+        }
+      ],
+      "answer": "A",
+      "questionZh": "该地区是玛旁雍错湖的所在地，该湖被当地苯教视为圣湖。这个地区位于中国西南部，以喜马拉雅山脉闻名。请说出这个地区。",
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-3",
+      "question": "One feature with this name hosts the Saint Catherine's Monastery and is located across from Mt. Catherine. One peninsula with this name is bounded on the west and east by the Gulf of Aqaba and the Gulf of Suez. That peninsula of this name makes up the southwest border of Gaza and Israel. For the point, give this common name of the mountain on which God gave Moses the Ten Commandments and a peninsula in eastern Egypt.",
+      "questionZh": "圣凯瑟琳修道院位于圣凯瑟琳山对面，以这个名字命名。这个地理特征位于西奈半岛。请说出这个山脉。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "B",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        },
+        {
+          "label": "C",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        }
+      ],
+      "answer": "D",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-4",
+      "question": "This archipelago includes Baltra Island, which is also known as South Seymour. This archipelago sits atop the Cocos Ridge and the islands of this archipelago lie at the confluence of the Nazca and Cocos plates. This archipelago's islands include San Cristobal, Fernandina, and Isabela. For the point, name this Pacific archipelago controlled by Ecuador, the location of Charles Darwin's observations of some notable finches.",
+      "questionZh": "该群岛包括巴尔特拉岛，也称为南西摩。这个群岛属于厄瓜多尔，以独特的野生动物闻名。请说出这个群岛。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Galapagos Islands",
+          "textZh": "加拉帕戈斯群岛"
+        },
+        {
+          "label": "B",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "D",
+          "text": "Sinai",
+          "textZh": "西奈半岛"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-7",
+      "question": "One disputed territory in this body of water has been administered from Sansha since 1956. One country claims the territory within the \"nine-dash line\" in this body of water. This body of water is home to the heavily disputed Spratly and Paracel Islands. For the point, name this southeast Asian Sea located between Vietnam, the Philippines, and its namesake country.",
+      "questionZh": "自1956年以来，该水域的一处有争议领土一直由三沙管辖。一国声称对该水域“九段线”内的领土拥有主权。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "B",
+          "text": "South China Sea",
+          "textZh": "南海"
+        },
+        {
+          "label": "C",
+          "text": "Honshu",
+          "textZh": "本州"
+        },
+        {
+          "label": "D",
+          "text": "Tibetan Plateau 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "青藏高原 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1-mcq-9",
+      "question": "This country contains the headwaters of the Vuoksi River, which drains its Lake Saima. The Åland [[AW-lund]] Islands are the territory of this country despite the islands' residents almost exclusively speaking Swedish. This country's namesake gulf separates it from Estonia. For the point, name this northern European country sometimes included in Scandinavia, whose capital is Helsinki.",
+      "questionZh": "该国拥有沃克西河 (Vuoksi River) 的源头，该河是塞马湖的水源。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Republic of Finland",
+          "textZh": "芬兰共和国"
+        },
+        {
+          "label": "B",
+          "text": "Orange River",
+          "textZh": "奥兰治河"
+        },
+        {
+          "label": "C",
+          "text": "Chesapeake Bay 2020-21 Geography Bee One Geography Bee One - Round 1",
+          "textZh": "切萨皮克湾 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 1 轮"
+        },
+        {
+          "label": "D",
+          "text": "Lebanon",
+          "textZh": "黎巴嫩"
+        }
+      ],
+      "answer": "A",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-1.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round1",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-5",
+      "question": "The shores of this body of water were formerly the site of the cities of Nguimi [[NGWEE-mee]] and Bol. One proposal to restore this body of water was the Transqua Project, which would have redirected water from the Ubangi River. This Sahel lake has lost over 95% of its historic volume. For the point, name this rapidly drying-up African lake which shares its name with a country governed from N'Djamena [[un-jah-MAY-nah]].",
+      "questionZh": "这片水域的海岸以前是恩吉米 [[NGWEE-mee]] 和波尔市的所在地。 ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Timor",
+          "textZh": "帝汶"
+        },
+        {
+          "label": "B",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        },
+        {
+          "label": "C",
+          "text": "Republic of Cape Verde",
+          "textZh": "佛得角共和国"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    },
+    {
+      "id": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2-mcq-6",
+      "question": "According to local legend, these objects were transported to their current location by being \"walked.\" By the mid-1800s, the only examples of these objects to have not been toppled were at Rano Raraku. Many of these objects were originally topped with a pukao, a red hat-like object which may have represented a chieftain's topknot. For the point, name these head-shaped monoliths created by the Rapa Nui people of Easter Island.",
+      "questionZh": "据当地传说，这些物品是通过\"步行\"被运送到当前位置的。这些巨石阵位于英格兰威尔特郡。请说出这个史前遗迹。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lake Chad 2020-21 Geography Bee One Geography Bee One - Round 2",
+          "textZh": "乍得湖 2020-21 地理蜜蜂一号 地理蜜蜂一号 - 第 2 轮"
+        },
+        {
+          "label": "B",
+          "text": "Mo'ai",
+          "textZh": "摩艾"
+        },
+        {
+          "label": "C",
+          "text": "Borneo",
+          "textZh": "婆罗洲"
+        },
+        {
+          "label": "D",
+          "text": "Kingdom of Bhutan",
+          "textZh": "不丹王国"
+        }
+      ],
+      "answer": "B",
+      "sourceFile": "2021-International-Geography-Bee-Regional-Finals-Set-1-Round-2.txt",
+      "year": "2021",
+      "round": "Regional Finals Set1 Round2",
+      "flags": [],
+      "_remove_reasons": [
+        "artifact_text"
+      ]
+    }
+  ]
+}
