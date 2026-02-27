@@ -95,13 +95,13 @@ function renderQuestion() {
   const q = current[idx];
   progressEl.textContent = `${idx + 1} / ${current.length}`;
   scoreEl.textContent = `得分：${score}`;
-  questionEl.textContent = `【中文】${q.questionZh || '（暂无翻译）'}\n\n【原文】${q.question}`;
+  questionEl.textContent = q.questionZh || q.question || '（暂无题干）';
 
   optionsEl.innerHTML = '';
   q.options.forEach(o => {
     const btn = document.createElement('button');
     btn.className = 'option';
-    btn.textContent = `${o.label}. ${o.textZh || o.text}  (${o.text})`;
+    btn.textContent = `${o.label}. ${o.textZh || o.text}`;
     btn.onclick = () => {
       selected = o.label;
       [...optionsEl.children].forEach(c => c.style.outline = 'none');
@@ -149,7 +149,7 @@ async function init() {
   const res = await fetch('./assets/questions_zh_mcq.json');
   const data = await res.json();
   bank = data.questions || [];
-  metaEl.textContent = `真题选择题（中英双语）：${data.meta?.count || bank.length} 题`;
+  metaEl.textContent = `真题选择题（默认中文展示）：${data.meta?.count || bank.length} 题`;
 
   const years = [...new Set(bank.map(x => x.year).filter(Boolean))];
   const rounds = [...new Set(bank.map(x => x.round).filter(Boolean))];
@@ -163,9 +163,7 @@ function renderExplanation(q, selectedLabel) {
   const correctOpt = q.options.find(x => x.label === correct);
   const selectedOpt = q.options.find(x => x.label === selectedLabel);
   const correctTextZh = correctOpt ? (correctOpt.textZh || correctOpt.text) : '';
-  const correctTextEn = correctOpt ? correctOpt.text : '';
   const selectedTextZh = selectedOpt ? (selectedOpt.textZh || selectedOpt.text) : '';
-  const selectedTextEn = selectedOpt ? selectedOpt.text : '';
 
   const verdict = selectedLabel === correct ? '回答正确 ✅' : '回答错误 ❌';
   const clue = (q.questionZh || q.question)
@@ -174,8 +172,8 @@ function renderExplanation(q, selectedLabel) {
 
   answerEl.innerHTML = `
     <div><strong>${verdict}</strong></div>
-    <div>正确答案：${correct}${correctTextZh ? ` - ${correctTextZh}` : ''}${correctTextEn ? `（${correctTextEn}）` : ''}</div>
-    ${selectedLabel ? `<div>你的答案：${selectedLabel}${selectedTextZh ? ` - ${selectedTextZh}` : ''}${selectedTextEn ? `（${selectedTextEn}）` : ''}</div>` : ''}
+    <div>正确答案：${correct}${correctTextZh ? ` - ${correctTextZh}` : ''}</div>
+    ${selectedLabel ? `<div>你的答案：${selectedLabel}${selectedTextZh ? ` - ${selectedTextZh}` : ''}</div>` : ''}
     <div>题干线索（节选）：${clue}${(q.questionZh || q.question).length > 120 ? '…' : ''}</div>
     <div>提示：先抓地名/地形/历史事件锚点，再排除干扰选项。</div>
   `;
