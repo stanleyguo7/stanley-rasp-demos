@@ -28,6 +28,19 @@ let selected = null;
 let answered = false;
 let wrongSet = loadWrongSet();
 
+function isSuspiciousOptionText(text = '') {
+  const t = String(text);
+  return (
+    /Geography\s*Bee|V\/JV|Round\s*\d/i.test(t) ||
+    t.length > 140
+  );
+}
+
+function isQuestionUsable(q) {
+  if (!q || !Array.isArray(q.options) || q.options.length < 4) return false;
+  return !q.options.some(o => isSuspiciousOptionText(o?.text || ''));
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -148,8 +161,9 @@ function next() {
 async function init() {
   const res = await fetch('./assets/questions_zh_mcq.json');
   const data = await res.json();
-  bank = data.questions || [];
-  metaEl.textContent = `真题选择题（默认中文展示）：${data.meta?.count || bank.length} 题`;
+  const all = data.questions || [];
+  bank = all.filter(isQuestionUsable);
+  metaEl.textContent = `真题选择题（默认中文展示）：${bank.length} 题（已过滤可疑选项）`;
 
   const years = [...new Set(bank.map(x => x.year).filter(Boolean))];
   const rounds = [...new Set(bank.map(x => x.round).filter(Boolean))];
