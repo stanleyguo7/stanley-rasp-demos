@@ -71,13 +71,157 @@ function createStarField() {
   scene.add(stars);
 }
 
+// 创建飞机纹理（使用 Canvas 绘制）
+function createAirplaneTexture(color, isPlayer = true) {
+  const canvas = document.createElement('canvas');
+  canvas.width = 128;
+  canvas.height = 128;
+  const ctx = canvas.getContext('2d');
+  
+  // 清空画布（透明背景）
+  ctx.clearRect(0, 0, 128, 128);
+  
+  const centerX = 64;
+  const centerY = 64;
+  
+  if (isPlayer) {
+    // 玩家飞机（向上飞）
+    // 绘制机翼（后）
+    ctx.fillStyle = color;
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY + 20);
+    ctx.lineTo(centerX - 35, centerY + 45);
+    ctx.lineTo(centerX - 25, centerY + 50);
+    ctx.lineTo(centerX, centerY + 30);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY + 20);
+    ctx.lineTo(centerX + 35, centerY + 45);
+    ctx.lineTo(centerX + 25, centerY + 50);
+    ctx.lineTo(centerX, centerY + 30);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制飞机主体
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - 40);
+    ctx.lineTo(centerX - 20, centerY + 20);
+    ctx.lineTo(centerX, centerY + 15);
+    ctx.lineTo(centerX + 20, centerY + 20);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制前机翼
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - 20);
+    ctx.lineTo(centerX - 25, centerY - 5);
+    ctx.lineTo(centerX - 15, centerY);
+    ctx.lineTo(centerX, centerY - 10);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - 20);
+    ctx.lineTo(centerX + 25, centerY - 5);
+    ctx.lineTo(centerX + 15, centerY);
+    ctx.lineTo(centerX, centerY - 10);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制驾驶舱
+    ctx.fillStyle = '#4ade80';
+    ctx.beginPath();
+    ctx.arc(centerX, centerY - 15, 6, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.stroke();
+  } else {
+    // 敌机（向下飞）
+    // 绘制机翼（后）
+    ctx.fillStyle = color;
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - 20);
+    ctx.lineTo(centerX - 35, centerY - 45);
+    ctx.lineTo(centerX - 25, centerY - 50);
+    ctx.lineTo(centerX, centerY - 30);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - 20);
+    ctx.lineTo(centerX + 35, centerY - 45);
+    ctx.lineTo(centerX + 25, centerY - 50);
+    ctx.lineTo(centerX, centerY - 30);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制飞机主体
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY + 40);
+    ctx.lineTo(centerX - 20, centerY - 20);
+    ctx.lineTo(centerX, centerY - 15);
+    ctx.lineTo(centerX + 20, centerY - 20);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制前机翼
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY + 20);
+    ctx.lineTo(centerX - 25, centerY + 5);
+    ctx.lineTo(centerX - 15, centerY);
+    ctx.lineTo(centerX, centerY + 10);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY + 20);
+    ctx.lineTo(centerX + 25, centerY + 5);
+    ctx.lineTo(centerX + 15, centerY);
+    ctx.lineTo(centerX, centerY + 10);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+    
+    // 绘制驾驶舱
+    ctx.fillStyle = '#f87171';
+    ctx.beginPath();
+    ctx.arc(centerX, centerY + 15, 6, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.stroke();
+  }
+  
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.needsUpdate = true;
+  return texture;
+}
+
 // 创建玩家飞机
 function createPlayer() {
-  const geometry = new THREE.ConeGeometry(0.3, 0.8, 3);
-  const material = new THREE.MeshBasicMaterial({ color: 0x22c55e });
+  const texture = createAirplaneTexture('#22c55e', true);
+  const geometry = new THREE.PlaneGeometry(0.6, 0.8);
+  const material = new THREE.MeshBasicMaterial({ 
+    map: texture,
+    transparent: true,
+    side: THREE.DoubleSide
+  });
   player = new THREE.Mesh(geometry, material);
   player.position.set(0, -2, 0);
-  player.rotation.z = Math.PI;
   scene.add(player);
 }
 
@@ -99,8 +243,13 @@ function createBullet(position, isPlayerBullet = true) {
 
 // 创建敌机
 function createEnemy() {
-  const geometry = new THREE.ConeGeometry(0.25, 0.6, 3);
-  const material = new THREE.MeshBasicMaterial({ color: 0xef4444 });
+  const texture = createAirplaneTexture('#ef4444', false);
+  const geometry = new THREE.PlaneGeometry(0.5, 0.6);
+  const material = new THREE.MeshBasicMaterial({ 
+    map: texture,
+    transparent: true,
+    side: THREE.DoubleSide
+  });
   const enemy = new THREE.Mesh(geometry, material);
   
   // 随机位置在屏幕上方
