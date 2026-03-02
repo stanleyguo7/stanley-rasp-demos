@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+#gameContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.stats {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.stat-item .label {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.stat-item .value {
+  color: #22c55e;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.start-screen,
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  pointer-events: all;
+  min-width: 300px;
+}
+
+.start-screen h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #22c55e;
+}
+
+.start-screen .instructions {
+  margin: 20px 0;
+  line-height: 1.8;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.game-over h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ef4444;
+}
+
+.game-over p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.game-over #finalScore {
+  color: #22c55e;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background: #22c55e;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+  pointer-events: all;
+}
+
+.btn-primary:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
+
+.btn-primary:active {
+  transform: scale(0.95);
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 600px) {
+  .stats {
+    top: 10px;
+    left: 10px;
+    gap: 10px;
+  }
+
+  .stat-item {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .stat-item .value {
+    font-size: 16px;
+  }
+
+  .start-screen,
+  .game-over {
+    padding: 30px 20px;
+    min-width: 280px;
+  }
+
+  .start-screen h1 {
+    font-size: 2rem;
+  }
+}
