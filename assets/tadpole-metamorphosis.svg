@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 490" width="1440" height="490">
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif; }
+    </style>
+
+    <!-- Arrow marker -->
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#22c55e" opacity="0.85"/>
+    </marker>
+
+    <!-- Tadpole body gradient -->
+    <radialGradient id="tg" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </radialGradient>
+
+    <!-- Adult frog gradient (brighter) -->
+    <radialGradient id="fg" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#bef264"/>
+      <stop offset="55%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </radialGradient>
+
+    <!-- Egg jelly gradient -->
+    <radialGradient id="eg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#e0f7ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#7dd3fc" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.3"/>
+    </radialGradient>
+
+    <!-- Eye gradient -->
+    <radialGradient id="eyeg" cx="35%" cy="30%">
+      <stop offset="0%" stop-color="#d1fae5"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </radialGradient>
+
+    <!-- Badge number gradient for final stage -->
+    <radialGradient id="badgeFinal" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="1440" height="490" fill="#06101e"/>
+
+  <!-- Water at bottom -->
+  <path d="M0,395 Q240,375 480,395 Q720,415 960,395 Q1200,375 1440,395 L1440,490 L0,490 Z"
+        fill="#0c1f35" opacity="0.7"/>
+  <path d="M0,425 Q360,405 720,425 Q1080,445 1440,425 L1440,490 L0,490 Z"
+        fill="#0a1928" opacity="0.5"/>
+
+  <!-- ===== TITLE BAR ===== -->
+  <rect width="1440" height="74" fill="#070e1c"/>
+  <line x1="0" y1="74" x2="1440" y2="74" stroke="#0f2133" stroke-width="1"/>
+  <text x="720" y="37" text-anchor="middle" fill="#f0fdf4" font-size="20" font-weight="bold" letter-spacing="5">
+    🐸  蝌蚪的变态发育过程  🐸
+  </text>
+  <text x="720" y="61" text-anchor="middle" fill="#374151" font-size="12" letter-spacing="2">
+    Frog Metamorphosis · From Fertilized Egg to Adult Frog
+  </text>
+
+  <!-- ===== TIMELINE DASHED LINE ===== -->
+  <line x1="85" y1="210" x2="1355" y2="210" stroke="#0e2640" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- ===== ARROWS + TIME LABELS ===== -->
+  <!-- 1→2 -->
+  <line x1="154" y1="210" x2="218" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="186" y="200" text-anchor="middle" fill="#4b5563" font-size="9">3–5天</text>
+  <!-- 2→3 -->
+  <line x1="345" y1="210" x2="416" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="380" y="200" text-anchor="middle" fill="#4b5563" font-size="9">孵化</text>
+  <!-- 3→4 -->
+  <line x1="580" y1="210" x2="645" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="612" y="200" text-anchor="middle" fill="#4b5563" font-size="9">2–3周</text>
+  <!-- 4→5 -->
+  <line x1="796" y1="210" x2="858" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="827" y="200" text-anchor="middle" fill="#4b5563" font-size="9">3–4周</text>
+  <!-- 5→6 -->
+  <line x1="1010" y1="210" x2="1070" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="1040" y="200" text-anchor="middle" fill="#4b5563" font-size="9">1–2周</text>
+  <!-- 6→7 -->
+  <line x1="1210" y1="210" x2="1275" y2="210" stroke="#22c55e" stroke-width="2" opacity="0.6" marker-end="url(#arr)"/>
+  <text x="1242" y="200" text-anchor="middle" fill="#4b5563" font-size="9">数周</text>
+
+
+  <!-- ===================================================
+       STAGE 1: 受精卵  (center x=85, y=210)
+       =================================================== -->
+  <g transform="translate(85,210)">
+    <!-- Badge -->
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">1</text>
+
+    <!-- 5 jelly eggs in a cluster -->
+    <circle cx="0"   cy="-28" r="18" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="0"   cy="-28" r="7"  fill="#92400e"/>
+    <circle cx="-17" cy="-7"  r="18" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="-17" cy="-7"  r="7"  fill="#92400e"/>
+    <circle cx="17"  cy="-7"  r="18" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="17"  cy="-7"  r="7"  fill="#92400e"/>
+    <circle cx="-9"  cy="17"  r="18" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="-9"  cy="17"  r="7"  fill="#92400e"/>
+    <circle cx="9"   cy="17"  r="18" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1"/>
+    <circle cx="9"   cy="17"  r="7"  fill="#92400e"/>
+
+    <!-- Labels -->
+    <text y="60"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">受精卵</text>
+    <text y="77"  text-anchor="middle" fill="#6b7280" font-size="10">Fertilized Egg</text>
+    <text y="96"  text-anchor="middle" fill="#4b5563" font-size="9">卵团 · 胶质包裹</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 2: 胚胎期  (x=295, y=210)
+       =================================================== -->
+  <g transform="translate(295,210)">
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">2</text>
+
+    <!-- Egg outer jelly -->
+    <circle cx="0" cy="-8" r="34" fill="url(#eg)" stroke="#7dd3fc" stroke-width="1.5" opacity="0.9"/>
+    <!-- Embryo C-shape inside -->
+    <path d="M7,-32 Q26,-16 22,4 Q17,23 1,29"
+          stroke="#4ade80" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Head bud -->
+    <circle cx="7" cy="-30" r="8" fill="#16a34a"/>
+    <!-- Eye primordia -->
+    <circle cx="11" cy="-33" r="2.5" fill="#0a0a1a"/>
+
+    <text y="60"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">胚胎期</text>
+    <text y="77"  text-anchor="middle" fill="#6b7280" font-size="10">Embryo Stage</text>
+    <text y="96"  text-anchor="middle" fill="#4b5563" font-size="9">细胞分裂 · 雏形形成</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 3: 早期蝌蚪  (x=505, y=210)
+       =================================================== -->
+  <g transform="translate(505,210)">
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">3</text>
+
+    <!-- Tail (drawn first so body covers root) -->
+    <path d="M10,-8 C32,-3 54,9 72,6 C55,5 33,13 10,8 Z"
+          fill="url(#tg)" stroke="#14532d" stroke-width="0.8"/>
+
+    <!-- Body / Head -->
+    <ellipse cx="-18" cy="0" rx="28" ry="22" fill="url(#tg)" stroke="#14532d" stroke-width="1.5"/>
+
+    <!-- Eye -->
+    <circle cx="-30" cy="-7" r="5.5" fill="url(#eyeg)" stroke="#14532d" stroke-width="1"/>
+    <circle cx="-29" cy="-7" r="2.5" fill="#080810"/>
+    <circle cx="-30.5" cy="-8" r="1"   fill="white" opacity="0.7"/>
+
+    <!-- External gills (red feathery lines) -->
+    <line x1="-3"  y1="-13" x2="5"  y2="-23" stroke="#f87171" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="2"   y1="-9"  x2="11" y2="-19" stroke="#f87171" stroke-width="2"   stroke-linecap="round"/>
+    <line x1="-3"  y1="13"  x2="5"  y2="23"  stroke="#f87171" stroke-width="2.5" stroke-linecap="round"/>
+
+    <text y="60"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">早期蝌蚪</text>
+    <text y="77"  text-anchor="middle" fill="#6b7280" font-size="10">Early Tadpole</text>
+    <text y="96"  text-anchor="middle" fill="#4b5563" font-size="9">外鳃呼吸 · 无四肢</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 4: 后肢萌发  (x=720, y=210)
+       =================================================== -->
+  <g transform="translate(720,210)">
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">4</text>
+
+    <!-- Tail (shorter) -->
+    <path d="M14,-7 C32,-1 50,10 64,7 C50,5 32,12 14,7 Z"
+          fill="url(#tg)" stroke="#14532d" stroke-width="0.8"/>
+
+    <!-- Body -->
+    <ellipse cx="-15" cy="0" rx="29" ry="23" fill="url(#tg)" stroke="#14532d" stroke-width="1.5"/>
+
+    <!-- Eye -->
+    <circle cx="-27" cy="-7" r="5.5" fill="url(#eyeg)" stroke="#14532d" stroke-width="1"/>
+    <circle cx="-26" cy="-7" r="2.5" fill="#080810"/>
+    <circle cx="-27.5" cy="-8" r="1" fill="white" opacity="0.7"/>
+
+    <!-- Hind leg buds -->
+    <path d="M9,14 Q18,25 14,36"  stroke="#86efac" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M9,-14 Q18,-25 14,-36" stroke="#86efac" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <text y="62"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">后肢萌发</text>
+    <text y="79"  text-anchor="middle" fill="#6b7280" font-size="10">Hind Limbs Emerge</text>
+    <text y="98"  text-anchor="middle" fill="#4b5563" font-size="9">后腿芽出现 · 尾仍较长</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 5: 四肢俱全  (x=935, y=210)
+       =================================================== -->
+  <g transform="translate(935,210)">
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">5</text>
+
+    <!-- Shorter tail -->
+    <path d="M20,-6 C36,0 50,10 58,7 C50,5 36,11 20,6 Z"
+          fill="url(#tg)" stroke="#14532d" stroke-width="0.8"/>
+
+    <!-- Body -->
+    <ellipse cx="-10" cy="0" rx="30" ry="24" fill="url(#tg)" stroke="#14532d" stroke-width="1.5"/>
+
+    <!-- Eye -->
+    <circle cx="-23" cy="-8" r="5.5" fill="url(#eyeg)" stroke="#14532d" stroke-width="1"/>
+    <circle cx="-22" cy="-8" r="2.5" fill="#080810"/>
+    <circle cx="-23.5" cy="-9" r="1" fill="white" opacity="0.7"/>
+
+    <!-- Front legs (small buds) -->
+    <path d="M-12,20 Q-21,29 -25,36"  stroke="#86efac" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-12,-20 Q-21,-29 -25,-36" stroke="#86efac" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Hind legs (well developed) -->
+    <path d="M14,16 Q27,30 26,44 Q25,52 17,51"  stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M14,-16 Q27,-30 26,-44 Q25,-52 17,-51" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <text y="70"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">四肢俱全</text>
+    <text y="87"  text-anchor="middle" fill="#6b7280" font-size="10">Four Limbs Present</text>
+    <text y="106" text-anchor="middle" fill="#4b5563" font-size="9">前后腿均已出现</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 6: 幼蛙  (x=1145, y=210)
+       =================================================== -->
+  <g transform="translate(1145,210)">
+    <circle cy="-118" r="15" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text y="-113" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="bold">6</text>
+
+    <!-- Hind legs (bent, behind body) -->
+    <path d="M16,14 Q29,30 27,46 Q25,56 16,53 Q10,51 12,43"
+          stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M16,-14 Q29,-30 27,-46 Q25,-56 16,-53 Q10,-51 12,-43"
+          stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- Front legs -->
+    <path d="M-6,18 Q-17,27 -23,35"  stroke="#86efac" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-6,-18 Q-17,-27 -23,-35" stroke="#86efac" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Body (frog-shaped now) -->
+    <ellipse cx="2"   cy="0" rx="26" ry="20" fill="url(#fg)" stroke="#15803d" stroke-width="1.5"/>
+    <!-- Head (distinct) -->
+    <ellipse cx="-20" cy="0" rx="17" ry="14" fill="url(#fg)" stroke="#15803d" stroke-width="1.5"/>
+
+    <!-- Eyes (on top of head) -->
+    <circle cx="-28" cy="-11" r="6.5" fill="url(#eyeg)" stroke="#15803d" stroke-width="1"/>
+    <circle cx="-27" cy="-11" r="3"   fill="#080810"/>
+    <circle cx="-28.5" cy="-12" r="1.2" fill="white" opacity="0.75"/>
+
+    <!-- Tiny tail stub -->
+    <path d="M20,0 Q28,4 26,8" stroke="#14532d" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <text y="73"  text-anchor="middle" fill="#22c55e" font-size="14" font-weight="bold">幼蛙期</text>
+    <text y="90"  text-anchor="middle" fill="#6b7280" font-size="10">Froglet Stage</text>
+    <text y="109" text-anchor="middle" fill="#4b5563" font-size="9">尾部退化 · 上陆活动</text>
+  </g>
+
+
+  <!-- ===================================================
+       STAGE 7: 成蛙  (x=1355, y=210)
+       =================================================== -->
+  <g transform="translate(1355,210)">
+    <!-- Special completion badge (green) -->
+    <circle cy="-118" r="15" fill="url(#badgeFinal)" stroke="#4ade80" stroke-width="2"/>
+    <circle cy="-118" r="20" fill="none" stroke="#4ade80" stroke-width="1" opacity="0.25"/>
+    <text y="-113" text-anchor="middle" fill="#bbf7d0" font-size="13" font-weight="bold">7</text>
+
+    <!-- Long hind legs (classic frog pose) -->
+    <path d="M14,17 Q29,36 36,52 Q40,62 33,64 Q25,65 21,55 Q18,46 10,49"
+          stroke="#4ade80" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M14,-17 Q29,-36 36,-52 Q40,-62 33,-64 Q25,-65 21,-55 Q18,-46 10,-49"
+          stroke="#4ade80" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- Front legs -->
+    <path d="M-8,20 Q-21,30 -29,37 Q-35,42 -33,46"
+          stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M-8,-20 Q-21,-30 -29,-37 Q-35,-42 -33,-46"
+          stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- Body -->
+    <ellipse cx="5"   cy="0" rx="28" ry="22" fill="url(#fg)" stroke="#15803d" stroke-width="2"/>
+    <!-- Head -->
+    <ellipse cx="-20" cy="0" rx="18" ry="15" fill="url(#fg)" stroke="#15803d" stroke-width="2"/>
+
+    <!-- Prominent eyes -->
+    <circle cx="-30" cy="-14" r="8.5" fill="url(#eyeg)" stroke="#15803d" stroke-width="1.5"/>
+    <circle cx="-29" cy="-14" r="4.2" fill="#080810"/>
+    <circle cx="-31"  cy="-15" r="1.6" fill="white" opacity="0.8"/>
+
+    <!-- Mouth smile -->
+    <path d="M-36,7 Q-28,13 -20,7" stroke="#14532d" stroke-width="2" fill="none"/>
+
+    <!-- Body markings -->
+    <circle cx="8"  cy="-7" r="4" fill="#14532d" opacity="0.3"/>
+    <circle cx="8"  cy="7"  r="4" fill="#14532d" opacity="0.3"/>
+    <circle cx="18" cy="0"  r="3" fill="#14532d" opacity="0.3"/>
+
+    <!-- Belly highlight -->
+    <ellipse cx="2" cy="6" rx="14" ry="10" fill="#a3e635" opacity="0.2"/>
+
+    <text y="85"  text-anchor="middle" fill="#4ade80" font-size="15" font-weight="bold">成蛙 🎉</text>
+    <text y="103" text-anchor="middle" fill="#6b7280" font-size="10">Adult Frog</text>
+    <text y="122" text-anchor="middle" fill="#4b5563" font-size="9">变态发育完成</text>
+  </g>
+
+
+  <!-- ===== BOTTOM INFO BAR ===== -->
+  <rect x="0" y="442" width="1440" height="48" fill="#05090f"/>
+  <line x1="0" y1="442" x2="1440" y2="442" stroke="#0f2133" stroke-width="1"/>
+  <text x="720" y="460" text-anchor="middle" fill="#374151" font-size="10.5">
+    变态发育总历时约 60–90 天，最适水温 18–24°C，受食物、光照等环境因素影响 · 青蛙属于两栖纲，幼时水中生活，成年后水陆两栖
+  </text>
+  <text x="720" y="478" text-anchor="middle" fill="#1f2937" font-size="9.5">
+    Metamorphosis takes ~60–90 days · Optimal temp: 18–24°C · Frogs belong to Class Amphibia — aquatic as tadpoles, semi-terrestrial as adults
+  </text>
+</svg>
