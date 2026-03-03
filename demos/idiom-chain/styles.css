@@ -1,0 +1,205 @@
+/* 成语接龙游戏样式 */
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.game-area {
+  margin: 20px 0;
+}
+
+.current-idiom {
+  margin-bottom: 20px;
+}
+
+.current-idiom label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.idiom-display {
+  background: var(--primary-dark);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.idiom-form {
+  margin: 20px 0;
+}
+
+.idiom-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+#idiomInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: #1f2937;
+  color: var(--text);
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+#idiomInput:focus {
+  outline: 2px solid var(--primary);
+  border-color: transparent;
+}
+
+#idiomInput:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions button {
+  flex: 1;
+}
+
+.message {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  min-height: 20px;
+}
+
+.message.info {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+.message.success {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.message.error {
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+  border: 1px solid var(--danger);
+}
+
+.history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.history li {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 4px solid;
+  background: var(--card);
+}
+
+.history li.player {
+  border-left-color: var(--primary);
+}
+
+.history li.computer {
+  border-left-color: var(--info);
+}
+
+.history .player-name {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.history li.player .player-name {
+  color: var(--primary);
+}
+
+.history li.computer .player-name {
+  color: var(--info);
+}
+
+.rules-panel {
+  margin-top: 20px;
+}
+
+.rules {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rules li {
+  padding: 8px 0;
+  padding-left: 24px;
+  position: relative;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.rules li::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.stats span {
+  color: var(--muted);
+}
+
+.stats strong {
+  color: var(--text);
+  margin-left: 4px;
+}
+
+@media (max-width: 600px) {
+  .idiom-display {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  
+  #idiomInput {
+    font-size: 1rem;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .stats {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

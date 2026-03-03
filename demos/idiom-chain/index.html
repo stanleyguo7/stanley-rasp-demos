@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>成语接龙 - Idiom Chain</title>
+    <link rel="stylesheet" href="../_shared/base.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>🔗 成语接龙</h1>
+      <p class="subtitle">轮流接龙，下一个成语的首字必须是上一个成语的尾字</p>
+
+      <section class="panel">
+        <div class="stats">
+          <span>当前回合：<strong id="currentTurn">玩家</strong></span>
+          <span>已用成语：<strong id="usedCount">0</strong> 个</span>
+        </div>
+
+        <div class="game-area">
+          <div class="current-idiom">
+            <label>当前成语：</label>
+            <div id="currentIdiom" class="idiom-display">点击"开始游戏"开始</div>
+          </div>
+
+          <form id="idiomForm" class="idiom-form" autocomplete="off">
+            <label for="idiomInput">输入你的成语（4个字）</label>
+            <input
+              id="idiomInput"
+              type="text"
+              maxlength="4"
+              placeholder="例如：一心一意"
+              required
+              disabled
+            />
+            <div class="form-actions">
+              <button type="submit" id="submitBtn" disabled>提交</button>
+              <button type="button" id="passBtn" class="secondary" disabled>跳过</button>
+            </div>
+          </form>
+
+          <div class="actions">
+            <button id="newGameBtn" type="button" class="btn-primary">开始游戏</button>
+            <button id="randomStartBtn" type="button" class="btn-secondary">随机开始</button>
+          </div>
+        </div>
+
+        <div id="message" class="message"></div>
+      </section>
+
+      <section class="panel history-panel">
+        <h2>接龙记录</h2>
+        <ul id="history" class="history"></ul>
+      </section>
+
+      <section class="panel rules-panel">
+        <h2>游戏规则</h2>
+        <ul class="rules">
+          <li>玩家和电脑轮流接龙成语</li>
+          <li>下一个成语的首字必须是上一个成语的尾字</li>
+          <li>不能重复使用已经说过的成语</li>
+          <li>成语必须是4个字，且在成语库中</li>
+          <li>如果接不上来或输入错误，该方失败</li>
+          <li>可以点击"跳过"让电脑接龙</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
