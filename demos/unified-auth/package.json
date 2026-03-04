@@ -1,0 +1,10 @@
+{
+  "name": "unified-auth",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unified auth API for stanley-rasp-demos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
