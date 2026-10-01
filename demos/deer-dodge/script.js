@@ -35,12 +35,12 @@
       const Audio=window.AudioContext||window.webkitAudioContext;
       if(!Audio)return;
       if(!audioCtx)audioCtx=new Audio();
-      if(audioCtx.state==='suspended')audioCtx.resume().catch(()=>{});
+      if(audioCtx.state!=='running')audioCtx.resume().catch(()=>{});
     } catch (_) {}
   }
-  function tone(frequency,duration,delay=0,endFrequency=frequency,volume=.045,wave='sine'){
+  function tone(frequency,duration,delay=0,endFrequency=frequency,volume=.1,wave='sine'){
     if(!soundOn||!audioCtx)return;
-    const start=audioCtx.currentTime+delay;
+    const start=audioCtx.currentTime+delay+.01;
     const oscillator=audioCtx.createOscillator(),gain=audioCtx.createGain();
     oscillator.type=wave;
     oscillator.frequency.setValueAtTime(frequency,start);
@@ -54,10 +54,11 @@
   function sound(name){
     if(!soundOn)return;
     unlockAudio();
-    if(name==='star'){tone(660,.14,0,880,.04);tone(990,.18,.09,1320,.035);}
-    if(name==='gate'){[784,988,1175].forEach((f,i)=>tone(f,.2,i*.09,f*1.12,.035));}
-    if(name==='hit'){tone(310,.28,0,130,.045,'triangle');}
-    if(name==='win'){[523,659,784,1047].forEach((f,i)=>tone(f,.24,i*.12,f*1.03,.04));}
+    if(name==='start'){tone(523,.18,0,659,.11,'triangle');tone(784,.24,.12,880,.09,'triangle');}
+    if(name==='star'){tone(660,.22,0,880,.12,'triangle');tone(990,.24,.12,1320,.09,'triangle');}
+    if(name==='gate'){[784,988,1175].forEach((f,i)=>tone(f,.27,i*.12,f*1.12,.09,'triangle'));}
+    if(name==='hit'){tone(310,.34,0,130,.12,'triangle');}
+    if(name==='win'){[523,659,784,1047].forEach((f,i)=>tone(f,.3,i*.14,f*1.03,.1,'triangle'));}
   }
   const rand=(n)=>{ const v=Math.sin(n*128.83+level*734.23)*43758.5453; return v-Math.floor(v); };
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
@@ -78,7 +79,7 @@
   function resize(){viewW=matchMedia('(max-width:650px) and (orientation:portrait)').matches?520:W;canvas.width=viewW;canvas.height=H;cameraX=clamp(player.x-viewW*.42,0,W-viewW);}
   function show(t,txt,emoji,button,fn){state='modal';title.textContent=t;detail.textContent=txt;icon.textContent=emoji;action.textContent=button;action.onclick=fn;overlay.hidden=false;}
   function hide(){overlay.hidden=true;state='playing';last=performance.now();}
-  function start(){level=0;makeLevel();hide();}
+  function start(){unlockAudio();sound('start');level=0;makeLevel();hide();}
   function win(){sound('win');state='celebrate';celebration=0;sparkles=[];for(let i=0;i<24;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+50)-.5)*260,vy:(rand(i+87)-.8)*250,life:1,color:['#ffd95d','#ff9a9e','#fff','#95d5ff'][i%4]});}
   function finishCelebration(){
     if(level===layouts.length-1) show('森林小英雄！','小鹿跳起来转了个圈！三关全部完成，星星都找齐啦。','🏆','再玩一次',start);
@@ -149,9 +150,10 @@
   function setTarget(e){const r=canvas.getBoundingClientRect();touchTarget={x:(e.clientX-r.left)/r.width*viewW+cameraX,y:(e.clientY-r.top)/r.height*H};}
   document.querySelectorAll('[data-dir]').forEach(b=>{const map={left:'ArrowLeft',right:'ArrowRight',up:'ArrowUp',down:'ArrowDown'},k=map[b.dataset.dir];b.addEventListener('pointerdown',e=>{e.preventDefault();b.setPointerCapture(e.pointerId);keys.add(k);});for(const ev of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(ev,()=>keys.delete(k));});
   document.addEventListener('contextmenu',e=>e.preventDefault());
-  window.addEventListener('pointerdown',unlockAudio,{once:true});
-  window.addEventListener('keydown',unlockAudio,{once:true});
-  soundBtn.addEventListener('click',()=>{soundOn=!soundOn;try{localStorage.setItem('deer-dodge-sound',soundOn?'on':'off');}catch(_){}updateSoundButton();if(soundOn)unlockAudio();});
+  window.addEventListener('pointerdown',unlockAudio);
+  window.addEventListener('touchstart',unlockAudio,{passive:true});
+  window.addEventListener('keydown',unlockAudio);
+  soundBtn.addEventListener('click',()=>{soundOn=!soundOn;try{localStorage.setItem('deer-dodge-sound',soundOn?'on':'off');}catch(_){}updateSoundButton();if(soundOn){unlockAudio();sound('start');}});
   updateSoundButton();
   pauseBtn.addEventListener('click',togglePause);action.onclick=start;makeLevel();resize();window.addEventListener('resize',resize);requestAnimationFrame(frame);
 })();
