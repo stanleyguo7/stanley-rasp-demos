@@ -11,6 +11,7 @@
   const starsText = document.querySelector('#starsText');
   const heartsText = document.querySelector('#heartsText');
   const pauseBtn = document.querySelector('#pauseBtn');
+  const soundBtn = document.querySelector('#soundBtn');
   const W = 1000, H = 620, TAU = Math.PI * 2;
   let viewW=W, cameraX=0;
   const palettes = [
@@ -25,6 +26,39 @@
   ];
   let level=0, hearts=3, stars=0, state='menu', last=0, time=0, invincible=0, celebration=0, player={x:120,y:320,r:21}, items=[], logs=[], bees=[], sparkles=[];
   const keys=new Set(); let touchTarget=null; let pointerDown=false;
+  let soundOn=true, audioCtx=null;
+  try { soundOn=localStorage.getItem('deer-dodge-sound')!=='off'; } catch (_) {}
+  function updateSoundButton(){soundBtn.textContent=soundOn?'🔊':'🔇';soundBtn.setAttribute('aria-pressed',String(soundOn));soundBtn.setAttribute('aria-label',soundOn?'关闭音效':'开启音效');soundBtn.title=soundOn?'关闭音效':'开启音效';}
+  function unlockAudio(){
+    if(!soundOn)return;
+    try {
+      const Audio=window.AudioContext||window.webkitAudioContext;
+      if(!Audio)return;
+      if(!audioCtx)audioCtx=new Audio();
+      if(audioCtx.state==='suspended')audioCtx.resume().catch(()=>{});
+    } catch (_) {}
+  }
+  function tone(frequency,duration,delay=0,endFrequency=frequency,volume=.045,wave='sine'){
+    if(!soundOn||!audioCtx)return;
+    const start=audioCtx.currentTime+delay;
+    const oscillator=audioCtx.createOscillator(),gain=audioCtx.createGain();
+    oscillator.type=wave;
+    oscillator.frequency.setValueAtTime(frequency,start);
+    oscillator.frequency.exponentialRampToValueAtTime(Math.max(1,endFrequency),start+duration);
+    gain.gain.setValueAtTime(.0001,start);
+    gain.gain.exponentialRampToValueAtTime(volume,start+.015);
+    gain.gain.exponentialRampToValueAtTime(.0001,start+duration);
+    oscillator.connect(gain).connect(audioCtx.destination);
+    oscillator.start(start);oscillator.stop(start+duration+.01);
+  }
+  function sound(name){
+    if(!soundOn)return;
+    unlockAudio();
+    if(name==='star'){tone(660,.14,0,880,.04);tone(990,.18,.09,1320,.035);}
+    if(name==='gate'){[784,988,1175].forEach((f,i)=>tone(f,.2,i*.09,f*1.12,.035));}
+    if(name==='hit'){tone(310,.28,0,130,.045,'triangle');}
+    if(name==='win'){[523,659,784,1047].forEach((f,i)=>tone(f,.24,i*.12,f*1.03,.04));}
+  }
   const rand=(n)=>{ const v=Math.sin(n*128.83+level*734.23)*43758.5453; return v-Math.floor(v); };
   const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
   const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
@@ -45,12 +79,12 @@
   function show(t,txt,emoji,button,fn){state='modal';title.textContent=t;detail.textContent=txt;icon.textContent=emoji;action.textContent=button;action.onclick=fn;overlay.hidden=false;}
   function hide(){overlay.hidden=true;state='playing';last=performance.now();}
   function start(){level=0;makeLevel();hide();}
-  function win(){state='celebrate';celebration=0;sparkles=[];for(let i=0;i<24;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+50)-.5)*260,vy:(rand(i+87)-.8)*250,life:1,color:['#ffd95d','#ff9a9e','#fff','#95d5ff'][i%4]});}
+  function win(){sound('win');state='celebrate';celebration=0;sparkles=[];for(let i=0;i<24;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+50)-.5)*260,vy:(rand(i+87)-.8)*250,life:1,color:['#ffd95d','#ff9a9e','#fff','#95d5ff'][i%4]});}
   function finishCelebration(){
     if(level===layouts.length-1) show('森林小英雄！','小鹿跳起来转了个圈！三关全部完成，星星都找齐啦。','🏆','再玩一次',start);
     else show('过关啦！','小鹿开心地跳起来转圈圈！下一片森林正等着你。','🦌','进入下一关',()=>{level++;makeLevel();hide();});
   }
-  function hurt(){if(invincible>0||state!=='playing')return;hearts--;invincible=1.5;player.x=clamp(player.x-85,75,885);sparkles=[];for(let i=0;i<9;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+300)-.5)*190,vy:(rand(i+200)-.5)*190,life:.55,color:'#fff'});updateHud();if(hearts===0)show('再试一次吧','小鹿休息一下，重新收集星星，穿过森林！','💛','重试本关',()=>{makeLevel();hide();});}
+  function hurt(){if(invincible>0||state!=='playing')return;sound('hit');hearts--;invincible=1.5;player.x=clamp(player.x-85,75,885);sparkles=[];for(let i=0;i<9;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+300)-.5)*190,vy:(rand(i+200)-.5)*190,life:.55,color:'#fff'});updateHud();if(hearts===0)show('再试一次吧','小鹿休息一下，重新收集星星，穿过森林！','💛','重试本关',()=>{makeLevel();hide();});}
   function update(dt){
     if(state!=='playing'&&state!=='celebrate')return;
     time+=dt;
@@ -62,7 +96,7 @@
       player.x=clamp(player.x,65,927);player.y=clamp(player.y,187,512);
       if(touchTarget&&dist(player,touchTarget)<12)touchTarget=null;
       invincible=Math.max(0,invincible-dt);
-      for(const item of items){if(!item.taken&&dist(player,item)<41){item.taken=true;stars++;updateHud();for(let j=0;j<7;j++)sparkles.push({x:item.x,y:item.y,vx:(rand(j+stars*40)-.5)*180,vy:(rand(j+stars*70)-.5)*180,life:.7,color:'#fff6a6'});}}
+      for(const item of items){if(!item.taken&&dist(player,item)<41){item.taken=true;stars++;sound('star');if(stars===3)sound('gate');updateHud();for(let j=0;j<7;j++)sparkles.push({x:item.x,y:item.y,vx:(rand(j+stars*40)-.5)*180,vy:(rand(j+stars*70)-.5)*180,life:.7,color:'#fff6a6'});}}
       for(const log of logs){log.y=(log.min+log.max)/2+Math.sin(time*log.speed+log.phase)*(log.max-log.min)/2;if(dist(player,log)<player.r+log.r-6)hurt();}
       for(const bee of bees){bee.y=(bee.min+bee.max)/2+Math.sin(time*bee.speed+bee.phase)*(bee.max-bee.min)/2;if(dist(player,bee)<player.r+bee.r-4)hurt();}
       if(stars===3&&player.x>890&&player.y>255&&player.y<395)win();
@@ -115,5 +149,9 @@
   function setTarget(e){const r=canvas.getBoundingClientRect();touchTarget={x:(e.clientX-r.left)/r.width*viewW+cameraX,y:(e.clientY-r.top)/r.height*H};}
   document.querySelectorAll('[data-dir]').forEach(b=>{const map={left:'ArrowLeft',right:'ArrowRight',up:'ArrowUp',down:'ArrowDown'},k=map[b.dataset.dir];b.addEventListener('pointerdown',e=>{e.preventDefault();b.setPointerCapture(e.pointerId);keys.add(k);});for(const ev of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(ev,()=>keys.delete(k));});
   document.addEventListener('contextmenu',e=>e.preventDefault());
+  window.addEventListener('pointerdown',unlockAudio,{once:true});
+  window.addEventListener('keydown',unlockAudio,{once:true});
+  soundBtn.addEventListener('click',()=>{soundOn=!soundOn;try{localStorage.setItem('deer-dodge-sound',soundOn?'on':'off');}catch(_){}updateSoundButton();if(soundOn)unlockAudio();});
+  updateSoundButton();
   pauseBtn.addEventListener('click',togglePause);action.onclick=start;makeLevel();resize();window.addEventListener('resize',resize);requestAnimationFrame(frame);
 })();
