@@ -1,0 +1,15 @@
+{
+  "name": "小鹿闪闪 · 森林闯关",
+  "short_name": "小鹿闪闪",
+  "description": "和小鹿一起收集星星，躲开障碍，闯过八片森林。",
+  "lang": "zh-CN",
+  "start_url": "/demos/deer-dodge/",
+  "scope": "/demos/deer-dodge/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e9f7cf",
+  "theme_color": "#e9f7cf",
+  "icons": [
+    { "src": "./apple-touch-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" }
+  ]
+}

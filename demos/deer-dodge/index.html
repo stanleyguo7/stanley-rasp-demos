@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#e9f7cf">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="小鹿闪闪">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
   <title>小鹿闪闪 · 森林闯关</title>
   <style>
     :root { font-family: ui-rounded, "Nunito", "PingFang SC", "Microsoft YaHei", sans-serif; color:#34583d; background:#e9f7cf; }
@@ -32,7 +37,7 @@
     .touch { display:none; gap:7px; }
     .touch button { width:47px; height:42px; border-radius:13px; border:2px solid #a8cf96; background:#fffdf2; color:#547b52; font-size:21px; font-weight:1000; box-shadow:0 3px 0 #a8cf96; }
     @media (pointer:coarse), (max-width:700px) { .touch { display:flex; } .hint .desktop { display:none; } .wrap { padding:7px; } .stage { border-width:4px; border-radius:18px; } .top { gap:4px; margin-bottom:7px; } .brand { font-size:16px; } .brand .icon { font-size:20px; } .pill { padding:5px 8px; font-size:12px; } .small { padding:5px 7px; font-size:12px; } .stats { gap:4px; } .hint { margin-top:10px; font-size:12px; } }
-    @media (max-width:650px) and (orientation:portrait) { body { display:block; } .wrap { width:100%; padding:8px; } canvas { aspect-ratio:520/620; } .top { flex-wrap:wrap; justify-content:center; } .brand { width:100%; justify-content:center; } .hint { flex-direction:column; text-align:center; } .touch button { width:58px; height:48px; } }
+    @media (max-width:650px) and (orientation:portrait) { body { display:block; overflow:auto; } .wrap { width:100%; padding:max(8px,env(safe-area-inset-top)) 8px max(8px,env(safe-area-inset-bottom)); } canvas { aspect-ratio:520/620; } .top { flex-wrap:wrap; justify-content:center; } .brand { width:100%; justify-content:center; } .hint { flex-direction:column; text-align:center; } .touch button { width:58px; height:48px; } }
   </style>
 </head>
 <body>
@@ -47,5 +52,10 @@
     <div class="hint"><span class="desktop">方向键 / WASD 移动 · 收集星星后进入右侧彩虹门 · 空格暂停</span><span>触屏可按方向键，也可在画面上拖动小鹿</span><div class="touch"><button data-dir="left" aria-label="向左">◀</button><button data-dir="up" aria-label="向上">▲</button><button data-dir="down" aria-label="向下">▼</button><button data-dir="right" aria-label="向右">▶</button></div></div>
   </main>
   <script src="script.js?v=3"></script>
+  <script>
+    if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
+    }
+  </script>
 </body>
 </html>
