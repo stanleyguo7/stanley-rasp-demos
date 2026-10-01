@@ -23,6 +23,8 @@ Stanley 的树莓派小程序集合仓库，主要用于快速孵化和沉淀可
 
 > 根目录 `index.html` 为统一入口页。
 
+小鹿闪闪也有离线 iPhone App 项目：[`ios/DeerDodge/`](ios/DeerDodge/)。
+
 ## 推荐目录规范
 
 每个 demo 建议包含：

@@ -1,0 +1,25 @@
+name: Build Deer Dodge iOS app
+
+on:
+  push:
+    paths:
+      - 'ios/DeerDodge/**'
+      - 'demos/deer-dodge/**'
+      - '.github/workflows/ios-build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild \
+            -project ios/DeerDodge/DeerDodge.xcodeproj \
+            -scheme DeerDodge \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO \
+            build

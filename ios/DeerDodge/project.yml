@@ -1,0 +1,35 @@
+name: DeerDodge
+options:
+  bundleIdPrefix: com.stanley.rasp
+  deploymentTarget:
+    iOS: '16.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    TARGETED_DEVICE_FAMILY: '1'
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    CODE_SIGN_STYLE: Automatic
+targets:
+  DeerDodge:
+    type: application
+    platform: iOS
+    sources:
+      - path: DeerDodge/DeerDodgeApp.swift
+      - path: DeerDodge/Assets.xcassets
+      - path: ../../demos/deer-dodge
+        type: folder
+    info:
+      path: DeerDodge/Info.plist
+      properties:
+        CFBundleDisplayName: 小鹿闪闪
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiresFullScreen: true
+        UIViewControllerBasedStatusBarAppearance: false
+        UIStatusBarHidden: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.stanley.rasp.deerdodge
+        MARKETING_VERSION: '1.0.0'
+        CURRENT_PROJECT_VERSION: '1'
