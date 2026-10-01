@@ -114,5 +114,6 @@
   canvas.addEventListener('pointerup',()=>{pointerDown=false;touchTarget=null;});canvas.addEventListener('pointercancel',()=>{pointerDown=false;touchTarget=null;});
   function setTarget(e){const r=canvas.getBoundingClientRect();touchTarget={x:(e.clientX-r.left)/r.width*viewW+cameraX,y:(e.clientY-r.top)/r.height*H};}
   document.querySelectorAll('[data-dir]').forEach(b=>{const map={left:'ArrowLeft',right:'ArrowRight',up:'ArrowUp',down:'ArrowDown'},k=map[b.dataset.dir];b.addEventListener('pointerdown',e=>{e.preventDefault();b.setPointerCapture(e.pointerId);keys.add(k);});for(const ev of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(ev,()=>keys.delete(k));});
+  document.addEventListener('contextmenu',e=>e.preventDefault());
   pauseBtn.addEventListener('click',togglePause);action.onclick=start;makeLevel();resize();window.addEventListener('resize',resize);requestAnimationFrame(frame);
 })();
