@@ -17,12 +17,22 @@
   const palettes = [
     {ground:'#a9df86', path:'#e6d5a8', edge:'#81c76f', sky:'#f9efb1', name:'阳光森林'},
     {ground:'#9cdbad', path:'#e9dbb9', edge:'#69ba9b', sky:'#d8f2e6', name:'花香草地'},
-    {ground:'#a8d9d0', path:'#e8d3a9', edge:'#71c1b7', sky:'#d4f3fa', name:'萤火溪谷'}
+    {ground:'#a8d9d0', path:'#e8d3a9', edge:'#71c1b7', sky:'#d4f3fa', name:'萤火溪谷'},
+    {ground:'#b9d99b', path:'#ead6b4', edge:'#92c784', sky:'#ffe7cd', name:'蘑菇小径'},
+    {ground:'#d3df8f', path:'#e8cf9f', edge:'#a6cd78', sky:'#fff3c5', name:'蜜糖山坡'},
+    {ground:'#a9d4c4', path:'#e5d9bd', edge:'#79b9ac', sky:'#dcecff', name:'蓝莓林地'},
+    {ground:'#b3dbb2', path:'#e8d5bb', edge:'#87c9a5', sky:'#fce8e7', name:'彩虹花谷'},
+    {ground:'#a5d2b4', path:'#e9d6bf', edge:'#72b7a1', sky:'#e2e5ff', name:'星光林地'}
   ];
   const layouts = [
     {stars:[[320,275],[580,410],[805,240]], logs:[[455,235,445,1.5]], bees:[[665,205,445,1.7]], flowers:18},
     {stars:[[300,410],[540,220],[800,390]], logs:[[380,185,455,1.8],[685,195,455,2.1]], bees:[[535,210,445,2.2]], flowers:24},
-    {stars:[[290,245],[555,415],[780,260]], logs:[[390,195,445,2.1],[685,195,445,2.4]], bees:[[520,220,450,2.4],[815,190,450,2.7]], flowers:30}
+    {stars:[[290,245],[555,415],[780,260]], logs:[[390,195,445,2.1],[685,195,445,2.4]], bees:[[520,220,450,2.4],[815,190,450,2.7]], flowers:30},
+    {stars:[[285,225],[540,415],[805,250]], logs:[[405,205,445,2.2],[715,195,440,2.4]], bees:[[325,495,625,2.1,'horizontal'],[855,215,445,2.2]], flowers:32},
+    {stars:[[295,395],[555,235],[825,390]], logs:[[365,190,445,2.3],[635,210,450,2.5]], bees:[[260,445,565,2.4,'horizontal'],[790,205,445,2.5]], flowers:34},
+    {stars:[[280,245],[550,405],[795,260]], logs:[[405,195,445,2.5],[700,195,445,2.6]], bees:[[350,485,615,2.5,'horizontal'],[815,210,445,2.7],[225,715,845,2.1,'horizontal']], flowers:36},
+    {stars:[[275,405],[535,235],[825,405]], logs:[[350,210,445,2.5],[620,190,430,2.8],[865,205,445,2.6]], bees:[[270,455,565,2.7,'horizontal'],[755,200,435,2.8]], flowers:38},
+    {stars:[[280,240],[555,400],[810,250]], logs:[[365,205,445,2.8],[650,195,445,2.9],[865,205,445,2.7]], bees:[[340,450,585,2.8,'horizontal'],[785,205,435,3.0],[255,715,835,2.7,'horizontal']], flowers:42}
   ];
   let level=0, hearts=3, stars=0, state='menu', last=0, time=0, invincible=0, celebration=0, player={x:120,y:320,r:21}, items=[], logs=[], bees=[], sparkles=[];
   const keys=new Set(); let touchTarget=null; let pointerDown=false;
@@ -72,17 +82,17 @@
     const d=layouts[level]; player={x:115,y:320,r:21}; hearts=3; stars=0; time=0; invincible=0; sparkles=[];
     items=d.stars.map(([x,y])=>({x,y,taken:false}));
     logs=d.logs.map(([x,min,max,speed],i)=>({x,y:min+(max-min)*.5,min,max,speed,phase:i*1.7,r:28}));
-    bees=d.bees.map(([x,min,max,speed],i)=>({x,y:min+(max-min)*.5,min,max,speed,phase:i*2+1,r:24}));
+    bees=d.bees.map(([fixed,min,max,speed,axis='vertical'],i)=>({x:axis==='horizontal'?(min+max)*.5:fixed,y:axis==='horizontal'?fixed:(min+max)*.5,min,max,speed,axis,phase:i*2+1,r:24}));
     updateHud();
   }
-  function updateHud(){levelText.textContent=`第 ${level+1} 关 · ${palettes[level].name}`; starsText.textContent=`⭐ ${stars} / 3`; heartsText.textContent='❤️'.repeat(hearts)+'🤍'.repeat(3-hearts);}
+  function updateHud(){levelText.textContent=`第 ${level+1}/${layouts.length} 关 · ${palettes[level].name}`; starsText.textContent=`⭐ ${stars} / 3`; heartsText.textContent='❤️'.repeat(hearts)+'🤍'.repeat(3-hearts);}
   function resize(){viewW=matchMedia('(max-width:650px) and (orientation:portrait)').matches?520:W;canvas.width=viewW;canvas.height=H;cameraX=clamp(player.x-viewW*.42,0,W-viewW);}
   function show(t,txt,emoji,button,fn){state='modal';title.textContent=t;detail.textContent=txt;icon.textContent=emoji;action.textContent=button;action.onclick=fn;overlay.hidden=false;}
   function hide(){overlay.hidden=true;state='playing';last=performance.now();}
   function start(){unlockAudio();sound('start');level=0;makeLevel();hide();}
   function win(){sound('win');state='celebrate';celebration=0;sparkles=[];for(let i=0;i<24;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+50)-.5)*260,vy:(rand(i+87)-.8)*250,life:1,color:['#ffd95d','#ff9a9e','#fff','#95d5ff'][i%4]});}
   function finishCelebration(){
-    if(level===layouts.length-1) show('森林小英雄！','小鹿跳起来转了个圈！三关全部完成，星星都找齐啦。','🏆','再玩一次',start);
+    if(level===layouts.length-1) show('森林小英雄！',`小鹿跳起来转了个圈！${layouts.length} 关全部完成，星星都找齐啦。`,'🏆','再玩一次',start);
     else show('过关啦！','小鹿开心地跳起来转圈圈！下一片森林正等着你。','🦌','进入下一关',()=>{level++;makeLevel();hide();});
   }
   function hurt(){if(invincible>0||state!=='playing')return;sound('hit');hearts--;invincible=1.5;player.x=clamp(player.x-85,75,885);sparkles=[];for(let i=0;i<9;i++)sparkles.push({x:player.x,y:player.y,vx:(rand(i+300)-.5)*190,vy:(rand(i+200)-.5)*190,life:.55,color:'#fff'});updateHud();if(hearts===0)show('再试一次吧','小鹿休息一下，重新收集星星，穿过森林！','💛','重试本关',()=>{makeLevel();hide();});}
@@ -99,7 +109,7 @@
       invincible=Math.max(0,invincible-dt);
       for(const item of items){if(!item.taken&&dist(player,item)<41){item.taken=true;stars++;sound('star');if(stars===3)sound('gate');updateHud();for(let j=0;j<7;j++)sparkles.push({x:item.x,y:item.y,vx:(rand(j+stars*40)-.5)*180,vy:(rand(j+stars*70)-.5)*180,life:.7,color:'#fff6a6'});}}
       for(const log of logs){log.y=(log.min+log.max)/2+Math.sin(time*log.speed+log.phase)*(log.max-log.min)/2;if(dist(player,log)<player.r+log.r-6)hurt();}
-      for(const bee of bees){bee.y=(bee.min+bee.max)/2+Math.sin(time*bee.speed+bee.phase)*(bee.max-bee.min)/2;if(dist(player,bee)<player.r+bee.r-4)hurt();}
+      for(const bee of bees){const position=(bee.min+bee.max)/2+Math.sin(time*bee.speed+bee.phase)*(bee.max-bee.min)/2;if(bee.axis==='horizontal')bee.x=position;else bee.y=position;if(dist(player,bee)<player.r+bee.r-4)hurt();}
       if(stars===3&&player.x>890&&player.y>255&&player.y<395)win();
     } else {celebration+=dt;if(celebration>1.6)finishCelebration();}
     for(const p of sparkles){p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=220*dt;p.life-=dt;}sparkles=sparkles.filter(p=>p.life>0);
