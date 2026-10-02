@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#d8f7f1">
+  <title>珍珠小鱼 · 观察力闯关</title>
+  <style>
+    :root{font-family:ui-rounded,"PingFang SC","Microsoft YaHei",sans-serif;color:#285d68;background:#e6fbf6}
+    *{box-sizing:border-box;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+    body{margin:0;min-height:100dvh;background:radial-gradient(circle at 18% 8%,#fff9d9 0,#e7fcf5 38%,#bfece9 100%)}
+    .wrap{width:min(1050px,100%);margin:auto;padding:15px 14px 25px}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+    .logo{font-size:clamp(20px,3vw,30px);font-weight:1000;white-space:nowrap;text-shadow:0 2px #fff}
+    .stats{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    .pill{padding:8px 12px;border:2px solid #a5dcd4;border-radius:999px;background:#fffdf5;box-shadow:0 4px 0 #a5d9d3;font-size:14px;font-weight:900;white-space:nowrap}
+    .board{position:relative;border:7px solid #fffdf4;border-radius:28px;background:#73d8dc;box-shadow:0 12px 0 #8acbc6,0 23px 38px #327b8660;overflow:hidden}
+    canvas{display:block;width:100%;height:auto;aspect-ratio:1000/540;touch-action:none;cursor:pointer}
+    .modal{position:absolute;inset:0;display:grid;place-items:center;background:#d7f5efad;backdrop-filter:blur(5px);padding:20px}
+    .modal[hidden]{display:none}
+    .card{width:min(430px,94%);padding:25px 23px 24px;text-align:center;border:4px solid #fff;border-radius:28px;background:#fffdf4;box-shadow:0 10px 0 #a3d8d0,0 16px 28px #2f79834d}
+    .mascot{font-size:63px;line-height:1.1;display:block;animation:float 2.2s ease-in-out infinite}
+    @keyframes float{50%{transform:translateY(-7px) rotate(6deg)}}
+    h1{margin:9px 0;color:#327985;font-size:clamp(27px,5vw,39px)}
+    .card p{margin:7px 0 20px;color:#587d81;font-weight:750;line-height:1.65}
+    button{font:inherit;cursor:pointer;touch-action:manipulation}
+    .primary{border:0;border-radius:17px;padding:12px 32px;background:linear-gradient(#ffbc69,#f28a58);box-shadow:0 6px 0 #bd694a;color:white;font-size:19px;font-weight:1000}
+    .primary:active{transform:translateY(4px);box-shadow:0 2px 0 #bd694a}
+    .panel{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:20px;padding:13px 18px;border:2px solid #b4e0d9;border-radius:19px;background:#fffdf7d9;box-shadow:0 5px 0 #a9d9d1}
+    .status{font-size:clamp(15px,2.5vw,19px);font-weight:900}
+    .sub{color:#5f8b8a;font-size:13px;font-weight:750;margin-top:3px}
+    .timer{min-width:95px;text-align:right;font-size:21px;font-weight:1000;color:#e28159}
+    .bar{height:9px;border-radius:99px;background:#d5eee9;margin-top:9px;overflow:hidden}
+    .bar>span{display:block;height:100%;width:100%;border-radius:99px;background:linear-gradient(90deg,#57c9c2,#ffd27e);transition:width .1s linear}
+    .foot{text-align:center;color:#648c8a;font-size:13px;font-weight:750;margin:18px 0 0}
+    @media(max-width:700px){.wrap{padding:9px 8px 20px}.top{justify-content:center;flex-wrap:wrap;margin-bottom:8px}.logo{width:100%;text-align:center;font-size:22px}.stats{justify-content:center;gap:5px}.pill{padding:5px 9px;font-size:12px}.board{border-width:4px;border-radius:19px}canvas{aspect-ratio:1/1.17}.panel{margin-top:17px;padding:11px 13px}.timer{font-size:18px;min-width:65px}.foot{margin-top:15px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top"><div class="logo">🐠 珍珠小鱼</div><div class="stats"><span class="pill" id="levelText">第 1 / 6 关</span><span class="pill" id="fishText">🐟 5 只鱼</span><span class="pill" id="scoreText">🦪 0 颗珍珠</span></div></header>
+    <div class="board">
+      <canvas id="sea" width="1000" height="540" aria-label="观察游动的小鱼，找出藏珍珠的那一只"></canvas>
+      <div class="modal" id="modal"><div class="card"><span class="mascot" id="modalIcon">🐠</span><h1 id="modalTitle">珍珠小鱼</h1><p id="modalText">先记住哪只小鱼藏着珍珠。等小鱼游动完毕，点出那只小鱼！</p><button class="primary" id="actionBtn">开始观察</button></div></div>
+    </div>
+    <section class="panel" aria-live="polite"><div><div class="status" id="statusText">准备好了吗？</div><div class="sub" id="subText">第一关从 5 只鱼开始，每关会增加 1 只。</div><div class="bar"><span id="barFill"></span></div></div><div class="timer" id="timerText">●</div></section>
+    <p class="foot">记住藏珍珠的小鱼，盯紧它游动的位置 · 点击小鱼作答</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
