@@ -3,7 +3,16 @@
   const canvas=document.querySelector('#sea'),ctx=canvas.getContext('2d');
   const modal=document.querySelector('#modal'),modalTitle=document.querySelector('#modalTitle'),modalText=document.querySelector('#modalText'),modalIcon=document.querySelector('#modalIcon'),actionBtn=document.querySelector('#actionBtn');
   const levelText=document.querySelector('#levelText'),fishText=document.querySelector('#fishText'),scoreText=document.querySelector('#scoreText'),statusText=document.querySelector('#statusText'),subText=document.querySelector('#subText'),timerText=document.querySelector('#timerText'),barFill=document.querySelector('#barFill');
-  const TOTAL=6,REVEAL=3.2;
+  const LEVELS=[
+    {fish:5,swaps:8,swimMs:940,reveal:3.2,choose:15},
+    {fish:5,swaps:9,swimMs:800,reveal:3.0,choose:14},
+    {fish:6,swaps:10,swimMs:680,reveal:2.9,choose:13},
+    {fish:6,swaps:11,swimMs:570,reveal:2.7,choose:12},
+    {fish:7,swaps:12,swimMs:490,reveal:2.6,choose:11},
+    {fish:7,swaps:14,swimMs:420,reveal:2.5,choose:10}
+  ];
+  const TOTAL=LEVELS.length;
+  const currentLevel=()=>LEVELS[level];
   let level=0,score=0,state='menu',fishes=[],targetId=0,slots=[],viewW=1000,viewH=540,dpr=1;
   let phaseStart=0,shufflePlan=[],swapIndex=0,activeSwap=null,resultUntil=0,chosenId=null,bubbles=[];
   const rand=(a,b)=>a+Math.random()*(b-a);
@@ -14,7 +23,7 @@
   function resize(){
     const r=canvas.getBoundingClientRect();dpr=Math.min(devicePixelRatio||1,2);viewW=r.width;viewH=r.height;
     canvas.width=Math.round(viewW*dpr);canvas.height=Math.round(viewH*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
-    const n=5+level,cols=gridCols(n),rows=Math.ceil(n/cols);slots=[];
+    const n=currentLevel().fish,cols=gridCols(n),rows=Math.ceil(n/cols);slots=[];
     for(let row=0;row<rows;row++){
       const count=Math.min(cols,n-row*cols);
       for(let col=0;col<count;col++)slots.push({x:viewW*(col+1)/(count+1),y:viewH*(rows===1?0.55:row===0?0.38:0.69)});
@@ -23,10 +32,10 @@
   function show(title,text,icon,button,callback){
     state='modal';modalTitle.textContent=title;modalText.textContent=text;modalIcon.textContent=icon;actionBtn.textContent=button;actionBtn.onclick=callback;modal.hidden=false;
   }
-  function updateHud(){levelText.textContent=`第 ${level+1} / ${TOTAL} 关`;fishText.textContent=`🐟 ${5+level} 只鱼`;scoreText.textContent=`🦪 ${score} 颗珍珠`;}
+  function updateHud(){levelText.textContent=`第 ${level+1} / ${TOTAL} 关`;fishText.textContent=`🐟 ${currentLevel().fish} 只鱼`;scoreText.textContent=`🦪 ${score} 颗珍珠`;}
   function setStatus(main,detail,timer='',fraction=1){statusText.textContent=main;subText.textContent=detail;timerText.textContent=timer;barFill.style.width=`${clamp(fraction,0,1)*100}%`;}
   function planSwaps(n){
-    const swaps=8+level*2,plan=[];
+    const swaps=currentLevel().swaps,plan=[];
     for(let i=0;i<swaps;i++){
       let a,b;
       if(i%3===0){a=targetId;b=Math.floor(Math.random()*(n-1));if(b>=a)b++;}
@@ -36,17 +45,17 @@
     return plan;
   }
   function startLevel(){
-    const n=5+level;fishes=Array.from({length:n},(_,id)=>({id,slot:id}));targetId=Math.floor(Math.random()*n);
+    const n=currentLevel().fish;fishes=Array.from({length:n},(_,id)=>({id,slot:id}));targetId=Math.floor(Math.random()*n);
     resize();shufflePlan=planSwaps(n);swapIndex=0;activeSwap=null;chosenId=null;bubbles=[];
     modal.hidden=true;state='reveal';phaseStart=performance.now();updateHud();
-    setStatus('记住这只藏珍珠的小鱼！','珍珠亮起后，它会和伙伴们一起游动。',`3 秒`,1);
+    setStatus('记住这只藏珍珠的小鱼！','珍珠亮起后，它会和伙伴们一起游动。',`${Math.ceil(currentLevel().reveal)} 秒`,1);
   }
   function startSwap(now){
     if(swapIndex>=shufflePlan.length){state='choose';phaseStart=now;setStatus('珍珠藏在哪只小鱼里？','点一下你认为正确的小鱼。',`${chooseSeconds()} 秒`,1);return;}
     const [a,b]=shufflePlan[swapIndex],fa=fishes[a],fb=fishes[b];
-    activeSwap={a,b,fromA:fa.slot,fromB:fb.slot,start:now,duration:Math.max(640,940-level*40),arc:Math.min(65,viewH*.11)};
+    activeSwap={a,b,fromA:fa.slot,fromB:fb.slot,start:now,duration:currentLevel().swimMs,arc:Math.min(65,viewH*.11)};
   }
-  function chooseSeconds(){return Math.max(9,15-level);}
+  function chooseSeconds(){return currentLevel().choose;}
   function finishChoice(id,now){
     if(state!=='choose')return;
     chosenId=id;resultUntil=now+1500;state='result';
@@ -57,13 +66,13 @@
   function completeResult(){
     if(chosenId===targetId){
       if(level===TOTAL-1)show('珍珠观察大师！',`你闯过了 ${TOTAL} 关，找到了 ${score} 颗珍珠！`,'🏆','再玩一次',()=>{level=0;score=0;startLevel();});
-      else show('成功过关！',`下一关有 ${6+level} 只小鱼，准备好继续盯紧珍珠了吗？`,'🦪','进入下一关',()=>{level++;startLevel();});
+      else show('成功过关！',`下一关有 ${LEVELS[level+1].fish} 只小鱼，游得也会更快。准备好继续盯紧珍珠了吗？`,'🦪','进入下一关',()=>{level++;startLevel();});
     }else show('再观察一次吧','这关的小鱼会重新游动，仔细记住藏珍珠的那一只。','🐟','重试本关',startLevel);
   }
   function update(now,dt){
     if(state==='reveal'){
-      const remain=REVEAL-(now-phaseStart)/1000;
-      setStatus('记住这只藏珍珠的小鱼！','珍珠亮起后，它会和伙伴们一起游动。',`${Math.max(1,Math.min(3,Math.ceil(remain)))} 秒`,remain/REVEAL);
+      const reveal=currentLevel().reveal,remain=reveal-(now-phaseStart)/1000;
+      setStatus('记住这只藏珍珠的小鱼！','珍珠亮起后，它会和伙伴们一起游动。',`${Math.max(1,Math.min(Math.ceil(reveal),Math.ceil(remain)))} 秒`,remain/reveal);
       if(remain<=0){state='shuffle';phaseStart=now;startSwap(now);}
     }else if(state==='shuffle'){
       if(activeSwap){
