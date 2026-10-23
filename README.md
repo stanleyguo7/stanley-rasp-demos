@@ -22,6 +22,8 @@ Stanley 的树莓派小程序集合仓库，主要用于快速孵化和沉淀可
 - `demos/deer-dodge/`：小鹿闪闪，手机友好的八关森林躲避游戏
 - `demos/pearl-fish/`：珍珠小鱼，六关观察力与追踪记忆游戏
 
+- `demos/block-club/`：方块俱乐部，支持键盘、手机触控与 AI 自动玩的俄罗斯方块
+
 > 根目录 `index.html` 为统一入口页。
 
 小鹿闪闪也有离线 iPhone App 项目：[`ios/DeerDodge/`](ios/DeerDodge/)。
