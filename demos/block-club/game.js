@@ -15,15 +15,23 @@ function update(){ $('score').textContent=pad(score);$('lines').textContent=Stri
 function drawNext(){preview.clearRect(0,0,180,100);let s=23,ox=(180-next.m[0].length*s)/2,oy=(100-next.m.length*s)/2;preview.save();preview.translate(ox,oy);next.m.forEach((r,y)=>r.forEach((v,x)=>{if(v)cell(preview,x,y,colors[next.type],s)}));preview.restore()}
 function overlay(title,text,button){$('overlay-title').textContent=title;$('overlay-text').textContent=text;$('start').innerHTML=button+' <span>↗</span>';$('overlay').classList.remove('hidden')}
 function spawn(){aiPlan=null;aiElapsed=0;piece=next;piece.x=Math.floor((10-piece.m[0].length)/2);next=randomPiece();drawNext();if(collide(piece)){state='over';$('status').textContent='游戏结束';overlay('下次，一定更高。','本次得分 '+score+' · 已消除 '+lines+' 行','再来一局');update()}}
-function start(){grid=Array.from({length:20},()=>Array(10).fill(0));score=0;lines=0;level=1;bag=[];next=randomPiece();state='playing';elapsed=0;spawn();$('overlay').classList.add('hidden');$('status').textContent=aiEnabled?'AI 自动玩中':'游戏进行中';$('pause').innerHTML='Ⅱ 暂停游戏 <kbd>P</kbd>';update();draw()}
+function start(){releaseControl();grid=Array.from({length:20},()=>Array(10).fill(0));score=0;lines=0;level=1;bag=[];next=randomPiece();state='playing';elapsed=0;spawn();$('overlay').classList.add('hidden');$('status').textContent=aiEnabled?'AI 自动玩中':'游戏进行中';$('pause').innerHTML='Ⅱ 暂停游戏 <kbd>P</kbd>';update();draw()}
 function lock(){piece.m.forEach((r,y)=>r.forEach((v,x)=>{if(v&&piece.y+y>=0)grid[piece.y+y][piece.x+x]=piece.type+1}));let count=0;grid=grid.filter(r=>{if(r.every(Boolean)){count++;return false}return true});while(grid.length<20)grid.unshift(Array(10).fill(0));score+=[0,100,300,500,800][count]*level;lines+=count;level=1+Math.floor(lines/10);spawn();update()}
 function down(){if(!collide(piece,0,1)){piece.y++;return true}lock();return false}
 function rotate(){let m=piece.m[0].map((_,i)=>piece.m.map(r=>r[i]).reverse());for(const dx of [0,-1,1,-2,2])if(!collide(piece,dx,0,m)){piece.x+=dx;piece.m=m;break}}
-function pause(){if(state==='playing'){state='paused';$('status').textContent='已暂停';overlay('休息一下。','你的方块会在这里等你。','继续游戏');$('pause').innerHTML='▷ 继续游戏 <kbd>P</kbd>'}else if(state==='paused'){state='playing';elapsed=0;$('overlay').classList.add('hidden');$('status').textContent=aiEnabled?'AI 自动玩中':'游戏进行中';$('pause').innerHTML='Ⅱ 暂停游戏 <kbd>P</kbd>'}}
+function pause(){releaseControl();if(state==='playing'){state='paused';$('status').textContent='已暂停';overlay('休息一下。','你的方块会在这里等你。','继续游戏');$('pause').innerHTML='▷ 继续游戏 <kbd>P</kbd>'}else if(state==='paused'){state='playing';elapsed=0;$('overlay').classList.add('hidden');$('status').textContent=aiEnabled?'AI 自动玩中':'游戏进行中';$('pause').innerHTML='Ⅱ 暂停游戏 <kbd>P</kbd>'}}
 function action(a,automatic=false){if(state!=='playing'||(aiEnabled&&!automatic))return;if(a==='left'&&!collide(piece,-1,0))piece.x--;if(a==='right'&&!collide(piece,1,0))piece.x++;if(a==='rotate')rotate();if(a==='down'){if(down())score++;elapsed=0;update()}if(a==='drop'){while(!collide(piece,0,1)){piece.y++;score+=2}lock();elapsed=0}draw()}
 $('start').onclick=()=>state==='paused'?pause():start();$('restart').onclick=start;$('pause').onclick=pause;
 document.addEventListener('keydown',e=>{const map={ArrowLeft:'left',ArrowRight:'right',ArrowUp:'rotate',ArrowDown:'down',' ':'drop'};if(map[e.key]){e.preventDefault();if(!e.repeat||!['drop','rotate'].includes(map[e.key]))action(map[e.key])}if(e.key.toLowerCase()==='p'&&!e.repeat)pause();if(e.key==='Enter'&&!e.repeat){if(state==='ready'||state==='over')start();else if(state==='paused')pause()}});
-document.querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',()=>action(b.dataset.action)));
+let heldControl=null,holdDelay=null,holdRepeat=null;
+function releaseControl(){clearTimeout(holdDelay);clearInterval(holdRepeat);if(heldControl)heldControl.classList.remove('is-held');heldControl=null}
+document.querySelectorAll('[data-action]').forEach(b=>{
+ b.addEventListener('pointerdown',e=>{e.preventDefault();releaseControl();if(state!=='playing'||aiEnabled)return;heldControl=b;b.classList.add('is-held');b.setPointerCapture?.(e.pointerId);action(b.dataset.action);if(['left','right','down'].includes(b.dataset.action)){holdDelay=setTimeout(()=>{holdRepeat=setInterval(()=>{if(state!=='playing'||aiEnabled){releaseControl();return}action(b.dataset.action)},75)},230)}});
+ for(const event of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(event,releaseControl);
+ b.addEventListener('click',e=>{if(e.detail===0)action(b.dataset.action)});
+});
+window.addEventListener('blur',releaseControl);
+
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&state==='playing')pause()});
 function frame(t){const dt=last?Math.min(t-last,100):0;last=t;if(state==='playing'&&aiEnabled){aiElapsed+=dt;if(aiElapsed>=65){aiElapsed=0;aiStep()}}else if(state==='playing'){elapsed+=dt;if(elapsed>=Math.max(85,800*Math.pow(.82,level-1))){down();elapsed=0;draw()}}requestAnimationFrame(frame)}
 grid=Array.from({length:20},()=>Array(10).fill(0));update();draw();requestAnimationFrame(frame);
